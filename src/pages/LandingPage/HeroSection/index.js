@@ -85,30 +85,20 @@ export const HeroSection = () => {
           </div>
         </div> */}
         <div className="head_text flex md:text-start sm:text-center sm:flex-col md:flex-col m-0">
-          {/* <motion.span
+          <motion.span
             initial={{ opacity: 0, y: 20 }}
             animate={controlsScan}
-            className="block sm:leading-[60px] md:leading-[90px]" // Reduced line height
+            className="block sm:leading-[60px] md:leading-[90px]"
             style={{ willChange: "transform, opacity" }}
           >
             {content_head_first}
-          </motion.span> */}
-          <motion.span
-            initial={{ opacity: 0, y: 10 }} 
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3, ease: "easeOut" }} 
-            className="block leading-[50px] sm:leading-[60px] md:leading-[80px]" 
-            style={{
-              willChange: "transform, opacity",
-            }}
-          >
-            {content_head_first}
           </motion.span>
+
           <div className="flex sm:flex-row md:flex-col">
             <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={controlsFit}
-              className="block sm:leading-[60px] md:leading-[90px]" // Reduced line height
+              className="block sm:leading-[60px] md:leading-[90px]"
               style={{ willChange: "transform, opacity" }}
             >
               {content_head_second}
@@ -116,7 +106,7 @@ export const HeroSection = () => {
             <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={controlsPerform}
-              className="block sm:leading-[60px] md:leading-[90px]" // Reduced line height
+              className="block sm:leading-[60px] md:leading-[90px]"
               style={{ willChange: "transform, opacity" }}
             >
               {content_head_third}
