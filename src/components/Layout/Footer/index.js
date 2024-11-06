@@ -30,7 +30,6 @@ export const Footer = () => {
                     alt="saddle_logo"
                     width="254"
                     height="100"
-                    className="w-[254.406px] h-auto"
                   />
                 </a>
 
