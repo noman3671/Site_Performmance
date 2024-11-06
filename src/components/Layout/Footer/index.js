@@ -24,9 +24,17 @@ export const Footer = () => {
                     className="w-[254.406px] h-auto"
                   />
                 </a> */}
-                <p className="desc_text">
-                  SCAN. FIT. PERFORM.
-                </p>
+                <a href="/#" className="footer_logo">
+                  <img
+                    src={saddle_logo}
+                    alt="saddle_logo"
+                    width="254"
+                    height="100"
+                    className="w-[254.406px] h-auto"
+                  />
+                </a>
+
+                <p className="desc_text">SCAN. FIT. PERFORM.</p>
               </div>
             </div>
             <div className="footer_links_main">
@@ -54,9 +62,7 @@ export const Footer = () => {
                 <a href="/#" className="mb-6 inline-block  mx-auto">
                   <img src={saddle_logo} alt="saddle_logo" />
                 </a>
-                <p className="desc_text">
-                  SCAN. FIT. PERFORM.
-                </p>
+                <p className="desc_text">SCAN. FIT. PERFORM.</p>
               </div>
             </div>
             <div className="footer_icons_main">
