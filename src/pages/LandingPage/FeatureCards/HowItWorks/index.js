@@ -68,26 +68,31 @@ const HowItWorks = ({ mockData }) => {
       </div>
 
       <img
+        loading="lazy"
         src={horseIcon}
         alt="horseIcon"
         className="absolute w-[24.794px] h-[24.794px] md:w-[49.323px] md:h-[49.323px] lg:w-[64px] lg:h-[64px] top-[60px] sm:top-[30px] md:top-[120px] right-[20px] md:right-[42.5px] icons lg:right-[300px]"
       />
       <img
+        loading="lazy"
         src={storybook}
         alt="storybook"
         className="absolute w-[24.794px] h-[24.794px] md:w-[49.323px] md:h-[49.323px] lg:w-[64px] lg:h-[64px] top-[180px] sm:top-[146px] md:top-[300px] right-[20px] md:right-[42.5px] icons lg:right-[300px]"
       />
       <img
+        loading="lazy"
         src={trophy}
         alt="trophy"
         className="absolute w-[24.794px] h-[24.794px] md:w-[49.323px] md:h-[49.323px] lg:w-[64px] lg:h-[64px] top-[295px] sm:top-[265px] md:top-[470px] right-[20px] md:right-[42.5px] icons lg:right-[300px]"
       />
       <img
+        loading="lazy"
         src={meter}
         alt="meter"
         className="absolute w-[24.794px] h-[24.794px] md:w-[49.323px] md:h-[49.323px] lg:w-[64px] lg:h-[64px] top-[420px] sm:top-[385px]  md:top-[645px] right-[20px] md:right-[42.5px] icons lg:right-[300px]"
       />
       <img
+        loading="lazy"
         src={thumb}
         alt="thumb"
         className="absolute w-[24.794px] h-[24.794px] md:w-[49.323px] md:h-[49.323px] lg:w-[64px] lg:h-[64px] top-[535px] sm:top-[505px] md:top-[815px] right-[20px] md:right-[42.5px] icons lg:right-[300px]"
