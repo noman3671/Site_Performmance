@@ -33,11 +33,13 @@ export const HeroSection = () => {
 
   useEffect(() => {
     const sequence = async () => {
+      // Show the main content immediately
       await controlsScan.start({
         opacity: 1,
         y: 0,
         transition: { duration: 0.3, delay: 0 },
       });
+      // Load animations for other elements after a slight delay
       await controlsFit.start({
         opacity: 1,
         y: 0,
@@ -58,42 +60,42 @@ export const HeroSection = () => {
     >
       <div className="md:w-auto w-full md:mx-0 mx-auto items-center flex flex-col md:items-start">
         <div className="head_text flex md:text-start sm:text-center sm:flex-col md:flex-col m-0">
-          <span
-            // initial={{ opacity: 0, y: 20 }}
-            // animate={controlsScan}
+          <motion.span
+            initial={{ opacity: 0, y: 20 }}
+            animate={controlsScan}
             className="block sm:leading-[90px] md:leading-[132px]"
           >
             {content_head_first}
-          </span>
+          </motion.span>
           <div className="flex sm:flex-row md:flex-col">
-            <span
-              // initial={{ opacity: 0, y: 20 }}
-              // animate={controlsFit}
+            <motion.span
+              initial={{ opacity: 0, y: 20 }}
+              animate={controlsFit}
               className="block sm:leading-[90px] md:leading-[132px]"
             >
               {content_head_second}
-            </span>
-            <span
-              // initial={{ opacity: 0, y: 20 }}
-              // animate={controlsPerform}
+            </motion.span>
+            <motion.span
+              initial={{ opacity: 0, y: 20 }}
+              animate={controlsPerform}
               className="block sm:leading-[90px] md:leading-[132px]"
             >
               {content_head_third}
-            </span>
+            </motion.span>
           </div>
         </div>
-        <span
-          // initial={{ opacity: 0, y: 70 }}
-          // animate={controlsScan}
+        <motion.span
+          initial={{ opacity: 0, y: 70 }}
+          animate={controlsScan}
           className="perf_saddle_text min-h-[44.554px]"
         >
           {content_description}
-        </span>
-        <div
+        </motion.span>
+        <motion.div
           className="flex justify-center mt-[9px] lg:justify-start"
-          // initial={{ opacity: 0, y: 80 }}
-          // animate={controlsScan}
-        ></div>
+          initial={{ opacity: 0, y: 80 }}
+          animate={controlsScan}
+        ></motion.div>
       </div>
       <div className="btm_gradient" />
     </div>
