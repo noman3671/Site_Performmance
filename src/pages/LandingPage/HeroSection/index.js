@@ -3,8 +3,6 @@ import { motion, useAnimation } from "framer-motion";
 import alignmentClasses from "utils/landing_page.json";
 import Button from "components/Buttons";
 
-
-
 export const HeroSection = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const controlsScan = useAnimation();
@@ -41,19 +39,17 @@ export const HeroSection = () => {
       await controlsScan.start({
         opacity: 1,
         y: 0,
-        // transition: { duration: 1, delay: 0.6 },
-        transition: { duration: 0.4, delay: 0.1 }, // Reduced delay for quicker animation start
-
+        transition: { duration: 0.3, delay: 0 },
       });
       await controlsFit.start({
         opacity: 1,
         y: 0,
-        transition: { duration: 1 },
+        transition: { duration: 0.5 },
       });
       await controlsPerform.start({
         opacity: 1,
         y: 0,
-        transition: { duration: 1 },
+        transition: { duration: 0.5 },
       });
     };
     sequence();
