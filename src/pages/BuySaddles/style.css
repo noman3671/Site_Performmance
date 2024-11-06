@@ -1,0 +1,205 @@
+.table-saddle__title {
+  @apply text-[color:var(--color-primary)]  text-[40px] lg:text-[64px] font-bold leading-[110%] uppercase;
+  font-family: "Barlow Condensed";
+}
+
+.saddle-text {
+  @apply mt-[5px] text-[#343434] text-[24px] font-bold;
+  font-family: "Montserrat";
+}
+
+.saddle_btn {
+  @apply rounded-full mt-3 hover:bg-[#becce2] hover:text-[#343434] hover:border-none flex justify-center items-center  w-[140px] h-[40px];
+
+  font-family: "Montserrat";
+  font-size: 14px !important;
+  border: 2px solid var(--Dark-Blue---Primary, #2b364b);
+  background-color: white;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.saddle-icon_text {
+  font-family: "Montserrat";
+}
+
+.scorefit {
+  font-family: "Montserrat";
+}
+
+.riding-style-pill {
+  display: inline-flex;
+  padding: var(--spacing-1, 4px) var(--spacing-2, 8px);
+  align-items: center;
+  gap: var(--spacing-0, 0px);
+  border-radius: 50px;
+  background: var(--SaddleFit-Blue---200, #ced9e9);
+  color: var(--Dark-Blue---Primary, #2b364b);
+
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.saddle_btn_container {
+  @apply justify-between items-center hidden md:flex;
+}
+
+.saddle_btn_container_mobile {
+  @apply justify-between items-center md:hidden flex;
+}
+
+/* @media only screen and (max-width: 1490px) {
+  .saddleforSaleSection {
+    width: 74%;
+    
+  }
+
+  .formInputSection {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 1291px) {
+  .saddleforSaleSection {
+    width: 74%;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 1177px) {
+  .saddleforSaleSection {
+    width: 74%;
+  }
+}
+
+@media only screen and (max-width: 1082px) {
+  .saddleforSaleSection {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1001px) {
+  .saddleforSaleSection {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .saddleforSaleSection {
+    width: 50%;
+  }
+
+  
+}
+
+@media only screen and (max-width: 850px) {
+  .saddleforSaleSection {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .saddleforSaleSection {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .saddleforSaleSection {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .saddleforSaleSection {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .saddleforSaleSection {
+    width: 90%;
+  }
+} */
+
+.saddle_btn_heart {
+  @apply w-[40px] h-[40px] mt-3 flex justify-center items-center hover:bg-[#5C80B6] hover:border-none  rounded-[8px];
+  border: 1px solid var(--Dark-Blue---Primary, #2b364b);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.clay-card-saddleprofile {
+  @apply flex flex-col justify-center items-center mt-[63px] w-[320px] sm:w-[427px] xl:w-[400px] 2xl:w-[427px]  h-[240px] rounded-[8.716px] border-[color:var(--SaddleFit-Blue,#5c80b6)] backdrop-blur-[15.252732276916504px]  border-2 border-solid;
+}
+
+.clay-card-vectorimage {
+  @apply flex flex-col justify-center items-center mt-[63px] w-[320px] sm:w-[427px] h-[240px] rounded-[8.716px] border-[#999] backdrop-blur-[15.252732276916504px]  border-2 border-solid;
+}
+
+.filter-disclipine {
+  @apply h-[40px] relative;
+}
+
+.clay-card-saddle_profile_image {
+  @apply flex flex-col justify-center items-center mt-[25px] w-full max-w-[400px]  md:max-w-[630px]  rounded-[8.716px] border-[#999] border-2 border-solid;
+  foo: bar;
+}
+
+.clay-card-saddle_profile {
+  @apply flex flex-col justify-center items-center mt-[25px] w-full max-w-[400px] md:max-w-[630px] rounded-[8.716px] border-[color:var(--SaddleFit-Blue,#5c80b6)] border-2 border-solid;
+}
+
+.saddle-profile-form__field {
+  @apply h-[56px] relative !w-[257px]  md:w-[257px];
+}
+
+.react-select__control .css-tdhb51-control {
+  border: none;
+  outline: none;
+}
+
+/* css-tdhb51-control */
+
+@media only screen and (max-width: 960px) {
+  .saddle-profile-form__field {
+    @apply h-[56px] relative w-[300px];
+  }
+
+  .css-b62m3t-container {
+    @apply !h-[56px] !rounded-full relative w-[300px];
+  }
+}
+
+.css-olqui2-singleValue {
+  padding-top: 14px !important;
+}
+
+#input-field > .react-select__control {
+  height: 50px !important;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1490px) {
+  .fitting-horse {
+    display: flex;
+    justify-content: start;
+    width: 900px;
+    position: relative;
+    top: -20px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .fitting-horse {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 900px;
+  }
+}

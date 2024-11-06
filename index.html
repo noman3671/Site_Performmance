@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SaddleFit</title>
+</head>
+<body>
+  <div id="root"></div>
+  
+  <!-- Klaviyo Initialization Snippet -->
+  <script>
+    !function(){
+      if (!window.klaviyo) {
+        window._klOnsite = window._klOnsite || [];
+        try {
+          window.klaviyo = new Proxy({}, {
+            get: function(target, prop) {
+              return prop === "push"
+                ? function() {
+                    var args;
+                    (args = window._klOnsite).push.apply(args, arguments);
+                  }
+                : function() {
+                    var n = arguments.length,
+                        o = new Array(n),
+                        t,
+                        e = new Promise(function(resolve) {
+                          window._klOnsite.push([prop].concat(o, [
+                            function(i) {
+                              t && t(i);
+                              resolve(i);
+                            }
+                          ]));
+                        });
+                    for (t = "function" == typeof o[o.length - 1] ? o.pop() : void 0, w = 0; w < n; w++)
+                      o[w] = arguments[w];
+                    return e;
+                  };
+            }
+          });
+        } catch (err) {
+          window.klaviyo = window.klaviyo || [];
+          window.klaviyo.push = function() {
+            var args;
+            (args = window._klOnsite).push.apply(args, arguments);
+          };
+        }
+      }
+    }();
+  </script>
+
+  <script async src="https://static.klaviyo.com/onsite/js/VM5isW/klaviyo.js"></script>
+  <script type="module" src="/src/index.js"></script>
+</body>
+</html>

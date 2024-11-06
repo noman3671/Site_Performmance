@@ -1,0 +1,245 @@
+.table-header__title {
+  @apply text-[color:var(--color-primary)] sm:w-[400px] text-[40px] lg:text-[64px] font-bold leading-[110%] uppercase;
+  font-family: "Barlow Condensed";
+}
+.dashboard_main {
+  @apply w-full mt-[140px] lg:mt-[120px];
+  foo: bar;
+}
+
+.horse_profile_card_main {
+  @apply flex md:gap-[10px] lg:gap-[27px] w-full lg:justify-start flex-wrap;
+  foo: bar;
+}
+.dashboard_wrapper {
+  @apply flex w-[90%]   xl:w-[72%] mx-auto;
+  foo: bar;
+}
+.table-header__subtitle {
+  @apply pt-[20px] text-[color:var(--Charcoal---800,#484848)] sm:w-[400px]  text-sm font-normal leading-[120%];
+  font-family: "Montserrat";
+}
+
+.dashboard_head_main {
+  @apply flex xl:items-center sm:items-start  items-center flex-col gap-10 xl:gap-0 xl:flex-row justify-between;
+  foo: bar;
+}
+.dashboard-horse_prof_img {
+  @apply rounded-md mt-[15px] w-[100px] h-[100px] object-center;
+  foo: bar;
+}
+
+.prof-clay-card-text {
+  @apply text-[color:var(--Dark-Blue---Primary,#2b364b)] text-[40px] w-[150px] sm:w-[200px] text-ellipsis overflow-hidden h-[95px] flex flex-nowrap line-clamp-2 font-bold leading-[normal] tracking-[-1.116px] uppercase mt-6;
+  font-family: "Barlow Condensed";
+}
+
+.clay-card-dashboard {
+  @apply flex flex-col justify-between mt-[63px] w-full sm:w-[427px] h-[261px] rounded-[8.716px] border-[color:var(--SaddleFit-Blue,#5c80b6)] border-2 border-solid;
+  foo: bar;
+}
+
+.clay-card-text-dashboard {
+  @apply text-[color:var(--Dark-Blue---Primary,#2b364b)] text-[40px] font-bold leading-[normal] tracking-[-1.116px] uppercase mt-6;
+  font-family: "Barlow Condensed";
+}
+.horse-prof-icons {
+  @apply text-transparent p-0 bg-transparent;
+  foo: bar;
+}
+
+.scan_horse_btn {
+  @apply rounded-full px-[8px] py-[6px] lg:px-[12px] lg:py-[8px] !text-[10px] sm:!text-[12px];
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.dashboard_select_btn {
+  @apply rounded-full px-[23px] py-[16px] lg:px-[56px] lg:py-[16px];
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+  font-family: "Montserrat";
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.dashboard_delete_btn {
+  @apply rounded-full px-[23px] py-[16px] lg:px-[56px] lg:py-[16px] lg:h-[56px];
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-size: 20px !important;
+  flex-shrink: 0;
+  border: 2px solid var(--Dark-Blue---Primary, #2b364b);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+.checkbox-title {
+  @apply text-[12px];
+  color: var(--color-charcoal);
+  font-family: "Montserrat";
+}
+.dashboard-checkbox {
+  @apply rounded-[50%] accent-[#5C80B6] w-[18px] h-[18px] border border-[#5C80B6];
+  foo: bar;
+}
+
+.horse_prof_img_dashboard {
+  @apply rounded-[10px] mt-[15px];
+  foo: bar;
+}
+
+.add-prof_card_border_dashboard {
+  @apply mx-auto border border-dashed border-[#9C765B] w-[265.173px] 2xl:w-[355.833px];
+  foo: bar;
+}
+
+.prof_card_border_dashboard {
+  @apply mt-[22px] lg:mt-[45px] mx-auto border border-dashed border-[#9C765B] w-[265.173px] 2xl:w-[355.833px];
+  foo: bar;
+}
+
+.prof-schedule-dashboard {
+  @apply flex flex-col justify-center mx-[20px] border-dashed border-[#9C765B] border-t py-[16px];
+  foo: bar;
+}
+
+.prof-schedule-dashboard h4 {
+  @apply md:text-[15px] text-[#343434] font-bold leading-[20.918px];
+  font-family: "Montserrat";
+}
+
+.prof-schedule-dashboard p {
+  @apply text-[12px] text-[#343434] font-normal leading-[13.945px];
+  font-family: "Montserrat";
+}
+
+.decor_plus_icon_dashboard {
+  @apply mt-[20px] items-center cursor-pointer justify-center border border-dashed rounded-full w-[50px] h-[50px] flex border-[#2B364B];
+  foo: bar;
+}
+
+.border_dashboard {
+  @apply text-center mx-auto my-[42px] lg:my-[120px] border border-dashed border-[#9C765B] w-[320px] md:w-[600px] lg:w-[900px] 2xl:w-[1338px];
+  foo: bar;
+}
+
+.event-sec {
+  @apply flex flex-col items-center justify-center;
+  foo: bar;
+}
+.dashboard_cards_main {
+  @apply flex flex-wrap justify-center mt-[42px] lg:mt-[80px] gap-[24px];
+}
+.event-sec_head {
+  @apply text-[32px] w-[320px] lg:w-auto lg:text-[64px]
+  text-[color:var(--Dark-Blue---Primary,#2b364b)] text-center font-bold leading-[110%] uppercase;
+  font-family: "Barlow Condensed";
+}
+
+.event-sec_title {
+  @apply w-[320px] lg:w-[533px] text-[color:var(--Charcoal,#343434)] text-center text-sm font-medium leading-5 mt-5;
+  font-family: "Montserrat";
+}
+
+.card-dashboard {
+  @apply py-3 px-3 flex !max-w-full h-[212.639px] rounded-[8.716px] backdrop-blur-[15.252732276916504px];
+  foo: bar;
+}
+
+.card_head-dashboard {
+  @apply flex flex-col gap-[16px];
+  foo: bar;
+}
+
+.card_head-dashboard p {
+  @apply text-[color:var(--Charcoal,#343434)] w-[136px] lg:w-[200px] text-sm font-normal leading-[120%];
+  font-family: "Montserrat";
+}
+.card-text-dashboard {
+  @apply text-[color:var(--Charcoal,#343434)] text-[20px] lg:text-[28px] font-semibold leading-[110%];
+  font-family: "Montserrat";
+}
+
+.dashboard-card-btn {
+  @apply w-[88px] lg:w-[112px] rounded-full h-[40px] text-[14px];
+  color: var(--color-text);
+  font-size: 14px !important;
+  font-family: "Montserrat";
+}
+
+.card_img_dashboard {
+  @apply rounded-[12px] hidden lg:flex;
+  foo: bar;
+}
+.mobile_card_img {
+  @apply rounded-[12px] lg:hidden block w-[120px] object-cover;
+  foo: bar;
+}
+
+.find-saddle_main {
+  @apply flex gap-[23px] lg:gap-[129px] w-auto m-[40px] lg:p-16 2xl:max-w-[1340px] p-[40px] h-auto lg:h-auto justify-center border mb-[60px] lg:mb-[120px] items-center border-[#D6D6D6] xl:flex-row flex-col shadow-lg rounded-[10px];
+  background: var(--color-white);
+}
+
+.find-saddle-text {
+  @apply text-[32px] w-[242px] lg:w-auto xl:text-[64px] text-[color:var(--Dark-Blue---Primary,#2b364b)] font-bold leading-[110%] uppercase;
+  font-family: "Barlow Condensed";
+}
+
+.dashboard_bg_img {
+  @apply hidden lg:block absolute z-[-10] text-[#DEE6F0] right-72 mt-[-60px];
+  foo: bar;
+}
+
+.dashboard_mob_bg_img {
+  @apply lg:hidden block absolute z-[-10] right-0 mt-[55px];
+  foo: bar;
+}
+
+.zip-btn {
+  @apply w-[183px] !h-[40px] mx-auto rounded-full text-[#858585] focus-within:border-none hover:border-none border border-[color:var(--Dark-Blue---Primary,#2B364B)]  border-solid;
+  background: var(--color-white-200, rgba(255, 255, 255, 0.2));
+  font-family: "Montserrat";
+  font-size: 14px !important;
+}
+
+.load_more_btn {
+  @apply rounded-full px-[23px] mx-auto py-[16px] lg:px-[56px] lg:py-[16px];
+  color: var(--color-text);
+  font-family: "Montserrat";
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.search_btn {
+  @apply border-[color:var(--White,#fff)] w-full sm:w-[320px] h-[40px] sm:h-[56px] lg:block hidden text-[#fff] text-[14px] lg:text-[20px]  shadow-[0px_2px_4px_-1px_rgba(18,18,23,0.06),0px_4px_6px_-1px_rgba(18,18,23,0.08)] border-2 border-solid rounded-full;
+  font-family: "Montserrat";
+}
+
+.signIn_btn {
+  @apply border-[color:var(--White,#fff)] lg:hidden block text-[#fff] text-[14px] lg:text-[20px] px-10 lg:px-14 py-4 shadow-[0px_2px_4px_-1px_rgba(18,18,23,0.06),0px_4px_6px_-1px_rgba(18,18,23,0.08)] border-2 border-solid rounded-full;
+  font-family: "Montserrat";
+}
+
+.find-saddle-btns {
+  @apply flex lg:flex-row flex-col items-center justify-center  gap-[20px] mt-[23px] lg:mt-[53px];
+}
+
+/* @media only screen and (max-width: 640px) and (min-width: 450px) {
+  .dashboard_head_main {
+    width: 400px;
+  }
+} */
+
+/* dashboard_head_main */

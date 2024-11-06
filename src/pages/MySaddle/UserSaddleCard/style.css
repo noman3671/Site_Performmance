@@ -1,0 +1,66 @@
+.css-1nmdiq5-menu {
+  @apply w-[170px] sm:!w-[250px];
+  /* position: relative !important; */
+  /* z-index: 200px !important; */
+}
+
+/* .css-12g2zzy-ValueContainer {
+  display: flex !important;
+  align-self: center !important;
+} */
+
+.react-select__menu {
+  /* width: 250px !important;
+    background-color: gold !important; */
+  /* position: relative;
+    z-index: 100px !important; */
+ }
+.css-1vkpud9-control:hover {
+  border-color: #999 !important;
+  box-shadow: none !important ;
+}
+
+.css-1vkpud9-control:focus-within {
+  border-color: #999 !important;
+  box-shadow: none !important ;
+}
+
+.css-1vkpud9-control {
+  box-shadow: none !important ;
+}
+
+/* 
+.css-tdhb51-control {
+  height: 45px !important;
+} */
+
+
+
+.status {
+  font-family: Montserrat;
+  color: #5c80b6;
+  width: 150px;
+  height: 30px;
+  font-size: 12.459px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 13.945px;
+}
+
+.card {
+  background-color: #d9d9d9;
+  border: 1px solid black;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 10px;
+  left: -40px;
+  text-align: center;
+  width: 150px;
+  padding-right: 10px;
+  height: 30px;
+}
+
+
+.bg-gradient {
+  background: var(--Gradient, linear-gradient(90deg, #5A7DB2 0%, #2A354B 100%));
+}

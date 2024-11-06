@@ -1,0 +1,52 @@
+.instagram_header_logo {
+  width: auto;
+  height: 122.23px;
+}
+.main_heading {
+  color: var(--Off-white, #f7f7f6);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+.email_saddle {
+  color: var(--Off-white, #f7f7f6);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.count {
+  color: #f7f7f6;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  text-align: center;
+}
+.reach {
+  color: var(--Off-white, #f7f7f6);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.follow_btn {
+  color: var(--Off-White, #f7f7f6);
+  font-family: "Montserrat";
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  padding: var(--spacing-2, 8px) var(--spacing-3, 12px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-0, 0px);
+  border-radius: var(--radius-3xl, 360px);
+  border: 1px solid var(--White, #fff);
+  background: var(--Dark-Blue---Primary, #2b364b);
+}

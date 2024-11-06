@@ -1,0 +1,108 @@
+.clay-card {
+  @apply absolute left-[-60px] md:left-[-140px] top-[-75px] w-[200px] h-[150px] md:w-[300px] md:h-[200px] xl:w-[373.437px] xl:h-[257.12px] rounded-[8.716px]  border-[color:var(--SaddleFit-Blue,#5c80b6)] backdrop-blur-[15.252732276916504px]  border-2 border-solid;
+  background: var(--color-white-400, rgba(255, 255, 255, 0.4));
+}
+
+.clay-card-text {
+  @apply text-[color:var(--Dark-Blue---Primary,#2b364b)] text-[22.687px] md:text-[38.055px]  xl:text-[54.806px] not-italic font-bold leading-[normal] tracking-[-1.116px] uppercase mt-6;
+  font-family: "Barlow Condensed";
+}
+
+.find_btn_2 {
+  @apply w-full sm:w-[227px] text-[16px] md:text-[20px] h-[36px] sm:h-[56px] bg-transparent rounded-3xl;
+  color: var(--color-text);
+  font-family: "Montserrat";
+  position: relative;
+  border-radius: 56px;
+  border: 2px solid var(--Off-White, #f7f7f6);
+  background: var(--Dark-Blue---Primary, #2b364b);
+  box-shadow: 0px 4px 6px -1px rgba(18, 18, 23, 0.08),
+    0px 2px 4px -1px rgba(18, 18, 23, 0.06);
+}
+
+.horse_prof_img {
+  @apply w-10 h-10 xl:w-[80px] xl:h-[80px] rounded-[10px] mt-[15px];
+}
+
+.prof_main {
+  @apply w-full h-[670px] md:min-h-[670px] flex relative overflow-hidden justify-center;
+  
+  
+}
+
+.horse_profile_logo{
+  @apply w-[1533px] h-[1516px] relative -top-[250px];
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
+/* .prof_sec {
+  @apply w-full  lg:w-[100%] md:w-[98%] mx-auto flex flex-wrap justify-center mt-[60px] md:mt-[196px] absolute xl:gap-[99px] gap-[20px] right-0;
+} */
+
+.profile_title_text {
+  @apply rounded-[86.287px]  absolute top-[-15px] left-2 uppercase text-[#fff] text-[10.459px] py-[6.97px] px-[13.9px] font-bold;
+  font-family: "Montserrat";
+  background: var(--Gradient, linear-gradient(90deg, #5a7db2 0%, #2a354b 100%));
+}
+
+.prof-schedule {
+  @apply flex justify-between px-[27px] py-[14px];
+}
+
+.prof-schedule h4 {
+  @apply text-[6.381px] md:text-[10.703px] xl:text-[15.689px] text-[#343434] font-bold leading-[20.918px];
+  font-family: "Montserrat";
+}
+
+.prof-schedule p {
+  @apply text-[4.963px] md:text-[8.325px] xl:text-[12.202px] text-[#343434] font-normal leading-[13.945px];
+  font-family: "Montserrat";
+}
+
+.prof_description {
+  @apply flex w-full md:w-[328px] xl:items-end  justify-start flex-col px-[20px] md:px-0;
+}
+
+.prof_description h1 {
+  @apply text-[24px] lg:text-[40px] uppercase sm:w-auto w-[300px] text-center md:mt-[10px] mt-[23.5px] xl:text-end lg:w-[328px] leading-[110%] font-bold text-[color:var(--Dark-Blue---Primary,#2b364b)];
+  font-family: "Barlow Condensed";
+}
+
+.prof_description p {
+  @apply w-auto md:w-[567px] mt-[37px] text-center xl:text-end md:mt-[29px] text-[14px];
+  font-family: "Montserrat";
+}
+
+.prof_card_border {
+  @apply mt-[35px] md:mt-[60px] xl:mt-[86px] mx-auto border border-dashed border-[#9C765B] w-[85%];
+}
+
+.prof_card_head {
+  @apply flex px-[27px] justify-between;
+}
+
+.prof_btn_join {
+  @apply cursor-pointer w-[325px] sm:w-[259px] rounded-full h-[36px] sm:h-[56px]  text-[color:var(--Dark-Blue---Primary,#2b364b)] text-[16px]  not-italic font-medium leading-7 border-2 border-[#2B364B]  disabled:w-3/12 disabled:text-[color:var(--some-color)] disabled:text-[1em] md:inset-x-1/4 md:inset-y-auto supports-[display:grid]:grid supports-[display:grid]:col-span-1;
+  background: rgba(255, 255, 255, 0.1);
+  font-family: "Montserrat";
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 768px) {
+  .prof_main {
+    height: 890px;
+  }
+}
+
+.decor_plus_icon {
+  @apply ml-[30px] mt-[120px] items-center justify-center border border-dashed rounded-full w-[60px] h-[60px] hidden xl:flex border-[#2B364B];
+}
+
+.decor_icon {
+  @apply absolute mt-[20px] xl:mt-[30px] ml-[10px] md:ml-[30px] items-center justify-center border border-dashed rounded-full w-[40px] h-[40px] md:w-[60px] md:h-[60px] flex border-[#2B364B];
+}
+
+.plus_decor_icon {
+  @apply absolute top-5 md:top-0 right-[-60px] md:right-[-80px] items-center justify-center border border-dashed rounded-full w-[40px] h-[40px] md:w-[60px] md:h-[60px] flex border-[#2B364B];
+}

@@ -1,0 +1,61 @@
+.buy_and_sell_title {
+    @apply text-[color:var(--color-primary)] sm:w-[400px] text-[40px] lg:text-[64px] font-bold leading-[110%] uppercase;
+    font-family: "Barlow Condensed";
+}
+
+.buy_and_sell_subtitle {
+    @apply mt-[5px] text-[#343434] text-[18px] sm:text-[24px] font-bold;
+    font-family: "Montserrat";
+}
+
+.table_head {
+    color: var(--color-surface-dark-0, #000);
+    font-family: "Barlow Condensed";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    text-transform: uppercase;
+
+}
+
+.main_table {
+    /* border-radius: 10px 10px 0px 0px !important;  */
+    border: 0.25px solid var(--Charcoal---400, #999);
+    background: var(--Off-White, #F7F7F6);
+}
+
+.table_body {
+    color: var(--color-surface-dark-0, #000);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    /* 17.6px */
+}
+
+.load_more_btn_buy_sell_tbody {
+    @apply rounded-full  mx-auto  !text-[14px] w-[216px] h-[42px];
+    color: var(--color-text);
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+}
+
+.viewEdit_buy_sell_tbody {
+    @apply rounded-full mx-auto w-[216px] h-[42px] !text-[14px];
+    color: var(--color-text);
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+}
+
+.load_more_btn_buy_sell {
+    @apply rounded-full px-[23px] mx-auto py-[16px] lg:px-[56px] lg:py-[16px];
+    color: var(--color-text);
+    font-family: "Montserrat";
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 500;
+}

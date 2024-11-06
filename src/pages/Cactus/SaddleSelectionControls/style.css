@@ -1,0 +1,109 @@
+.cactus_main_heading {
+  @apply text-[40px] md:text-[56px] font-[700] md:font-[400] max-w-[373px] md:max-w-[623px];
+  color: var(--Dark-Blue---Primary, #2b364b);
+  text-align: center;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.cactus_main_heading span {
+  @apply text-[40px] md:text-[56px];
+  color: var(--Dark-Blue---Primary, #2b364b);
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.cactus_formInput {
+  @apply h-[56px] relative w-[257px]  md:w-[295px];
+}
+
+.cactus_dropdown_formInput {
+  @apply !h-auto relative !w-[257px];
+}
+
+.cactus_dropdown_formInput .react-select__placeholder{
+  padding-top: 10px !important;
+}
+
+.best_selling_saddle {
+  @apply text-[32px] md:text-[40px] leading-[110%];
+  color: var(--Dark-Blue---Primary, #2b364b);
+  text-align: center;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.filter_text {
+  color: var(--Dark-Blue---Primary, #2b364b);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cactus_notify {
+  @apply flex md:flex-row flex-col w-[231px] md:w-full;
+  padding: 8px;
+  align-items: center;
+  gap: 11px;
+  border-radius: 8px;
+  border: var(--spacing-px, 1px) solid var(--Dark-Blue---200, #bfc3c9);
+}
+
+.saddle_note span {
+  color: var(--Charcoal---800, #484848);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.saddle_note {
+  @apply !flex md:!flex-row flex-col justify-center items-center;
+  color: var(--Charcoal---800, #484848);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.form_input_min_val .sc-kLhKbu{
+  height: 44px;
+}
+
+.form_input_max_val .sc-kLhKbu{
+  height: 44px;
+}
+
+.cactus_notify_desc {
+  @apply w-[215px] md:w-auto text-center;
+  color: var(--Charcoal---800, #484848);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.dots {
+  color: var(--Charcoal---800, #484848);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+
+.cactus_formInput .react-select__value-container{
+   height: 56px !important;
+}

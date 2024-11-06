@@ -1,0 +1,97 @@
+.find-event_main {
+  @apply flex  flex-wrap lg:gap-[45px] xl:gap-[45px] px-[22px] sm:px-2 xl:px-10 2xl:px-0 2xl:gap-[150px]  mb-4 w-[95%] xl:max-w-[1300px]  justify-start  items-center;
+  background: var(--color-white);
+}
+
+.events_descrip {
+  @apply w-[90%] lg:w-[533px] text-[14px] mt-[20px];
+  font-family: "Montserrat";
+}
+
+.find-event-text {
+  @apply text-[40px] w-[285px] md:w-[676px] lg:text-[64px] text-[color:var(--Dark-Blue---Primary,#2b364b)] font-bold leading-[110%] uppercase;
+  text-shadow: 0px 4px 6px rgba(18, 18, 23, 0.05),
+    0px 10px 15px rgba(18, 18, 23, 0.08);
+  font-family: "Barlow Condensed";
+}
+
+.toggle-text {
+  @apply text-[12px] sm:text-[14px] leading-[24px] lg:font-normal font-medium;
+  color: var(--Charcoal, #343434);
+  font-family: "Montserrat";
+}
+
+.AuthDealer_text {
+  font-family: "Montserrat";
+  color: var(--color-charcoal);
+}
+
+/* .toggle-checkbox:checked {
+  @apply right-0 border-none;
+}
+.toggle-checkbox:checked + .toggle-label {
+  @apply bg-[#2B364B] border-none;
+}
+.switch {
+  position: relative;
+  width: 40px;
+
+  display: inline-block;
+}
+
+.switch input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.slider {
+  @apply bg-gray-300;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 26px;
+  text-align: center;
+}
+
+.slider:before {
+  @apply w-4 h-4;
+
+  position: absolute;
+  content: "";
+  font-size: 10px;
+  background-color: #f3f4f7;
+  top: 4px;
+  left: 4px;
+  transition: 0.4s;
+  border-radius: 50%;
+  margin: 0px auto;
+}
+
+.toggle-checkbox:checked + .slider {
+  @apply bg-[#2B364B] border-none;
+}
+
+.toggle-checkbox:checked + .slider:before {
+  transform: translateX(26px);
+  transition: 0.4s;
+  margin-left: -10px;
+  content: "";
+  font-size: 10px;
+} */
+
+.gm-style .gm-style-iw-c {
+  max-width: 100% !important;
+  background-color: #f7f7f6 !important;
+}
+.gm-style .gm-style-iw-d {
+  overflow: hidden !important;
+}
+
+.gm-ui-hover-effect {
+  display: none !important;
+}

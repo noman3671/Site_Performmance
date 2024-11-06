@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600&family=Oswald&family=PT+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap'); */
+
+@import "preflight";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #2b364b;
+  --color-secondary: #5c80b6;
+  --color-charcoal: #343434;
+  --color-white-alt: #ccd6f6;
+  --num-clay-color: #a6846b;
+  --color-white: #fff;
+  --color-text: #f7f7f6;
+  --color-primary-light: #f1f3f5;
+  --color-primary-danger: #f25022;
+  --color-gray: #c3c9d4;
+  --border-color: #f7f7f6;
+  --button-color: #becce2;
+  --form-upload-color: #d9d9d9;
+  --button-shadow: 0px 1px 2px 0px rgba(18, 18, 23, 0.05);
+  --amplify-fonts-default-variable: font-sans !important;
+  --amplify-fonts-default-static: font-sans !important;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: var(--color-primary);
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  background-color: var(--color-primary);
+}
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  :-webkit-scrollbar {
+    display: none !important;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+.hero_sec_img {
+  position: relative;
+  /* background-image: url(./assets/images/Hero_Sec_Blurred.svg); */
+  background-repeat: no-repeat;
+  height: 851px;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero_sec_img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000000;
+  opacity: 0.55;
+}
+
+.hero_sec_img > img {
+  filter: brightness(60%);
+  z-index: 1;
+}
+
+.cartItemNumber {
+  font-family: "Montserrat";
+}
+
+@media only screen and (max-width: 768px) {
+  .hero_sec_img {
+    /* background-image: url(./assets/images/mobBlur.svg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+}
+
+.gradient {
+  @apply h-[200px] lg:h-[229px];
+  background: linear-gradient(
+    180deg,
+    #2b364b 24.06%,
+    rgba(43, 54, 75, 0) 89.66%
+  );
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+  top: 0;
+}
+
+.hide_gradient {
+  background: var(--color-primary);
+  position: relative;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1023px) {
+  .hide_gradient {
+    background: var(--color-primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
+/* .btm_gradient {
+  background: linear-gradient(0deg, #2b364b 30.06%, rgba(43, 54, 75, 0) 89.66%);
+  height: 159.292px;
+  margin-bottom: -2px;
+  position: relative;
+  z-index: 2;
+} */
+
+.head_text {
+  @apply uppercase font-bold text-[40px] sm:text-[90px] text-start md:!text-[120px];
+  text-shadow: 0px 4px 6px rgba(18, 18, 23, 0.05),
+    0px 10px 15px rgba(18, 18, 23, 0.08);
+  font-family: "Barlow Condensed";
+  color: var(--color-text);
+  position: relative;
+  z-index: 2;
+}
+
+.perf_saddle_text {
+  @apply font-semibold text-[14px] flex flex-wrap mt-[9px] sm:text-[24px] leading-[110%];
+  color: var(--color-primary-light);
+  font-family: "Montserrat";
+  position: relative;
+  z-index: 2;
+}
+
+.nav_links {
+  @apply no-underline text-[14px] lg:text-[13px] xl:text-[14px]  leading-[24px];
+  font-family: "Montserrat";
+}
+.nav_outline_btn {
+  @apply text-[14px] bg-transparent w-[89px] h-[40px] rounded-3xl font-medium;
+  font-family: "Montserrat" !important;
+  color: var(--color-text) !important;
+  border: 1px solid var(--border-color) !important;
+  box-shadow: var(--button-shadow) !important;
+}
+.find_btn {
+  @apply w-[180px] md:w-[227px] text-[18px] md:text-[20px] rounded-[56px] h-[46px] md:h-[56px] bg-transparent;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border: 2px solid var(--border-color);
+  font-family: "Montserrat";
+  position: relative;
+  /* z-index: 2; */
+}
+
+.nav_btn {
+  @apply text-[14px] flex justify-center items-center gap-[8px] font-medium w-[129px] h-[40px] rounded-3xl;
+  background-color: var(--button-color);
+  font-family: "Montserrat";
+}
+
+
+
+/* //html {
+//  font-family: font-sans;
+//} */
+
+a {
+  /* //color: var(--color-primary) !important; */
+}
+
+.amplify-loader line:last-of-type {
+  animation: auto !important;
+  animation-name: amplify-loader-linear !important;
+  animation-duration: var(
+    --amplify-components-loader-linear-animation-duration
+  ) !important;
+  animation-timing-function: linear !important;
+  animation-iteration-count: infinite !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.blurredImage-container {
+  height: 100% !important;
+  width: 100% !important;
+}
+.blurredImage-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+.bg-image {
+  background-image: url("./assets/images/Blurred.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay-bg {
+  background-color: rgba(0, 0, 0, 0.363);
+}
+
+
+
+.howitsworkheading {
+  /* text-align: right;
+-webkit-text-stroke-width: 1.6410712003707886;
+-webkit-text-stroke-color: #FFF;
+font-family: "Barlow Condensed";
+font-size: 210.057px;
+font-style: normal;
+font-weight: 800; */
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  opacity: 0.72;
+}
+
+#main-heading {
+  color: #fff;
+  text-align: right;
+  font-family: "Barlow Condensed";
+  font-size: 164.84px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 79%; /* 130.224px */
+  text-transform: uppercase;
+  /* transform: rotate(-90deg); */
+}
+
+.cardNumber {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Barlow Condensed";
+  font-size: 180.185px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: flex;
+  width: 110px;
+  height: 154px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+

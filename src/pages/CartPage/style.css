@@ -1,0 +1,110 @@
+.cart__title {
+  @apply text-[color:var(--color-primary)]  text-[40px] lg:text-[64px] font-bold leading-[110%] uppercase;
+  font-family: "Barlow Condensed";
+}
+
+.cart-text {
+  @apply pt-[20px] text-[color:var(--Charcoal---800,#484848)] text-sm font-normal leading-[120%];
+  font-family: "Montserrat";
+}
+
+.cart_select_btn {
+  @apply rounded-full hover:!opacity-100 transition-opacity duration-200  px-[23px] py-[16px] lg:px-[56px] lg:py-[16px];
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+  font-family: "Montserrat";
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.cart_remove_btn {
+  @apply rounded-full hover:!opacity-100 outline outline-[#2b364b] transition-opacity duration-200 hover:bg-[#5C80B6] hover:text-white hover:outline-none px-[23px] py-[16px] lg:px-[56px] lg:py-[16px];
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-size: 20px !important;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.cartpage-text {
+  @apply sm:mt-[0px] text-[#343434] text-[18px] w-[199.355px] sm:w-[80%] 2xl:w-[495px] overflow-hidden  h-[60px]  sm:h-[30px] text-wrap text-ellipsis font-bold;
+  font-family: "Montserrat";
+}
+
+.cartpage-price {
+  @apply mt-[5px] text-[#343434] text-[14px] font-bold;
+  font-family: "Montserrat";
+}
+
+.stock {
+  @apply text-[#343434] text-[12px];
+  font-family: "Montserrat";
+}
+
+.saddleFit-report {
+  @apply text-[#343434] text-[12px];
+  font-family: "Montserrat";
+}
+
+.remove {
+  @apply text-[#343434] text-[12.202px] hover:text-[#5C80B6] font-bold;
+  font-family: "Montserrat";
+}
+
+.cartsaddle-score {
+  @apply text-[#343434] font-bold mt-[14px] text-[12px];
+  font-family: "Montserrat";
+}
+
+.cart_quantity {
+  @apply rounded-full mt-3 flex justify-center items-center  w-[140px] h-[40px];
+
+  font-family: "Montserrat";
+  font-size: 14px !important;
+  border: 2px solid var(--Dark-Blue---Primary, #2b364b);
+  background-color: white;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.saddle_quantity {
+  @apply rounded-full  flex justify-center items-center  w-[140px] h-[40px];
+
+  font-family: "Montserrat";
+  font-size: 14px !important;
+  border: 2px solid var(--Dark-Blue---Primary, #2b364b);
+  background-color: white;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.subtotal {
+  @apply text-[#343434] text-[28px] font-bold;
+  font-family: "Montserrat";
+}
+
+.cart_price {
+  @apply text-[#343434] mt-[6px] text-[28px] font-bold;
+  font-family: "Montserrat";
+}
+
+.no_cart_added {
+  @apply text-[#343434] mx-auto text-[28px] font-bold;
+  font-family: "Montserrat";
+}
+
+.proceed_btn {
+  @apply rounded-full hover:!opacity-100 hover:bg-[#5C80B6] transition-opacity duration-200 w-full h-[56px];
+
+  color: var(--color-text);
+  font-family: "Montserrat";
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 500;
+}

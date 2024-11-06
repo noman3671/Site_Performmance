@@ -1,0 +1,111 @@
+.main_banner {
+  @apply w-[1340px] h-[246px]  flex flex-col justify-center items-center;
+  background: linear-gradient(180deg, #5a7db2 -51.42%, #2a354b 35.98%);
+  foo: bar;
+}
+.footer_banner_text {
+  @apply font-bold leading-[110%] uppercase pt-[28px] text-center text-[20px] md:text-[64px] text-[#F7F7F6];
+  font-family: "Barlow Condensed";
+  foo: bar;
+}
+.footer_container {
+  @apply mx-auto w-auto md:max-w-[1340px]  md:px-[40px] lg:px-5 flex;
+  foo: bar;
+}
+
+.footer_wrapper {
+  @apply w-auto 2xl:w-[1340px] flex flex-wrap  xl:flex-nowrap justify-center xl:justify-between;
+  foo: bar;
+}
+.footer_logo_main {
+  @apply text-start w-[320px] xl:w-[420px] md:block hidden;
+  foo: bar;
+}
+.mob_footer_logo {
+  @apply mb-10 w-full flex flex-col;
+  foo: bar;
+}
+.mob_footer_logo_main {
+  @apply w-full px-4 lg:w-5/12 md:hidden block;
+  foo: bar;
+}
+.footer_logo {
+  @apply mb-6 inline-block;
+  foo: bar;
+}
+.footer_main {
+  @apply flex bg-[#2B364B] relative bottom-0 pb-10 !py-[59.1px] sm:!py-[137.65px] lg:pb-20 xl:pt-[72px];
+  foo: bar;
+}
+
+.footer_links_main {
+  @apply flex md:justify-between w-auto mx-auto justify-center;
+  foo: bar;
+}
+.footer_input {
+  @apply w-[262px] md:w-[480px]  h-14 pl-5 pr-[73px] py-[15px] rounded-[56px] border-none;
+  background: var(--color-white-200, rgba(255, 255, 255, 0.2));
+  font-family: "Montserrat";
+  foo: bar;
+}
+
+.footer_input:focus {
+  @apply border-none;
+  foo: bar;
+}
+
+.footer_input::placeholder {
+  @apply text-[#F2F9FB] text-[14px];
+  font-family: "Montserrat";
+  foo: bar;
+}
+
+.footer_btn {
+  @apply flex h-14 rounded-full justify-center items-center gap-2 text-[#f7f7f6] text-xl not-italic font-medium leading-7 px-14 py-4;
+  font-family: "Montserrat";
+  @apply px-[46px] py-[16px] border-2 border-[#F7F7F6] text-[20px] text-[#fff];
+  foo: bar;
+}
+.desc_text {
+  @apply text-white text-center md:text-start text-sm not-italic font-normal leading-[110%] 
+  w-[320px] m-auto lg:m-0 md:!w-[311px] xl:!w-[410px]  mb-7 opacity-[0.6];
+  font-family: "Montserrat";
+  foo: bar;
+}
+
+.ftr_nav_links {
+  @apply text-[#fff] md:text-sm not-italic text-start font-normal opacity-[0.6] leading-[normal] space-y-3 w-full lg:w-[160px] xl:w-[180px];
+  font-family: "Montserrat";
+  foo: bar;
+}
+
+.nav_links_head {
+  @apply text-[#fff] md:text-[24px]  text-base text-start not-italic font-bold leading-[normal] uppercase mb-9 md:leading-none;
+  font-family: "Barlow Condensed";
+  foo: bar;
+}
+
+.anchor_links {
+  @apply inline-block text-[12px] sm:text-sm w-[90px] lg:w-full;
+  foo: bar;
+}
+.regards_text {
+  @apply text-[#fff] opacity-[0.6] text-sm not-italic font-normal leading-7 mx-auto xl:mx-0 text-center xl:text-start;
+  font-family: "Montserrat";
+  foo: bar;
+}
+
+.footer_icons_main {
+  @apply w-full px-4 sm:w-1/2 lg:pl-0 2xl:pl-8 lg:w-3/12  mx-auto lg:mx-0;
+  foo: bar;
+}
+
+.footer_icons {
+  @apply w-full flex flex-col items-center md:items-start justify-center md:justify-normal;
+  foo: bar;
+}
+
+.footer_social_icons {
+  @apply mb-6 flex mx-auto xl:mx-0 gap-[24px] items-center  justify-center;
+  foo: bar;
+}

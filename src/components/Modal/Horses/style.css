@@ -1,0 +1,31 @@
+.congrats_title {
+  @apply text-[40px] sm:text-[64px] text-center w-full sm:text-start sm:w-auto;
+  color: var(--Dark-Blue---Primary, #2b364b);
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+.congrats_description {
+  @apply text-[17px];
+  color: var(--Dark-Blue---Primary, #2b364b);
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+.btn-schedule {
+  @apply rounded-full !px-[12px] !py-[10px] sm:!px-[16px] sm:!py-[12px] lg:!px-[24px] lg:!py-[16px] !text-[14px] sm:!text-[16px] lg:!text-[20px] w-[200px] lg:w-[300px];
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+}

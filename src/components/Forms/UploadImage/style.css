@@ -1,0 +1,123 @@
+.client-upload-btn {
+  @apply relative rounded-full text-white;
+  color: var(--Off-White, #f7f7f6);
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  height: 40px;
+  width: 162px;
+  display: inline-flex;
+ 
+  border-radius: var(--radius-3xl, 360px);
+  border: 1px solid var(--White, #fff);
+  background: var(--Dark-Blue---Primary, #2b364b);
+}
+
+.edit-cancel-btn {
+  padding: var(--spacing-2, 9px) var(--spacing-3, 12px);
+  border-radius: var(--radius-3xl, 360px);
+  border: 1px solid var(--Dark-Blue---Primary, #2b364b);
+  color: var(--Dark-Blue---Primary, #2b364b);
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.edit-save-btn {
+  display: flex;
+  padding: var(--spacing-2, 12px) var(--spacing-3, 16px);
+  border-radius: var(--radius-3xl, 360px);
+  border: 1px solid var(--White, #fff);
+  background: var(--Dark-Blue---Primary, #2b364b);
+  color: var(--Off-White, #f7f7f6);
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.zoom_text {
+  color: var(--Charcoal, #343434);
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+
+.reactEasyCrop_Container {
+  @apply !cursor-default;
+}
+
+.reactEasyCrop_Image {
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+input[type="range"]::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 9px;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="range"]::-ms-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.reactEasyCrop_CropArea {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -54%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  box-shadow: red !important;
+  color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 350px !important;
+  border-radius: 100% !important;
+  height: 350px !important;
+}

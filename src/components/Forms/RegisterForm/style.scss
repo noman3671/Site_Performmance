@@ -1,0 +1,73 @@
+.register-modal-content {
+    @apply mt-[24px];
+    foo: bar;
+  }
+  
+  .register-content {
+    @apply flex  flex-col;
+    foo: bar;
+  }
+  
+  .register-content-form {
+    @apply gap-[32px] flex flex-col;
+    foo: bar;
+  }
+  
+  .register-content-submit {
+    @apply flex flex-col gap-[20px] items-center;
+    foo: bar;
+  }
+
+  .error-text {
+    @apply text-[14px];
+    font-family: "Montserrat";
+  }
+  
+  .modal_form_btn {
+    @apply  justify-center  gap-2 border-[color:var(--Off-White,#f7f7f6)] text-white text-xl font-medium leading-7 shadow-[0px_2px_4px_-1px_rgba(18,18,23,0.06),0px_4px_6px_-1px_rgba(18,18,23,0.08)] px-14 py-4 rounded-[56px] border-2 border-solid;
+    background: var(--Dark-Blue---Primary, #2b364b);
+    font-family: "Montserrat";
+    foo: bar;
+
+  }
+  
+  .register-content-submit__text link {
+    @apply text-center text-[color:var(--Dark-Blue---Primary,#2B364B)] text-sm font-bold leading-4 underline;
+    font-family: "Montserrat";
+    foo: bar;
+
+  }
+  
+  .register-content-submit__text {
+    color: var(--color-primary);
+    @apply text-center text-sm font-normal leading-4;
+    font-family: "Montserrat";
+    foo: bar;
+
+  }
+  
+  .register-content-links {
+    @apply gap-[25px] lg:gap-[65px] mt-[40px] flex flex-col lg:flex-row justify-evenly text-[14px] lg:text-[12px];
+    foo: bar;
+
+  }
+  .text-secondary {
+    @apply text-[color:var(--Charcoal---400,#999)] text-center text-xs not-italic font-normal leading-[normal];
+    font-family: "Montserrat";
+    foo: bar;
+
+  }
+  
+  .social_buttons {
+    @apply flex flex-col  items-center gap-[20px] mt-[40px];
+    foo: bar;
+
+  }
+  
+  .social_buttons button {
+    @apply w-[250px] lg:w-[399px] h-14 flex justify-start items-center pl-[21px] shrink-0 border-[color:var(--Charcoal---400,#999)] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.08)]  rounded-[60px] border-[0.75px] border-solid text-[color:var(--Charcoal---400,#999)] text-xs not-italic font-normal leading-[normal];
+    font-family: "Montserrat";
+    foo: bar;
+
+  }
+  

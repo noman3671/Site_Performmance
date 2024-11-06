@@ -1,0 +1,248 @@
+.background_image {
+  width: 100%;
+  height: 105vh !important;
+}
+
+.background_image .img {
+  @apply !h-[105vh];
+  width: 100% !important;
+  object-fit: cover;
+}
+
+
+
+.branding_heading {
+  @apply text-[30px] md:text-[50px] lg:text-[70px] 2xl:text-[80px] leading-[60%] md:leading-[110%];
+  color: var(--Charcoal, #343434);
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+.branding_small_heading {
+  @apply text-[18px] md:text-[24px] lg:text-[28px];
+  color: var(--Charcoal, #343434);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.branding_card_heading {
+  @apply text-[20px] sm:text-[24px];
+  color: var(--Off-white, #f7f7f6);
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  /* 26.4px */
+  text-transform: uppercase;
+}
+
+.branding_text {
+  color: var(--Off-white, #f7f7f6);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 16.8px */
+}
+
+.welcome_saddlefit {
+  @apply text-[32px] sm:text-[40px] md:text-[64px];
+  color: var(--Charcoal, #343434);
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+  /* 150% */
+  text-transform: uppercase;
+}
+
+.discover_saddle {
+  @apply text-center text-[20px] md:text-[24px];
+  color: var(--color-surface-dark-0, #000);
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+  /* 400% */
+  text-transform: uppercase;
+}
+
+.discover_para {
+  @apply text-[14px] md:text-[16px];
+  color: var(--Charcoal, #343434);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 19.2px */
+}
+
+.discover_para_second {
+  @apply text-[14px] md:text-[16px];
+  color: var(--Charcoal, #343434);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 19.2px */
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1649px) {
+  .discover_para_second {
+    font-size: 16px;
+    width: 450.961px;
+    color: #343434;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+}
+
+/* !w-[450.961px] */
+
+
+.choose_saddle {
+  @apply text-[20px] md:text-[24px];
+  color: var(--color-surface-dark-0, #000);
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+  /* 400% */
+  text-transform: uppercase;
+}
+
+.heading_saddle {
+  @apply text-[14px] md:text-[18px];
+  color: var(--color-surface-dark-0, #000);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 65px;
+  /* 400% */
+  text-transform: capitalize;
+}
+
+.check_icon {
+  border-radius: 16px;
+  border: 0.75px solid var(--SaddleFit-Blue, #5c80b6);
+  background: var(--SaddleFit-Blue, #5c80b6);
+}
+
+.precision_eng {
+  @apply text-[14px] md:text-[18px] leading-[13.945px];
+  color: var(--color-surface-dark-0, #000);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+.saddlefit_partnership {
+  @apply text-[#404c62] opacity-85 text-[20px] md:text-[40px] xl:text-[64px] w-full flex justify-center items-center md:py-20 uppercase font-normal;
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+  line-height: 96px;
+}
+
+.partnership-paragraph {
+  @apply text-white mx-auto text-center text-[18px] sm:text-[24px] flex w-[70%] justify-center items-center;
+  font-family: Montserrat;
+
+}
+
+.reach_out_heading {
+  @apply text-[28px] lg:text-[40px] 2xl:text-[64px] h-[120.969px];
+  color: var(--Off-white, #F7F7F6);
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+  text-transform: uppercase;
+}
+
+.reach_out_second_heading {
+  @apply text-[20px] flex flex-wrap md:text-[28px] w-[90%] md:w-[531px];
+  color: var(--Off-white, #F7F7F6);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.submit_btn {
+  @apply flex justify-center text-[24px] font-normal text-[#2B364B] mx-auto sm:mx-0 items-center w-[180px] sm:w-[199px] h-[60px] sm:h-[66px] mt-[38.84px];
+  padding: var(--spacing-2, 8px) var(--spacing-3, 12px);
+  gap: var(--spacing-0, 0px);
+  flex-shrink: 0;
+  border-radius: var(--radius-3xl, 360px);
+  background: var(--SaddleFit-Blue---200, #CED9E9);
+  font-family: Montserrat;
+}
+
+.saddlefit_work {
+  @apply text-[#fff] text-[28px] md:text-[40px] 2xl:text-[64px] flex justify-center items-center sm:py-10 uppercase font-normal;
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+}
+
+.work {
+  @apply text-[#5C80B6] text-[28px] md:text-[40px] 2xl:text-[64px] ml-3 2xl:ml-5 uppercase font-normal;
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+
+}
+
+.saddlefit_work_circle {
+  @apply font-bold;
+  font-family: "Barlow Condensed";
+}
+
+
+.shadow-outer {
+  border: 20px solid #9db3d3;
+  border-style: dashed;
+
+}
+
+.saddlefit_work_text {
+  @apply text-[#fff] font-normal w-[180px] sm:h-[120px] mt-5 text-center;
+  font-family: "Montserrat";
+}
+
+.saddlefit_work_backgroundImage {
+  background-image: url('../../assets/images/saddlefit_work.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+
+}
+
+.backgroundImage_partnership {
+  background-image: url('../../assets/images/partnershipImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.saddlefit-partnership {
+  @apply text-[#fff] text-[28px] md:text-[40px] 2xl:text-[64px] uppercase font-normal;
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+}
+
+.saddlefit_partnership_text {
+  @apply text-[#fff] text-[14px] md:text-[16px] font-normal w-[80%] 2xl:w-[180px];
+  font-family: "Montserrat";
+}

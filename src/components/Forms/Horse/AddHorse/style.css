@@ -1,0 +1,17 @@
+.horse-profile-form__field {
+  @apply h-[56px] relative ;
+
+  foo: bar;
+}
+
+.horse-add-save-btn {
+  @apply w-[160px] h-[56px] capitalize shadow-md text-white rounded-full;
+  font-size: 20px !important;
+  font-family: "Montserrat";
+}
+
+.horse-add-cancel-btn {
+  @apply w-[182px] h-[56px] capitalize shadow-md border-2 border-[#2B364B]  rounded-full;
+  font-size: 20px !important;
+  font-family: "Montserrat";
+}

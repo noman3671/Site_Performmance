@@ -1,0 +1,181 @@
+.image-box {
+  @apply w-[83.774px] h-[83px];
+  border: 1px solid #5c80b6;
+  border-radius: 10px;
+}
+
+.mainHeading {
+  @apply text-[64px];
+}
+
+.clay-card-saddleDetails {
+  @apply w-[48%] h-[700px] flex justify-center items-center rounded-[8.716px] border-[color:var(--SaddleFit-Blue,#5c80b6)] backdrop-blur-[15.252732276916504px]  border-2 border-solid;
+}
+
+.saddle-details {
+  @apply text-[#343434] w-[100%] 2xl:w-[545px] text-[44px] md:text-[50px] xl:text-[64px] leading-[70px] font-bold min-h-[210px];
+  font-family: "Barlow Condensed";
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+}
+
+@media screen and (min-device-width: 1280px) and (max-device-width: 1285px) { 
+   .saddle-details{
+    @apply text-[60px];
+   }
+}
+
+
+.shoppingcart_success_message{
+  @apply text-[16px] text-center mt-[14px];
+  font-family: "Montserrat";
+
+}
+
+
+.saddle-details_mobile {
+  @apply text-[#343434] w-[90%]  mx-auto text-center text-[28px] 2xl:text-[64px] leading-[30px] font-bold h-auto;
+  font-family: "Barlow Condensed";
+}
+
+.addToCart_btn {
+  @apply rounded-full w-[100px] xl:w-[120px] h-[40px] hover:!opacity-100 transition-opacity duration-200;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+  font-family: "Montserrat";
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.addToCart_btn_mobile {
+  @apply rounded-full  w-full sm:w-[120px] h-[40px] hover:!opacity-100 transition-opacity duration-200;
+
+  color: var(--color-text);
+  font-family: "Montserrat";
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.buynow_btn {
+  @apply rounded-full w-[90px] xl:w-[103px] h-[40px] hover:!opacity-100;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+  font-family: "Montserrat";
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.buynow_btn_mobile {
+  @apply rounded-full w-full ml-0 sm:ml-5 sm:w-[103px] h-[40px] hover:!opacity-100;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+  font-family: "Montserrat";
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.saddle_score {
+  @apply text-[#5D5D5D] text-[18px] font-bold mt-[2px];
+  font-family: "Montserrat";
+}
+
+.saddle_text {
+  @apply text-[12px];
+  font-family: "Montserrat";
+}
+
+.saddle_information {
+  @apply text-[#343434] font-bold text-[28px];
+  font-family: "Montserrat";
+}
+
+.saddle_para {
+  @apply text-[#343434] text-[14px] mt-[20px];
+  font-family: "Montserrat";
+}
+
+.saddle_para_mobile {
+  @apply text-[#343434] text-[14px] mt-[12px];
+  font-family: "Montserrat";
+}
+.saddle_codesection {
+  @apply flex  mt-[24px] justify-between items-start;
+}
+
+.saddle_report {
+  @apply flex flex-col  items-end gap-y-[3px];
+  font-family: "Montserrat";
+}
+
+.saddle_report_mobile {
+  @apply flex flex-col  gap-y-[3px];
+  font-family: "Montserrat";
+}
+
+.saddle_price {
+  @apply flex text-[14px] xl:text-[16px] flex-col gap-y-[3px];
+  font-family: "Montserrat";
+}
+
+.price {
+  @apply text-[18px] xl:text-[20px] text-[#343434] font-bold;
+}
+
+.vectorline {
+  @apply !mx-auto w-[90%] 2xl:w-[1338px] flex justify-center  mt-[48px];
+}
+
+.vectorline_mobile {
+  @apply !mx-auto w-[90%] flex justify-center  mt-[32px];
+}
+
+.details_title_text {
+  @apply rounded-[86.287px]  absolute top-[-15px] left-12 uppercase text-[#fff] text-[10.459px] py-[6.97px] px-[13.9px] font-bold;
+  font-family: "Montserrat";
+  background: var(--Gradient, linear-gradient(90deg, #5a7db2 0%, #2a354b 100%));
+}
+
+.details_title_text_mobile {
+  @apply rounded-[86.287px]  uppercase text-[#fff] text-[10.459px] py-[6.97px] px-[13.9px] font-bold;
+  font-family: "Montserrat";
+  background: var(--Gradient, linear-gradient(90deg, #5a7db2 0%, #2a354b 100%));
+}
+
+.saddle_size {
+  @apply rounded-full md:mt-2 pl-3 flex justify-center items-center  w-[120px] xl:w-[140px] h-[40px];
+
+  font-family: "Montserrat";
+  font-size: 14px !important;
+  border: 2px solid var(--Dark-Blue---Primary, #2b364b);
+  background-color: white;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.back_to_homepage {
+  @apply text-[12px] mb-5 w-[90%]   flex items-center mx-auto;
+
+  font-family: "Montserrat";
+}
+
+.back_to_homepage_mobile {
+  @apply text-[12px] mb-5 w-[90%] lg:w-[1338px] md:hidden   flex items-center mx-auto;
+  font-family: "Montserrat";
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,4 @@
+.delete-form__text {
+    @apply text-[14px] leading-[16px] text-[var[--color-charcoal]] font-normal;
+font-family: "Montserrat";
+}

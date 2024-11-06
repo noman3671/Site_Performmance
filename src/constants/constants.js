@@ -1,0 +1,1 @@
+export const img_upload_base_path = `https://${import.meta.env.VITE_REACT_APP_S3_BUCKET}.s3.us-east-1.amazonaws.com/public/`

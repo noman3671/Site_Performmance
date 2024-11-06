@@ -1,0 +1,39 @@
+.img_bg {
+  background: linear-gradient(40deg, #f99b4a 15%, #dd3071 50%, #c72e8d 85%);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  padding: 4px;
+  box-sizing: border-box; 
+
+}
+
+.main_img_container{
+    font-family: "Montserrat";
+
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.likes_container{
+    font-family: "Montserrat";
+    
+}
+
+.scrollbar_remove::-webkit-scrollbar{
+  display: none;
+}
+
+.scrollbar_remove{
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+  }

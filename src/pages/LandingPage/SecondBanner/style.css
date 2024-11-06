@@ -1,0 +1,130 @@
+.video_content_heading {
+  color: var(--color-surface-dark-0, #000);
+  font-family: "Barlow Condensed";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+  text-transform: uppercase;
+}
+
+.video_content_para {
+  color: var(--Charcoal, #343434);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  overflow: hidden;
+
+}
+
+
+.video_content_btn {
+  display: inline-flex;
+  height: 56px;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 56px;
+  /* border: 2px solid var(--Off-White, #f7f7f6); */
+  background: var(--Dark-Blue---Primary, #2b364b);
+  box-shadow: 0px 4px 6px -1px rgba(18, 18, 23, 0.08),
+    0px 2px 4px -1px rgba(18, 18, 23, 0.06);
+}
+
+/* ResponsiveImage.css */
+.vectorImageVisible {
+  display: block;
+}
+
+@media (min-width: 1025px) {
+  .vectorImageVisible {
+    display: none;
+  }
+}
+
+.curved-div {
+  width: 400px;
+  height: 300px;
+  background-image: url("../../assets/images/VectorRightIcon.png");
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 70% 100%, 0% 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.secondBanner{
+  background: radial-gradient(104.84% 91.46% at 34.11% 13.88%, #FFF 25.91%, #CDCDCD 100%);
+}
+
+.testing {
+  width: 500px;
+  height: 1331px;
+  transform: rotate(-90deg);
+  flex-shrink: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image-container{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 40px;
+}
+
+.image-container img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mix-blend-mode: screen;
+}
+
+
+.svg-container {
+  position: relative;
+  width: 375px;
+  height: 298px;
+  overflow: hidden;
+}
+
+.masked-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  mask: url(#videoMask);
+  -webkit-mask: url(#videoMask);
+
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
+.svg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}

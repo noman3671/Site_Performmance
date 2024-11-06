@@ -1,0 +1,23 @@
+.gauge-container {
+  position: relative;
+}
+
+.gauge-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Barlow Condensed";
+  color: var(--color-primary);
+  font-size: 23px;
+}
+
+
+.gauge-horseName {
+  text-align: center;
+  font-family: "Barlow Condensed";
+  color: var(--color-primary);
+  font-size: 24px;
+
+}

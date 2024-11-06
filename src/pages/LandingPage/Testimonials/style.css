@@ -1,0 +1,871 @@
+
+
+.hide-scroll-bar {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+  overflow-y: hidden;
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none !important;
+}
+
+.user_title__text {
+  font-family: "Montserrat";
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.user_subtitle__text {
+  font-family: "Montserrat";
+}
+
+.user_decs__text {
+  font-family: "Montserrat";
+}
+
+
+
+.google_reviews_cards {
+  transition: transform 0.3s;
+}
+
+.google_reviews_cards:hover {
+  transform: rotateY(10deg) rotateX(5deg);
+}
+
+.main-container{
+  width: calc(100% - 2rem); 
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 450px;
+    overflow: hidden;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.google-review-container {
+ 
+  border: 1.04px solid rgba(247, 247, 246, 0.28);
+  background: rgba(27, 38, 58, 0.48);
+}
+
+.main-google-review-section .slick-dots {
+  @apply  mt-[-130px] md:mt-[-90px] lg:mt-0;
+  width: 100%;
+  margin-left: 220px;
+  }
+
+  .view-more-btn {
+    @apply flex items-center cursor-pointer text-white rounded-[56px]  border-2 border-solid border-[#F7F7F6] px-6 py-2 bg-transparent text-[16px] font-medium leading-normal;
+    font-family: "Montserrat";
+  }
+
+
+  .icon-size {
+    width: 60px; 
+  }
+  
+  @media (min-width: 1024px) {
+    .icon-size {
+      width: 140px !important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .icon-size {
+      width: 80px; 
+    }
+  }
+
+
+
+
+
+.review-description{
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
+@media (min-width: 1280px) {
+ 
+  
+  .google-slider-section .slick-dots li {
+    margin: 0 5px;
+  }
+
+  .google-slider-section .slick-dots li button {
+    width: 1rem;
+    height: 1rem;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    position: relative;
+  }
+
+  .google-slider-section .slick-dots li button:before {
+    content: '';
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: transparent;
+  }
+
+  .google-slider-section .slick-dots li.slick-active button:before {
+    background-color: white;
+    border-color: white;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .google-slider-section .slick-dots {
+   
+    left: -220px;
+
+    
+    padding-left: 10px;
+  }
+}
+
+
+@media (max-width: 1280px) {
+
+  .google-slider-section .slick-dots li {
+    margin: 0 1px;
+  }
+
+  .google-slider-section .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    position: relative; 
+  }
+
+  .google-slider-section .slick-active>button{
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+  .google-slider-section .slick-dots li button:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: transparent;
+  }
+
+  .google-slider-section .slick-dots li.slick-active button:before {
+    background-color: white;
+    border-color: white;
+    width: 10px;
+    height: 10px;
+  }
+
+  .google-slider-section .slick-dots {
+    
+    left: -220px;
+    padding-left: 10px;
+  }
+}
+
+ @media (max-width: 768px) {
+
+  .google-slider-section .slick-dots li {
+    margin: 0 -1px;
+  }
+
+  .google-slider-section .slick-active>button{
+    width: 8.45px !important;
+    height: 8.45px !important;
+  }
+
+  .google-slider-section .slick-dots li button {
+    width: 8.45px;
+    height: 8.45px;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    position: relative; 
+  }
+
+  .google-slider-section .slick-dots li button:before {
+    content: '';
+    display: block;
+    width: 8.45px;
+    height: 8.45px;
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: transparent;
+  }
+
+  .google-slider-section .slick-dots li.slick-active button:before {
+    background-color: white;
+    border-color: white;
+    width: 8.45px;
+    height: 8.45px;
+  }
+
+
+} 
+
+
+
+.cards-container {
+  background: linear-gradient(-180deg, #5C80B6 -110.57%, #283850 100%);
+}
+ 
+  .slick-track {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: stretch !important;
+    
+  }
+
+  .google_head_text {
+    font-family: "Barlow Condensed" !important;
+  }
+
+  @media (min-width:768px) {
+    .center .slick-center .card-container{
+      margin: 0px 0px;
+      width: 526px !important;
+      height: 248px !important;
+      padding: 28.67px !important;
+      border-radius: 43.659px !important;
+
+    }
+
+    
+    .card-container{
+      padding: 23.06px !important
+    }
+
+    .slick-slide > div{
+      margin: 0 10px;
+    }
+  
+    .center .card-container{
+      @apply my-[20px];
+      width: 423px !important;
+      height: 206px !important;
+      border-radius: 35.119px !important;
+
+    }
+
+    .center .slick-center .card-container .text-container{
+      width: 323px !important;
+      height: 191px !important;
+      margin-left: 30.82px !important;
+
+    }
+
+
+    .text-container{
+      width: 260px !important;
+      height: 160px !important;
+      margin-left: 24.79px !important;
+    }
+
+    .center .slick-center .card-container .profile-image{
+      width: 113.959px !important;
+      height: 113.959px !important;
+    }
+
+    .profile-image{
+      width: 91.668px !important;
+      height: 91.668px !important;
+    }
+
+    .center .slick-center .card-container .review-title{
+      font-size: 32px !important;
+
+    }
+
+    .review-title{
+      font-size: 24px !important;
+
+    }
+
+     .center .slick-center .card-container .review-time{
+        font-size: 14px !important;
+    }
+
+    .review-time{
+      font-size: 12px !important;
+    }
+
+    .center .slick-center .card-container .review-description{
+      font-size: 16px !important;
+      margin-top: 11.47px !important;
+
+    }
+
+    .review-description{
+      font-size: 14px !important;
+      margin-top: 9.22px !important;
+    }
+
+    .center .slick-center .card-container .google-icon{
+      bottom: 50px !important;
+      left: 75px !important;
+    }
+
+    .google-icon{
+      bottom: 40px !important;
+      left: 55px !important;
+    }
+
+   
+  }
+
+
+
+  @media (min-width:768px) {
+    .center .slick-center .cactus_card_container{
+      margin: 0px 0px;
+      width: 526px !important;
+      height: 248px !important;
+      padding: 28.67px !important;
+      border-radius: 43.659px !important;
+
+    }
+
+    
+    .cactus_card_container{
+      padding: 23.06px !important
+    }
+
+    .slick-slide > div{
+      margin: 0 10px;
+    }
+  
+    .center .cactus_card_container{
+      @apply my-[20px];
+      width: 423px !important;
+      height: 206px !important;
+      /* margin: 20px 0px; */
+      border-radius: 35.119px !important;
+
+    }
+
+    .center .slick-center .cactus_card_container .text-container{
+      width: 323px !important;
+      height: 191px !important;
+      margin-left: 30.82px !important;
+
+    }
+
+
+    .text-container{
+      width: 260px !important;
+      height: 160px !important;
+      margin-left: 24.79px !important;
+    }
+
+    .center .slick-center .cactus_card_container .profile-image{
+      width: 113.959px !important;
+      height: 113.959px !important;
+    }
+
+    .profile-image{
+      width: 91.668px !important;
+      height: 91.668px !important;
+    }
+
+    .center .slick-center .cactus_card_container .review-title{
+      font-size: 32px !important;
+
+    }
+
+    .review-title{
+      font-size: 24px !important;
+
+    }
+
+     .center .slick-center .cactus_card_container .review-time{
+        font-size: 14px !important;
+    }
+
+    .review-time{
+      font-size: 12px !important;
+    }
+
+    .center .slick-center .cactus_card_container .review-description{
+      font-size: 16px !important;
+      margin-top: 11.47px !important;
+
+    }
+
+    .review-description{
+      font-size: 14px !important;
+      margin-top: 9.22px !important;
+    }
+
+    .center .slick-center .cactus_card_container .google-icon{
+      bottom: 50px !important;
+      left: 75px !important;
+    }
+
+    .google-icon{
+      bottom: 40px !important;
+      left: 55px !important;
+    }
+
+   
+  }
+
+  @media (max-width:767px) {
+    .center .slick-center .card-container{
+      margin: 0px 0px;
+      width: 448px !important;
+      height: 192px !important;
+      padding: 24.45px !important;
+      border-radius: 25.674px !important;
+
+    }
+  
+   
+    .center .card-container{
+      @apply my-[30px];
+      width: 360px !important;
+      height: 132px !important;
+      padding: 19.67px !important;
+      border-radius: 20.652px !important;
+
+    }
+
+    .slick-slide > div{
+      margin: 0 10px;
+    }
+  
+
+    .center .slick-center .card-container .text-container{
+      width: 323px !important;
+       margin-left: 26.29px !important;
+        height: 144px !important;
+    }
+
+
+    .text-container{
+      height: 93px !important;
+      width: 260px !important;
+      margin-left: 21.14px !important;
+    }
+
+    .center .slick-center .card-container .profile-image{
+      width: 97.195px !important;
+      height: 97.195px !important;
+    }
+
+    .profile-image{
+      width: 78.183px !important;
+      height: 78.183px !important;
+    }
+
+    .center .slick-center .card-container .review-title{
+      font-size: 24px !important;
+
+    }
+
+    .review-title{
+      font-size: 22.656px;
+
+    }
+
+    .center .slick-center .card-container .review-time{
+      font-size: 14px;
+  }
+
+  .review-time{
+    font-size: 11.328px;
+   }
+
+   .center .slick-center .card-container .review-description{
+    font-size: 12px !important;
+    margin-top: 7.87px !important;
+
+  }
+
+  .review-description{
+    font-size: 6.884px;
+    margin-top: 9.22px !important;
+  }
+
+  .center .slick-center .card-container .google-icon{
+    bottom: 30px !important;
+    left: 60px !important;
+  }
+
+  .google-icon{
+    bottom: 15px !important;
+    left: 45px !important;
+  }
+
+  }
+
+
+
+  @media (max-width:767px) {
+    .center .slick-center .cactus_card_container{
+      margin: 0px 0px;
+      width: 448px !important;
+      height: 192px !important;
+      padding: 24.45px !important;
+      border-radius: 25.674px !important;
+
+    }
+  
+   
+    .center .cactus_card_container{
+      @apply my-[30px];
+      width: 360px !important;
+      height: 132px !important;
+      padding: 19.67px !important;
+      border-radius: 20.652px !important;
+
+    }
+
+    .slick-slide > div{
+      margin: 0 10px;
+    }
+  
+
+    .center .slick-center .cactus_card_container .text-container{
+      width: 323px !important;
+       margin-left: 26.29px !important;
+        height: 144px !important;
+    }
+
+
+    .text-container{
+      height: 93px !important;
+      width: 260px !important;
+      margin-left: 21.14px !important;
+    }
+
+    .center .slick-center .cactus_card_container .profile-image{
+      width: 97.195px !important;
+      height: 97.195px !important;
+    }
+
+    .profile-image{
+      width: 78.183px !important;
+      height: 78.183px !important;
+    }
+
+    .center .slick-center .cactus_card_container .review-title{
+      font-size: 24px !important;
+
+    }
+
+    .review-title{
+      font-size: 22.656px;
+
+    }
+
+    .center .slick-center .cactus_card_container .review-time{
+      font-size: 14px;
+  }
+
+  .review-time{
+    font-size: 11.328px;
+   }
+
+   .center .slick-center .cactus_card_container .review-description{
+    font-size: 12px !important;
+    margin-top: 7.87px !important;
+
+  }
+
+  .review-description{
+    font-size: 6.884px;
+    margin-top: 9.22px !important;
+  }
+
+  .center .slick-center .cactus_card_container .google-icon{
+    bottom: 30px !important;
+    left: 60px !important;
+  }
+
+  .google-icon{
+    bottom: 15px !important;
+    left: 45px !important;
+  }
+
+  }
+
+
+  @media (max-width:640px) {
+    .center .slick-center .card-container{
+      margin: 0px 10px !important;
+      width: 305px !important;
+      height: 117px !important;
+      padding: 12.27px !important;
+      border-radius: 12.882px !important;
+    }
+  
+
+    .google_head_text{
+      font-size: 16px !important;
+    }
+  
+    .center .card-container{
+      @apply my-[10px];
+      width: 243px !important;
+      height: 95px !important;
+      padding: 9.81px !important;
+      border-radius: 10.301px !important;
+   }
+
+   .slick-slide > div{
+    margin: 0 1.5px;
+  }
+
+
+    .center .slick-center .card-container .text-container{
+      width: 218px !important;
+       margin-left: 13.19px !important;
+        height: 93px !important;
+    }
+
+
+    .text-container{
+      height: 76px !important;
+      width: 260px !important;
+      margin-left: 10.14px !important;
+    }
+
+    .center .slick-center .card-container .profile-image{
+      width: 48.769px !important;
+      height: 48.769px !important;
+      margin-top: -45px !important;
+    }
+
+    .profile-image{
+      width: 38.995px !important;
+      height: 38.995px !important;
+      margin-top: -38px !important;
+
+    }
+
+    .center .slick-center .card-container .review-title{
+      font-size: 12px !important;
+
+    }
+
+    .review-title{
+      font-size: 8.656px !important;
+
+    }
+
+
+    .center .slick-center .card-container .review-time{
+      font-size: 9px !important;
+  }
+
+  .review-time{
+    font-size: 6.328px !important;
+   }
+
+   .center .slick-center .card-container .review-description{
+    font-size: 10px !important;
+    margin-top: 4.91px !important;
+
+  }
+
+  .review-description{
+    font-size: 6.884px;
+    margin-top: 2.22px !important;
+  }
+
+  .center .slick-center .card-container .google-icon{
+    bottom: 52px !important;
+    left: 30px !important;
+    width: 13.717px !important;
+    height: 13.717px !important;
+  }
+
+  .google-icon{
+    bottom: 42px !important;
+    left: 22px !important;
+    width: 13.717px !important;
+    height: 13.717px !important;
+  }
+  }
+
+
+  @media (max-width:640px) {
+    .center .slick-center .cactus_card_container{
+      margin: 0px 10px !important;
+      width: 305px !important;
+      height: 117px !important;
+      padding: 12.27px !important;
+      border-radius: 12.882px !important;
+    }
+  
+
+    .google_head_text{
+      font-size: 16px !important;
+    }
+  
+    .center .cactus_card_container{
+      @apply my-[10px];
+      width: 243px !important;
+      height: 95px !important;
+      padding: 9.81px !important;
+      border-radius: 10.301px !important;
+   }
+
+   .slick-slide > div{
+    margin: 0 1.5px;
+  }
+
+
+    .center .slick-center .cactus_card_container .text-container{
+      width: 218px !important;
+       margin-left: 13.19px !important;
+        height: 93px !important;
+    }
+
+
+    .text-container{
+      height: 76px !important;
+      width: 260px !important;
+      margin-left: 10.14px !important;
+    }
+
+    .center .slick-center .cactus_card_container .profile-image{
+      width: 48.769px !important;
+      height: 48.769px !important;
+      margin-top: -45px !important;
+    }
+
+    .profile-image{
+      width: 38.995px !important;
+      height: 38.995px !important;
+      margin-top: -38px !important;
+
+    }
+
+    .center .slick-center .cactus_card_container .review-title{
+      font-size: 12px !important;
+
+    }
+
+    .review-title{
+      font-size: 8.656px !important;
+
+    }
+
+
+    .center .slick-center .cactus_card_container .review-time{
+      font-size: 9px !important;
+  }
+
+  .review-time{
+    font-size: 6.328px !important;
+   }
+
+   .center .slick-center .cactus_card_container .review-description{
+    font-size: 10px !important;
+    margin-top: 4.91px !important;
+
+  }
+
+  .review-description{
+    font-size: 6.884px;
+    margin-top: 2.22px !important;
+  }
+
+  .center .slick-center .cactus_card_container .google-icon{
+    bottom: 52px !important;
+    left: 30px !important;
+    width: 13.717px !important;
+    height: 13.717px !important;
+  }
+
+  .google-icon{
+    bottom: 42px !important;
+    left: 22px !important;
+    width: 13.717px !important;
+    height: 13.717px !important;
+  }
+  }
+
+ 
+  .card-container {
+    border: 1.04px solid rgba(247, 247, 246, 0.28);
+    background: #283850;
+    align-items: center;
+    gap: 24.791px;
+  }
+
+  .cactus_card_container{
+    border-radius: 27.984px;
+border: 0.666px solid #2B364B;
+background: var(--White, #FFF);
+box-shadow: 0px 2.564px 15.383px 0px rgba(0, 0, 0, 0.08);
+  }
+  
+  .slick-track{
+      margin: 20px 0px;
+  }
+  
+  .main-container {
+      background: linear-gradient(-180deg, #5C80B6 -110.57%, #283850 100%);
+      
+    }
+
+ 
+
+  /* slick-slide slick-active slick-center slick-cloned
+  class="slick-slide slick-cloned" */
+
+ 
+
+
+ /* .slick-list{
+  height: 247px;
+  overflow: hidden;
+  background-color: greenyellow;
+ }
+
+ @media (max-width:639px) {
+  .slick-list{
+    height: 150px;
+    overflow: hidden;
+   }
+ } */
+
+ 
+ /* .slick-list, .slick-slider, .slick-track{
+  padding: 1.5rem 0;
+  height: 270px;
+}
+
+@media (max-width:639px) {
+  .slick-list, .slick-slider, .slick-track{
+    height: 170px;
+  }
+} */
+
+
+
+
+

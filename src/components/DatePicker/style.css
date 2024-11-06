@@ -1,0 +1,110 @@
+.scrollbar::-webkit-scrollbar {
+  display: none !important;
+}
+
+.rmdp-input {
+  text-align: center !important;
+  height: 56px !important;
+  border: none !important;
+  outline: none !important;
+  width: 257px !important;
+  border-radius: 29px !important;
+  position: relative !important;
+}
+
+
+
+.rmdp-week-day {
+  color: #2b364b !important;
+  font-family: "Montserrat" !important;
+  font-weight: 500 !important ;
+}
+
+.rmdp-day-picker > div {
+  @apply px-[20px];
+  width: 427px !important;
+}
+
+.rmdp-header {
+  @apply border-b border-[#999] py-[16px];
+  font-family: "Montserrat";
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: var(--color-charcoal) !important;
+}
+
+.rmdp-day span {
+  color: var(--color-charcoal);
+  font-family: "Montserrat" !important;
+  font-weight: 500 !important;
+  line-height: 22px !important;
+}
+
+.rmdp-day.rmdp-selected span:not(.highlight) {
+  background-color: #2b364b !important;
+  color: #fff !important;
+}
+
+.child {
+  position: absolute !important;
+  top: 16px !important;
+  right: 22px !important;
+}
+
+.rmdp-container {
+  text-align: center !important;
+  height: 56px !important;
+  width: 257px !important;
+}
+
+.rmdp-container:focus {
+  outline: none !important;
+}
+
+.calender-input {
+  @apply pl-[15px] text-[16px];
+  font-family: "Montserrat" !important;
+}
+
+.hidden-placeholder {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+}
+
+.hidden-placeholder::-webkit-datetime-edit-text,
+.hidden-placeholder::-webkit-datetime-edit-month-field,
+.hidden-placeholder::-webkit-datetime-edit-day-field,
+.hidden-placeholder::-webkit-datetime-edit-year-field {
+  display: none !important;
+}
+
+.custom-input {
+  width: 427px !important;
+  border-radius: 30px !important;
+  height: 56px !important;
+  text-align: center !important;
+  outline: none !important;
+}
+
+.custom-input:focus {
+  outline: none !important;
+}
+
+.month_head {
+  font-family: "Montserrat";
+  color: var(--color-primary) !important;
+}
+
+.apply_btn {
+  font-family: "Montserrat";
+}
+
+.months_text {
+  font-family: "Montserrat";
+  color: var(--color-charcoal) !important;
+}
+
+.rmdp-calendar{
+  width: 300px;
+}

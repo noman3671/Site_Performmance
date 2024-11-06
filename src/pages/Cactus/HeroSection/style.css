@@ -1,0 +1,55 @@
+.cactus_backgroundImage {
+  @apply h-[695px] md:h-[943px] lg:h-[37.875rem];
+  background-image: url("../../../assets/icons/cactus_background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.cactus_subtitle {
+  @apply text-[16px] md:text-[28px];
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cactus_title {
+  @apply text-[40px] md:text-[96px];
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.cactus_description {
+  @apply w-[327px] md:w-[757px] text-[16px] md:text-[28px];
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Montserrat;  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cactus_story_btn {
+  @apply !h-[36px] !w-[124px] md:!w-[209px] md:!h-[51.451px] !text-[16px] md:!text-[20px];
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 8px !important;
+  border-radius: 56px !important;
+  border: var(--spacing-05, 2px) solid var(--White, #fff) !important;
+  background: var(--Dark-Blue---Primary, #2b364b) !important;
+  box-shadow: 0px 4px 6px -1px rgba(18, 18, 23, 0.08),
+    0px 2px 4px -1px rgba(18, 18, 23, 0.06) !important;
+  color: var(--White, #fff) !important;
+  font-family: Montserrat !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 28px !important;
+}

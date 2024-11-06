@@ -1,0 +1,62 @@
+.notification-overlay {
+  position: fixed;
+  inset: 0px;
+  background: rgba(0, 0, 0, 0.69);
+  z-index: 100;
+}
+
+.custom-overlay {
+  position: fixed;
+  inset: 0px;
+  background: rgba(0, 0, 0, 0.39);
+  z-index: 100;
+}
+
+.notification-modal {
+  inset: 50% auto auto 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  outline: none;
+}
+
+.modal_form_btn {
+  @apply justify-center  gap-2 border-[color:var(--Off-White,#f7f7f6)] text-white text-xl font-medium leading-7 shadow-[0px_2px_4px_-1px_rgba(18,18,23,0.06),0px_4px_6px_-1px_rgba(18,18,23,0.08)] px-14 py-4 rounded-[56px] border-2 border-solid;
+  background: var(--Dark-Blue---Primary, #2b364b);
+  font-family: "Montserrat";
+}
+
+.notification-content {
+  @apply scale-[0.6] md:scale-[0.7] xl:scale-[0.8] 2xl:scale-[0.9] bg-[#fff];
+  /* // width: 500px; */
+  border-radius: 12px;
+  /* background: #fff; */
+  box-shadow: 0 4px 64px 0 rgba(0, 0, 0, 0.65);
+  /* overflow: auto; */
+  outline: none;
+  padding: 40px;
+}
+
+.notification-content__title {
+  @apply uppercase leading-[110%] text-center font-bold text-[60px];
+
+  color: var(--color-primary);
+  font-family: "Barlow Condensed";
+}
+
+.notification-content__description {
+  @apply  leading-[110%] text-center my-5 text-[18px];
+
+  color: var(--color-primary);
+  font-family: "Montserrat";
+}
+
+.notification-content__close-icon {
+  @apply w-[11.111px] h-[11.111px]  absolute right-6 top-5 cursor-pointer;
+  foo: bar;
+}
+
+.simple-content-icon {
+  @apply my-[25px] text-transparent;
+  foo: bar;
+}

@@ -1,0 +1,150 @@
+.css-13cymwt-control {
+  border-radius: 20px !important;
+  position: relative !important;
+}
+.css-1nmdiq5-menu {
+  border-radius: 8px !important;
+  position: absolute !important;
+  z-index: 10 !important;
+}
+
+.Select-menu::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.react-select__placeholder {
+  padding-top: 15px !important ;
+  color: #999 !important;
+  font-size: 14px !important;
+}
+
+.Select-menu {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+.css-1nmdiq5-menu::before,
+.css-1nmdiq5-menu::after,
+.css-1nmdiq5-menu {
+  max-height: none !important;
+  overflow-y: hidden !important;
+}
+.ccss-13cymwt-control:active {
+  border-radius: 100px !important;
+  height: 56px !important;
+}
+
+.css-13cymwt-control:focus {
+  border-radius: 100px !important;
+  height: 56px !important ;
+}
+
+.react-select__value-container {
+  /* width: 100% !important; */
+  /* flex-wrap: nowrap !important; */
+  /* background-color: red !important; */
+}
+
+.css-1dimb5e-singleValue {
+  margin-top: 12px !important;
+}
+
+.select_main_container .react-select__option {
+  padding: 0px !important;
+  padding-left: 16px !important;
+}
+
+/* .react-select__menu-list{
+  background-color: blue !important;
+} */
+
+.select_main_container .react-select__menu {
+  padding: 20px 0px;
+}
+
+.select_main_container .react-select__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* .react-select__menu::-webkit-scrollbar {
+  display: none !important;
+} */
+
+.select_horse_heading {
+  color: var(--Dark-Blue---Primary, #2b364b);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.select_container {
+  display: flex;
+  padding: var(--spacing-4, 16px) var(--spacing-6, 24px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: var(--spacing-4, 16px);
+  border: var(--spacing-px, 1px) solid rgba(43, 54, 75, 0.32);
+}
+
+.no_horse_profile_found {
+  color: var(--Dark-Blue---Primary, #2b364b);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.btn_horse_profile {
+  display: flex !important;
+  /* padding: var(--spacing-2, 8px) var(--spacing-3, 12px) !important; */
+  justify-content: center !important;
+  align-items: center !important;
+  gap: var(--spacing-0, 0px) !important;
+  align-self: stretch !important;
+  border-radius: 450px !important;
+  border: 1px solid var(--White, #fff) !important;
+  background: var(--Dark-Blue---Primary, #2b364b) !important;
+  box-shadow: 0px 1px 2px 0px rgba(18, 18, 23, 0.05) !important;
+  color: var(--White, #fff) !important;
+  font-family: Montserrat !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+  cursor: pointer !important;
+}
+
+.non_user > .react-select__menu{
+  width: auto !important;
+  padding: 24px !important;
+  margin-top: 8px !important;
+}
+
+.non_user > .react-select__menu-notice{
+  padding: 0px !important
+}
+
+.non_user > .react-select__menu-list{
+  padding: 0px !important
+
+}
+
+/* .non_user > .css-1pejc3e-menu{
+  margin: 0px !important;
+} */
+
+.react-select__menu-notice{
+  padding: 0px !important;
+}
+

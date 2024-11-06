@@ -1,0 +1,36 @@
+.favorite-saddle__title {
+  @apply text-[color:var(--color-primary)] w-[225px] md:h-[188px] md:w-auto md:h-auto text-[40px] lg:text-[64px] font-bold leading-[110%] uppercase;
+  font-family: "Barlow Condensed";
+}
+
+.favorite-text {
+  @apply pt-[20px] text-[color:var(--Charcoal---800,#484848)] text-sm font-normal leading-[120%] md:block hidden;
+  font-family: "Montserrat";
+}
+
+.favorite-text_mobile{
+  @apply  pt-[20px] text-[color:var(--Charcoal---800,#484848)] text-sm font-normal leading-[120%] block md:hidden;
+  font-family: "Montserrat";
+}
+
+.no_favorite_card {
+  @apply text-[#343434] mt-20 text-[24px] font-bold text-center;
+  font-family: "Montserrat";
+}
+
+.favorite-form__field {
+  @apply h-[56px] relative w-full md:w-[257px];
+}
+
+.clay-card-favorite {
+  @apply flex flex-col justify-center items-center mt-[63px] w-[350px] md:w-[650px] h-[300px] md:h-[260px] rounded-[8.716px] border-[color:var(--SaddleFit-Blue,#5c80b6)] backdrop-blur-[15.252732276916504px]  border-2 border-solid;
+}
+
+.clay-card-favoriteimage {
+  @apply flex flex-col justify-center items-center mt-[63px] w-[350px] md:w-[650px] h-[300px] md:h-[260px] rounded-[8.716px] border-[#999] backdrop-blur-[15.252732276916504px]  border-2 border-solid;
+  foo: bar;
+}
+
+.saddle_btn_fav {
+  @apply  md:w-[410px] justify-between items-center hidden md:flex;
+}

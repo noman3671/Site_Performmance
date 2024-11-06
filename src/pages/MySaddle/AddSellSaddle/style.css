@@ -1,0 +1,115 @@
+.add_saddle_detail-form__field {
+  @apply !h-[56px] relative;
+}
+
+.add_saddle_description-form__field {
+  @apply relative mt-[31px] lg:!mt-[68px];
+}
+
+.cancel_btn {
+  @apply rounded-full w-full lg:w-[182px] px-[23px] py-[16px] lg:px-[56px] lg:py-[16px];
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-size: 20px !important;
+  flex-shrink: 0;
+  border: 2px solid var(--Dark-Blue---Primary, #2b364b);
+}
+
+
+.react-select__indicators{
+  height: 100%;
+}
+
+.save_exit_btn {
+  @apply rounded-full w-full mt-5 lg:mt-0 lg:w-[222px] h-[56px];
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+  font-family: "Montserrat";
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1467px) {
+  .formheader {
+    @apply flex flex-wrap;
+  }
+}
+
+@media only screen and (max-width: 1467px) {
+  .formheader {
+    @apply flex flex-wrap;
+  }
+}
+
+.saddle_overview {
+  @apply text-[12px] text-[#717171];
+  font-family: "Montserrat";
+}
+
+.saddle_container {
+  @apply flex w-[90%]  2xl:w-[1338px] mt-[150px] lg:mt-[100px]    items-center cursor-pointer hover:font-bold hover:text-[#5C80B6];
+}
+
+.sell_saddle_select_btn {
+  @apply rounded-full h-[56px] w-[150px] lg:w-[206px];
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+  font-family: "Montserrat";
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.sell_saddle_delete_btn {
+  @apply rounded-full w-[140px] sm:w-[130px] lg:w-[179px] h-[56px];
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-size: 20px !important;
+  flex-shrink: 0;
+  border: 2px solid var(--Dark-Blue---Primary, #2b364b);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.saddle_sell_mainHeading {
+  @apply text-[#343434] font-bold text-[14px] h-[80px] mb-2.5 !w-[140px] line-clamp-3 flex items-center sm:!w-[200px] sm:text-[17px];
+  font-family: "Montserrat";
+}
+
+.saddle_sell_code {
+  @apply text-[#343434] text-[10px] sm:text-[12px];
+  font-family: "Montserrat";
+}
+
+.saddle_sell_score {
+  @apply text-[#343434] font-bold text-[12px] sm:text-[14x] mt-[30px];
+  font-family: "Montserrat";
+}
+
+.saddle_sell_price {
+  @apply text-[#343434] font-bold text-[12px] sm:text-[14px];
+  font-family: "Montserrat";
+}
+
+.saddle-sell-prof-icons {
+  @apply text-transparent p-0 bg-transparent;
+}
+
+.saddle-sell-checkbox {
+  @apply rounded-[50%] accent-[#5C80B6] w-[18px] h-[18px] border border-[#5C80B6];
+}
+
+.saddle-sell-checkbox-title {
+  @apply w-full text-[8px] sm:text-[12px];
+  color: var(--color-charcoal);
+  font-family: "Montserrat";
+}

@@ -1,0 +1,40 @@
+.term_head {
+  @apply text-[32px] lg:text-[52px] uppercase font-bold mb-6 text-center;
+  font-family: "Barlow Condensed";
+  color: var(--color-primary);
+}
+.terms_main {
+  @apply max-w-3xl mx-auto p-6;
+}
+
+.text_head {
+  @apply mt-4 mb-4 font-bold text-[28px];
+  color: var(--color-primary);
+
+  font-family: "Barlow Condensed";
+}
+
+.paragrah_text {
+  @apply pb-2 font-medium text-[18px];
+  font-family: "Montserrat";
+}
+
+.disclaimer_text {
+  @apply mt-8 font-semibold;
+  font-family: "Montserrat";
+}
+
+.border_btm {
+  @apply w-[90%] mx-auto  border-dashed border-b border-[#9c765b] mb-[20px] pt-[20px] xl:block hidden;
+  foo: bar;
+}
+
+.Mb_border_btm {
+  @apply pt-[20px] w-auto border-dashed  border-b border-[#9c765b] xl:hidden block mx-auto;
+  foo: bar;
+}
+
+.main_container {
+  @apply bg-gray-100 min-h-screen pt-[140px] lg:p-8;
+  foo: bar;
+}

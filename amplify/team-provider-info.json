@@ -1,0 +1,32 @@
+{
+  "develop": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-saddlefitapp-develop-fbd9e-authRole",
+      "UnauthRoleArn": "arn:aws:iam::917819506488:role/amplify-saddlefitapp-develop-fbd9e-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::917819506488:role/amplify-saddlefitapp-develop-fbd9e-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-saddlefitapp-develop-fbd9e-deployment",
+      "UnauthRoleName": "amplify-saddlefitapp-develop-fbd9e-unauthRole",
+      "StackName": "amplify-saddlefitapp-develop-fbd9e",
+      "StackId": "arn:aws:cloudformation:us-east-1:917819506488:stack/amplify-saddlefitapp-develop-fbd9e/819b07b0-71cd-11ef-81eb-0ea03abc55ff",
+      "AmplifyAppId": "d14zaxcut1r2k1"
+    },
+    "categories": {
+      "auth": {
+        "saddlefitapp7d71e986": {
+          "allowUnauthenticatedIdentities": true,
+          "authRoleArn": "arn:aws:iam::917819506488:role/us-east-1_NoAGiRihU-authRole",
+          "authRoleName": "us-east-1_NoAGiRihU-authRole",
+          "identityPoolId": "us-east-1:bd4be6c1-cd51-41ac-93ae-74d8e6788952",
+          "identityPoolName": "cognito_identity_pool",
+          "nativeClientId": "5m9qtaekhhhqnhd37mittqf8mq",
+          "unauthRoleArn": "arn:aws:iam::917819506488:role/amplify-saddlefit-cherish-102529-unauthRole",
+          "unauthRoleName": "amplify-saddlefit-cherish-102529-unauthRole",
+          "userPoolId": "us-east-1_YM65ESL0W",
+          "userPoolName": "saddlefit-dev-userPool",
+          "webClientId": "5m9qtaekhhhqnhd37mittqf8mq"
+        }
+      }
+    }
+  }
+}

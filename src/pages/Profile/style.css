@@ -1,0 +1,69 @@
+.client-name_title {
+  @apply sm:text-[64px] text-[20px] font-bold uppercase;
+  font-family: "Barlow Condensed";
+}
+
+.contact_text {
+  @apply  text-[18px] lg:text-[28px] font-semibold leading-[110%];
+  font-family: "Montserrat";
+}
+
+.notification-settings {
+  @apply  text-[18px] lg:text-[28px] font-semibold leading-[110%];
+  font-family: "Montserrat";
+}
+
+.label-text{
+  font-family: "Montserrat";
+
+}
+
+.contact_info {
+  @apply text-[14px] font-normal leading-[120%] text-[#343434];
+  font-family: "Montserrat";
+}
+.client-prof_save_btn {
+  display: inline-flex;
+  height: 56px;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 56px;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 28px; */
+}
+
+.client-prof_cancel_btn {
+  display: inline-flex;
+  height: 56px;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 56px;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 28px; 140% */
+}
+
+.phone-verify_btn {
+  @apply !w-[60px] !h-[30px]  !text-[12px];
+ 
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 56px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 28px; 140% */
+}

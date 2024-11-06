@@ -1,0 +1,763 @@
+.carousel_cards_container {
+  min-height: 233px;
+  border-radius: 7.751px;
+  border: 0.775px solid var(--SaddleFit-Blue, #5c80b6);
+  backdrop-filter: blur(5.8134589195251465px);
+  padding: 15.5px;
+}
+
+.saddle_cards_container {
+  max-width: 493px;
+  min-height: 301px;
+  border-radius: 7.751px;
+  border: 0.775px solid var(--SaddleFit-Blue, #5c80b6);
+  backdrop-filter: blur(5.8134589195251465px);
+  padding: 15.5px;
+  background-color: white;
+}
+
+.carousel_cards_slider {
+  width: 398.578px !important;
+  min-height: 233px;
+  border-radius: 7.751px;
+  border: 0.775px solid var(--SaddleFit-Blue, #5c80b6);
+  backdrop-filter: blur(5.8134589195251465px);
+  padding: 15.5px;
+}
+
+.cactus_card_title {
+  @apply text-[12px] sm:text-[13.952px];
+  color: var(--Charcoal, #343434);
+  font-family: Montserrat;
+  font-style: normal;
+  /* display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden; */
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.saddle_title {
+  /* display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden; */
+}
+
+.cactus_card_price {
+  color: var(--Charcoal, #343434);
+  font-family: Montserrat;
+  font-size: 10.852px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.heartBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6.201px;
+  border: 0.775px solid var(--Charcoal---400, #999);
+  background: var(--color-background-button-outline-normal, #fff);
+  box-shadow: 0px 0.775px 1.55px 0px rgba(18, 18, 23, 0.05);
+}
+
+.heartBtn_cards_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6.201px;
+  border: 0.775px solid var(--Charcoal---400, #999);
+  background: var(--color-background-button-outline-normal, #fff);
+  box-shadow: 0px 0.775px 1.55px 0px rgba(18, 18, 23, 0.05);
+}
+
+.cactus_score_container {
+  display: flex;
+  padding: 12.4px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6.201px;
+  align-self: stretch;
+  border-radius: 12.402px;
+  border: 0.775px solid rgba(43, 54, 75, 0.32);
+}
+
+.cactus_saddlefit_score_text {
+  color: var(--Dark-Blue---Primary, #2b364b);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 10.852px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18.603px;
+}
+
+.cactus_add_to_cart {
+  display: flex !important;
+  width: 99.216px !important;
+  height: 31.005px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 6.201px !important;
+  border-radius: 43.407px !important;
+  background: var(--Dark-Blue---Primary, #2b364b) !important;
+  box-shadow: 0px 3.101px 4.651px -0.775px rgba(18, 18, 23, 0.08),
+    0px 1.55px 3.101px -0.775px rgba(18, 18, 23, 0.06) !important;
+  color: var(--White, #fff) !important;
+  font-family: Montserrat !important;
+  font-size: 10.852px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 18.603px !important;
+}
+
+.find_score_add_to_cart {
+  @apply w-[154px] sm:w-[128px];
+  display: flex !important;
+  height: 40px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 6.201px !important;
+  border-radius: 43.407px !important;
+  background: var(--Dark-Blue---Primary, #2b364b) !important;
+  box-shadow: 0px 3.101px 4.651px -0.775px rgba(18, 18, 23, 0.08),
+    0px 1.55px 3.101px -0.775px rgba(18, 18, 23, 0.06) !important;
+  color: var(--White, #fff) !important;
+  font-family: Montserrat !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 18.603px !important;
+}
+
+.cactus_more_details {
+  display: flex !important;
+  padding: var(--spacing-2, 6.201px) var(--spacing-3, 9.302px) !important;
+  justify-content: center !important;
+  height: 31.005px !important;
+  width: 99.216px !important;
+  align-items: center !important;
+  gap: var(--spacing-0, 0px) !important;
+  border-radius: var(--radius-3xl, 279.046px) !important;
+  border: 0.775px solid var(--Dark-Blue---Primary, #2b364b) !important;
+  background: var(
+    --color-background-button-outline-normal,
+    rgba(0, 0, 0, 0)
+  ) !important;
+  box-shadow: 0px 0.775px 1.55px 0px rgba(18, 18, 23, 0.05) !important;
+  color: var(--Dark-Blue---Primary, #2b364b) !important;
+  font-family: Montserrat !important;
+  font-size: 10.852px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 18.603px !important;
+}
+
+.find_score_more_details {
+  @apply w-[154px] sm:w-[128px];
+  display: flex !important;
+  padding: var(--spacing-2, 6.201px) var(--spacing-3, 9.302px) !important;
+  justify-content: center !important;
+  height: 40px !important;
+  align-items: center !important;
+  gap: var(--spacing-0, 0px) !important;
+  border-radius: var(--radius-3xl, 279.046px) !important;
+  border: 0.775px solid var(--Dark-Blue---Primary, #2b364b) !important;
+  background: var(
+    --color-background-button-outline-normal,
+    rgba(0, 0, 0, 0)
+  ) !important;
+  box-shadow: 0px 0.775px 1.55px 0px rgba(18, 18, 23, 0.05) !important;
+  color: var(--Dark-Blue---Primary, #2b364b) !important;
+  font-family: Montserrat !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 18.603px !important;
+}
+
+@media (min-width: 768px) {
+  .center .slick-center .carousel_cards_slider {
+    display: flex;
+    width: 493px !important;
+    height: 301px;
+    margin-top: -35px;
+    padding: var(--spacing-5, 20px);
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    border: var(--spacing-px, 1px) solid var(--SaddleFit-Blue, #5c80b6);
+    backdrop-filter: blur(7.5px);
+  }
+
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+
+  .center .slick-center .carousel_cards_slider .cactus_saddle_image {
+    width: 173px;
+    height: auto;
+  }
+
+  .center .slick-center .cactus_text_container {
+    width: 264px;
+    height: 261px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .center .slick-center .cactus_text {
+    width: 216px;
+    height: 45px;
+    gap: 8px;
+  }
+
+  .center .slick-center .cactus_card_title {
+    color: var(--Charcoal, #343434);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+  }
+
+  .center .slick-center .cactus_card_price {
+    color: var(--Charcoal, #343434);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  .center .slick-center .heartBtn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid var(--Charcoal---400, #999);
+    background: var(--color-background-button-outline-normal, #fff);
+    box-shadow: 0px 1px 2px 0px rgba(18, 18, 23, 0.05);
+  }
+
+  .center .slick-center .cactus_score_container {
+    width: 264px;
+    height: 160px;
+  }
+
+  .center .slick-center .cactus_saddlefit_score_text {
+    color: var(--Dark-Blue---Primary, #2b364b);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .center .slick-center .select_horse_score_img {
+    width: 199px;
+    height: 96px;
+  }
+
+  .center .slick-center .btn_container {
+    display: flex;
+    gap: 8px;
+  }
+
+  .center .slick-center .cactus_add_to_cart {
+    display: flex !important;
+    width: 128px !important;
+    height: 40px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 8px !important;
+    border-radius: 56px !important;
+    background: var(--Dark-Blue---Primary, #2b364b) !important;
+    box-shadow: 0px 4px 6px -1px rgba(18, 18, 23, 0.08),
+      0px 2px 4px -1px rgba(18, 18, 23, 0.06) !important;
+    color: var(--White, #fff) !important;
+    font-family: Montserrat !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
+
+  .center .slick-center .cactus_more_details {
+    display: flex !important;
+    width: 128px !important;
+    height: 40px !important;
+    padding: var(--spacing-2, 8px) var(--spacing-3, 12px) !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: var(--spacing-0, 0px) !important;
+    border-radius: var(--radius-3xl, 360px) !important;
+    border: 1px solid var(--Dark-Blue---Primary, #2b364b) !important;
+    background: var(
+      --color-background-button-outline-normal,
+      rgba(0, 0, 0, 0)
+    ) !important;
+    box-shadow: 0px 1px 2px 0px rgba(18, 18, 23, 0.05) !important;
+    color: var(--Dark-Blue---Primary, #2b364b) !important;
+    font-family: Montserrat !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
+
+  .cactus_card-container .slick-list {
+    padding-top: 40px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .center .slick-center .carousel_cards_slider {
+    display: flex;
+    width: 493px !important;
+    height: 301px;
+    margin-top: -35px;
+    padding: var(--spacing-5, 20px);
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    border: var(--spacing-px, 1px) solid var(--SaddleFit-Blue, #5c80b6);
+    backdrop-filter: blur(7.5px);
+  }
+
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+
+  .center .slick-center .carousel_cards_slider .cactus_saddle_image {
+    width: 173px;
+    height: auto;
+  }
+
+  .center .slick-center .cactus_text_container {
+    width: 264px;
+    height: 261px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .center .slick-center .cactus_text {
+    width: 216px;
+    height: 45px;
+    gap: 8px;
+  }
+
+  .center .slick-center .cactus_card_title {
+    color: var(--Charcoal, #343434);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+  }
+
+  .center .slick-center .cactus_card_price {
+    color: var(--Charcoal, #343434);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  .center .slick-center .heartBtn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid var(--Charcoal---400, #999);
+    background: var(--color-background-button-outline-normal, #fff);
+    box-shadow: 0px 1px 2px 0px rgba(18, 18, 23, 0.05);
+  }
+
+  .center .slick-center .cactus_score_container {
+    width: 264px;
+    height: 160px;
+  }
+
+  .center .slick-center .cactus_saddlefit_score_text {
+    color: var(--Dark-Blue---Primary, #2b364b);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .center .slick-center .select_horse_score_img {
+    width: 199px;
+    height: 96px;
+  }
+
+  .center .slick-center .btn_container {
+    display: flex;
+    gap: 8px;
+  }
+
+  .center .slick-center .cactus_add_to_cart {
+    display: flex !important;
+    width: 128px !important;
+    height: 40px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 8px !important;
+    border-radius: 56px !important;
+    background: var(--Dark-Blue---Primary, #2b364b) !important;
+    box-shadow: 0px 4px 6px -1px rgba(18, 18, 23, 0.08),
+      0px 2px 4px -1px rgba(18, 18, 23, 0.06) !important;
+    color: var(--White, #fff) !important;
+    font-family: Montserrat !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
+
+  .center .slick-center .cactus_more_details {
+    display: flex !important;
+    width: 128px !important;
+    height: 40px !important;
+    padding: var(--spacing-2, 8px) var(--spacing-3, 12px) !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: var(--spacing-0, 0px) !important;
+    border-radius: var(--radius-3xl, 360px) !important;
+    border: 1px solid var(--Dark-Blue---Primary, #2b364b) !important;
+    background: var(
+      --color-background-button-outline-normal,
+      rgba(0, 0, 0, 0)
+    ) !important;
+    box-shadow: 0px 1px 2px 0px rgba(18, 18, 23, 0.05) !important;
+    color: var(--Dark-Blue---Primary, #2b364b) !important;
+    font-family: Montserrat !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
+
+  .cactus_card-container .slick-list {
+    padding-top: 40px !important;
+  }
+}
+
+@media (max-width: 639px) {
+  .carousel_cards_slider {
+    width: 282.56px;
+    height: 253px;
+    display: flex;
+    padding: 13.911px;
+    flex-direction: column;
+    align-items: center;
+    gap: 11.302px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 8.694px;
+    border: 0.869px solid var(--SaddleFit-Blue, #5c80b6);
+    backdrop-filter: blur(6.520618438720703px);
+  }
+
+  .saddle_cards_container {
+    max-width: 357px;
+    min-height: 272px;
+    border-radius: 7.751px;
+    border: 0.775px solid var(--SaddleFit-Blue, #5c80b6);
+    backdrop-filter: blur(5.8134589195251465px);
+    padding: 15.5px;
+    background-color: white;
+  }
+
+  .carousel_cards_slider {
+    width: 283px !important;
+    height: 253px !important;
+  }
+
+  .center .slick-center .carousel_cards_slider {
+    margin: 0px 0px;
+    width: 325px !important;
+    height: 291px !important;
+    display: flex;
+    padding: var(--spacing-4, 16px);
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    flex: 1 0 0;
+    align-self: stretch;
+    margin-top: -20px;
+  }
+
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+
+  .cactus_saddle_image {
+    width: 107px;
+    height: auto;
+  }
+
+  .center .slick-center .carousel_cards_slider .cactus_saddle_image {
+    width: 107px;
+    height: auto;
+  }
+
+  .cactus_text_container {
+    width: 130px;
+    height: 190px;
+  }
+
+  .center .slick-center .cactus_text_container {
+    width: 159px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .center .slick-center .cactus_text {
+    width: 216px !important;
+    height: 45px;
+    gap: 8px;
+  }
+
+  .cactus_card_title {
+    color: var(--Charcoal, #343434);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+  }
+
+  .center .slick-center .cactus_card_title {
+    color: var(--Charcoal, #343434);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+  }
+
+  .cactus_card_price {
+    color: var(--Charcoal, #343434);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  .center .slick-center .cactus_card_price {
+    color: var(--Charcoal, #343434);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  .center .slick-center .heartBtn {
+    width: 60px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid var(--Charcoal---400, #999);
+    background: var(--color-background-button-outline-normal, #fff);
+    box-shadow: 0px 1px 2px 0px rgba(18, 18, 23, 0.05);
+  }
+
+  .center .slick-center .cactus_score_container {
+    width: 100%;
+    height: 166px;
+    display: flex;
+    padding: 8px var(--spacing-4, 16px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+
+  .cactus_saddlefit_score_text {
+    width: 100px !important;
+    height: 28px !important;
+    color: var(--Dark-Blue---Primary, #2b364b) !important;
+    text-align: center !important;
+    font-family: Montserrat !important;
+    font-size: 10px;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 14px !important;
+  }
+
+  .center .slick-center .cactus_saddlefit_score_text {
+    width: 137px !important;
+    height: 28px !important;
+    color: var(--Dark-Blue---Primary, #2b364b) !important;
+    text-align: center !important;
+    font-family: Montserrat !important;
+    font-size: 14px;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 14px !important;
+  }
+
+  .select_horse_score_img {
+    width: 127px;
+    height: 81px;
+  }
+
+  .center .slick-center .select_horse_score_img {
+    width: 127px;
+    height: 81px;
+  }
+
+  .btn_container {
+    display: none;
+  }
+
+  .center .slick-center .btn_container {
+    display: none;
+    gap: 8px;
+  }
+
+  .center .slick-center .mobile_btn_container {
+    margin-top: 13px;
+  }
+
+  .cactus_add_to_cart {
+    display: flex !important;
+    width: 135px !important;
+    height: 40px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 8px !important;
+    border-radius: 56px !important;
+    background: var(--Dark-Blue---Primary, #2b364b) !important;
+    box-shadow: 0px 4px 6px -1px rgba(18, 18, 23, 0.08),
+      0px 2px 4px -1px rgba(18, 18, 23, 0.06) !important;
+    color: var(--White, #fff) !important;
+    font-family: Montserrat !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
+
+  .center .slick-center .cactus_add_to_cart {
+    display: flex !important;
+    width: 135px !important;
+    height: 40px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 8px !important;
+    border-radius: 56px !important;
+    background: var(--Dark-Blue---Primary, #2b364b) !important;
+    box-shadow: 0px 4px 6px -1px rgba(18, 18, 23, 0.08),
+      0px 2px 4px -1px rgba(18, 18, 23, 0.06) !important;
+    color: var(--White, #fff) !important;
+    font-family: Montserrat !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
+
+  .cactus_more_details {
+    display: flex !important;
+    width: 135px !important;
+    height: 40px !important;
+    padding: var(--spacing-2, 8px) var(--spacing-3, 12px) !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: var(--spacing-0, 0px) !important;
+    border-radius: var(--radius-3xl, 360px) !important;
+    border: 1px solid var(--Dark-Blue---Primary, #2b364b) !important;
+    background: var(
+      --color-background-button-outline-normal,
+      rgba(0, 0, 0, 0)
+    ) !important;
+    box-shadow: 0px 1px 2px 0px rgba(18, 18, 23, 0.05) !important;
+    color: var(--Dark-Blue---Primary, #2b364b) !important;
+    font-family: Montserrat !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
+
+  .center .slick-center .cactus_more_details {
+    display: flex !important;
+    width: 135px !important;
+    height: 40px !important;
+    padding: var(--spacing-2, 8px) var(--spacing-3, 12px) !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: var(--spacing-0, 0px) !important;
+    border-radius: var(--radius-3xl, 360px) !important;
+    border: 1px solid var(--Dark-Blue---Primary, #2b364b) !important;
+    background: var(
+      --color-background-button-outline-normal,
+      rgba(0, 0, 0, 0)
+    ) !important;
+    box-shadow: 0px 1px 2px 0px rgba(18, 18, 23, 0.05) !important;
+    color: var(--Dark-Blue---Primary, #2b364b) !important;
+    font-family: Montserrat !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
+
+  .cactus_card-container .slick-list {
+    padding-top: 40px !important;
+    padding-bottom: 80px !important;
+  }
+}
+
+.display_message {
+  @apply text-[#343434] mt-2 w-[300px] sm:w-full text-[16px] sm:text-[20px] md:text-[24px] font-bold text-center;
+  font-family: "Montserrat";
+}
+.cards_pill {
+  display: flex;
+  padding: 6.973px 13.945px;
+  justify-content: center;
+  align-items: center;
+  gap: 6.973px;
+  position: absolute;
+  left: 20px;
+  top: -14px;
+  border-radius: 86.287px;
+  background: #2b364b;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 10.459px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 13.945px; /* 133.333% */
+  letter-spacing: 0.837px;
+  text-transform: uppercase;
+}

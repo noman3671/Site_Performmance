@@ -1,0 +1,131 @@
+.coming-soon {
+  @apply text-[40px] sm:text-[56px] text-center w-full sm:text-start sm:w-auto;
+  color: var(--Dark-Blue---Primary, #2b364b);
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 44px */
+  text-transform: uppercase;
+}
+
+.go-back {
+  @apply text-[16px] sm:text-[24px];
+  color: var(--Dark-Blue---Primary, #2b364b);
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 26.4px */
+  text-transform: uppercase;
+}
+
+.coming_soon_description {
+  @apply text-[16px] sm:text-[24px];
+  color: var(--Dark-Blue---Primary, #2B364B);
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 26.4px */
+}
+
+.coming-soon-container {
+  @apply flex justify-center items-center gap-y-[12px] sm:gap-y-[24px];
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.clay-card-coming-soon {
+  @apply flex flex-col sm:justify-center py-[8px] mt-[16px] sm:mt-0 sm:items-center w-full max-w-[306px] sm:max-w-[630px] rounded-[8.716px] border-[color:var(--SaddleFit-Blue,#5c80b6)] border-2 border-solid;
+}
+
+.buynow_btn_coming-soon {
+  @apply rounded-full w-[90px] xl:w-[103px] h-[40px] hover:!opacity-100;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+  font-family: "Montserrat";
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.coming-soon-card-title {
+  @apply text-[14px] sm:text-[18px];
+  color: var(--Charcoal, #343434);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.coming-soon-card-price {
+  @apply text-[12px] sm:text-[14x];
+  color: var(--Charcoal, #343434);
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 16.8px */
+}
+
+.saddle_btn_coming-soon {
+  @apply justify-between items-center hidden md:flex;
+}
+
+.more_details_btn_coming-soon {
+  @apply !w-[128px];
+  display: flex !important;
+  padding: var(--spacing-2, 8px) var(--spacing-3, 12px) !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: var(--spacing-0, 0px) !important;
+  border-radius: var(--radius-3xl, 360px) !important;
+  border: 1px solid var(--Dark-Blue---Primary, #2b364b) !important;
+  background: var(
+    --color-background-button-outline-normal,
+    rgba(0, 0, 0, 0)
+  ) !important;
+  box-shadow: 0px 1px 2px 0px rgba(18, 18, 23, 0.05) !important;
+  color: var(--Dark-Blue---Primary, #2b364b);
+  font-family: Montserrat !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+}
+
+.buy_now_btn_coming-soon {
+  @apply !w-[103px];
+  display: flex !important;
+  padding: var(--spacing-2, 8px) var(--spacing-3, 12px) !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: var(--spacing-0, 0px) !important;
+  border-radius: var(--radius-3xl, 360px) !important;
+  border: 1px solid var(--Dark-Blue---Primary, #2b364b) !important;
+  background: var(--Dark-Blue---Primary, #2b364b) !important;
+  box-shadow: 0px 1px 2px 0px rgba(18, 18, 23, 0.05) !important;
+  color: var(--Off-White, #f7f7f6) !important;
+  font-family: Montserrat !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+}
+
+
+@media (max-width:639px) {
+
+ .main-modal-container{
+  scale: 1.4 !important;
+  max-width: 400px;
+ }
+
+  .semicircle-gauge{
+    position: relative;
+    left: -22px;
+  }
+}

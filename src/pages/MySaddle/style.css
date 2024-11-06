@@ -1,0 +1,78 @@
+.sell_saddle__title {
+    @apply text-[color:var(--color-primary)]  text-[40px] lg:text-[64px] font-bold leading-[110%] uppercase;
+    font-family: "Barlow Condensed";
+  }
+  
+  .sell_saddle_main {
+    @apply flex xl:items-center md:items-start  items-center flex-col gap-10 xl:gap-0 xl:flex-row justify-between;
+    foo: bar;
+  }
+  
+  .sell_saddle_subtitle {
+    @apply pt-[20px] text-[color:var(--Charcoal---800,#484848)] text-sm font-normal leading-[120%];
+    font-family: "Montserrat";
+  }
+  
+  .sell_saddle-text {
+    @apply mt-[5px] text-[#343434] text-[24px] font-bold;
+    font-family: "Montserrat";
+  }
+  
+  .clay-card-sell_saddle {
+    @apply flex flex-col justify-between mt-[40px]  h-[300px] sm:h-[240px] rounded-[8.716px] border-2  border-solid border-[color:var(--SaddleFit-Blue,#5c80b6)] ;
+  }
+  
+  /* border-[color:var(--SaddleFit-Blue,#5c80b6)] backdrop-blur-[15.252732276916504px]  border-2 border-solid */
+  
+  .clay-card-text-sell_saddle {
+    @apply text-[color:var(--Dark-Blue---Primary,#2b364b)] text-[55.781px] cursor-pointer hover:text-[#5C80B6] font-bold leading-[normal] tracking-[-1.116px] uppercase mt-6;
+    font-family: "Barlow Condensed";
+  }
+  
+  .sell_saddle_title_text {
+    @apply rounded-[86.287px]  absolute top-[-15px] left-2 uppercase text-[#fff] text-[10.459px] py-[6.97px] px-[13.9px] font-bold;
+    font-family: "Montserrat";
+    background: var(--Gradient, linear-gradient(90deg, #5a7db2 0%, #2a354b 100%));
+    foo: bar;
+  }
+  
+  .sell_saddle_card_head {
+    @apply flex px-[27px] justify-between;
+    foo: bar;
+  }
+  
+  .sell_saddle_plus_icon{
+    @apply mt-[20px] items-center cursor-pointer justify-center border border-dashed rounded-full w-[50px] h-[50px] flex border-[#2B364B];
+    foo: bar;
+  }
+  
+  .sell_saddle_title_text_not_live {
+    @apply rounded-[86.287px]  absolute top-[-15px] left-2 uppercase text-[#343434] text-[10.459px] py-[6.97px] px-[13.9px] font-bold;
+    font-family: "Montserrat";
+    background: var(--Gradient, linear-gradient(90deg, #F6AA50 0%, #FFDF80 100%));
+    foo: bar;
+  }
+  
+  
+  .book-session-text {
+    @apply w-full text-[12px] cursor-pointer font-bold underline;
+    font-family: "Montserrat";
+  }
+  
+  .bookevent_btn {
+    @apply rounded-[56px] !w-[85px] !shadow-2xl !h-[30px] hover:!opacity-100;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--Off-White, #F7F7F6) !important;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    box-shadow: 0px 4px 6px -1px rgba(18, 18, 23, 0.08), 0px 2px 4px -1px rgba(18, 18, 23, 0.06) !important;
+  }
+  
+  .sell_saddle-form__field {
+    @apply !h-[30px] relative !mb-4 !w-[140px];
+  
+  }
