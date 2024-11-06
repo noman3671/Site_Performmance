@@ -100,6 +100,8 @@ export const FeatureCards = () => {
     <>
       <div ref={refs.sectionOneRef} className={`cards_main relative`}>
         <img
+        
+          fetchPriority="high"
           className="absolute hidden lg:block top-0 -z-10 left-0"
           src={TopSideBgImg}
           alt="topSideBg"
