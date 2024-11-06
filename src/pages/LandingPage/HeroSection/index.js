@@ -1,7 +1,6 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import alignmentClasses from "utils/landing_page.json";
-import Button from "components/Buttons";
 
 export const HeroSection = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -13,8 +12,6 @@ export const HeroSection = () => {
     content_head_second,
     content_head_third,
     content_description,
-    content_btn,
-    video,
   } = alignmentClasses;
   const openModal = () => setModalOpen(true);
   const closeModal = () => setModalOpen(false);
@@ -44,12 +41,12 @@ export const HeroSection = () => {
       await controlsFit.start({
         opacity: 1,
         y: 0,
-        transition: { duration: 0.5 },
+        transition: { duration: 0.4, delay: 0.1 },
       });
       await controlsPerform.start({
         opacity: 1,
         y: 0,
-        transition: { duration: 0.5 },
+        transition: { duration: 0.4, delay: 0.1 },
       });
     };
     sequence();
