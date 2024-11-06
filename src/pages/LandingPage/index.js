@@ -10,12 +10,12 @@ import { Testimonials } from "./Testimonials";
 const LandingPage = () => {
   return (
     <>
-      {/* <HeroSection /> */}
-      <FeatureCards />
+      <HeroSection />
+      {/* <FeatureCards />
       <EventCard />
       <FirstBanner type="LANDING"/>
       <Testimonials />
-      <SecondBanner type="LANDING"/>
+      <SecondBanner type="LANDING"/> */}
       {/* <FeaturedBrands /> */}
     </>
   );
