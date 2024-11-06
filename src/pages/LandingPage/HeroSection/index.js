@@ -3,36 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import alignmentClasses from "utils/landing_page.json";
 import Button from "components/Buttons";
 
-const YoutubeModal = ({ onClose }) => {
-  const modalRef = useRef(null);
 
-  const handleCloseModal = (e) => {
-    if (modalRef.current && !modalRef.current.contains(e.target)) {
-      onClose();
-    }
-  };
-
-  return (
-    <div
-      className="fixed bg-transparent h-100vh w-full inset-0 flex items-center justify-center z-20"
-      onClick={handleCloseModal}
-    >
-      <div ref={modalRef} className="modal-content">
-        <span className="close" onClick={onClose}>
-          &times;
-        </span>
-        <iframe
-          className="w-[300px] h-[250px] md:w-[1080px] md:h-[700px]"
-          src="https://www.youtube.com/embed/TDT-_4wcV7c?si=VWzs35CLfert5p4L"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
-  );
-};
 
 export const HeroSection = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -70,7 +41,9 @@ export const HeroSection = () => {
       await controlsScan.start({
         opacity: 1,
         y: 0,
-        transition: { duration: 1, delay: 0.6 },
+        // transition: { duration: 1, delay: 0.6 },
+        transition: { duration: 0.4, delay: 0.1 }, // Reduced delay for quicker animation start
+
       });
       await controlsFit.start({
         opacity: 1,
