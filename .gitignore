@@ -46,8 +46,6 @@ amplifytools.xcconfig
 # amplify-do-not-edit-end
 
 # Custom additions
-src/aws-exports.js
-src/amplifyconfiguration.json
 node_modules
 .env
 
