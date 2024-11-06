@@ -17,13 +17,13 @@ export const Footer = () => {
           <div className="footer_wrapper">
             <div className="footer_logo_main">
               <div className="mb-10 w-full mx-auto lg:mx-0 :!ml-0">
-                <a href="/#" className="footer_logo">
+                {/* <a href="/#" className="footer_logo">
                   <img
                     src={saddle_logo}
                     alt="saddle_logo"
                     className="w-[254.406px] h-auto"
                   />
-                </a>
+                </a> */}
                 <p className="desc_text">
                   SCAN. FIT. PERFORM.
                 </p>
