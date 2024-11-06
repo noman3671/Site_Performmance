@@ -99,13 +99,11 @@ export const FeatureCards = () => {
   return (
     <>
       <div ref={refs.sectionOneRef} className={`cards_main relative`}>
-        <img
-        
-          fetchPriority="high"
-          className="absolute hidden lg:block top-0 -z-10 left-0"
+        {/* <img
+          className="absolute hidden lg:block top-0 -z-10 left-0 !bg-red-500"
           src={TopSideBgImg}
           alt="topSideBg"
-        />
+        /> */}
         <motion.h1
           className="card_head_text"
           variants={headingVariants}
