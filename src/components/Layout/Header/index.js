@@ -128,12 +128,7 @@ const Header = () => {
               <img
                 src={saddle_logo}
                 alt="logo"
-                className="lg:flex w-[180px] lg:w-[143px] lg:h-[55px] xl:w-[232px]  hidden"
-              />
-              <img
-                src={mob_saddle_logo}
-                alt="logo"
-                className="lg:hidden flex"
+                className="flex w-[154px] lg:w-[143px] lg:h-[55px] xl:w-[232px]"
               />
             </NavLink>
             <div className="hidden ml-[40px] lg:flex items-center lg:gap-[20px] xl:gap-[40px]">
@@ -170,17 +165,19 @@ const Header = () => {
                     Sell a Saddle
                   </NavLink> */}
 
-                 {user && <NavLink
-                    to="/buy"
-                    className={`nav_links text-[16px] ${
-                      location.pathname === "/buy" ||
-                      location.pathname === `/saddle/${params?.id}`
-                        ? "border-b-2 border-[#5C80B6]"
-                        : ""
-                    } text-[#F7F7F6] hover:cursor-pointer font-medium`}
-                  >
-                    Buy a Saddle
-                  </NavLink>}
+                  {user && (
+                    <NavLink
+                      to="/buy"
+                      className={`nav_links text-[16px] ${
+                        location.pathname === "/buy" ||
+                        location.pathname === `/saddle/${params?.id}`
+                          ? "border-b-2 border-[#5C80B6]"
+                          : ""
+                      } text-[#F7F7F6] hover:cursor-pointer font-medium`}
+                    >
+                      Buy a Saddle
+                    </NavLink>
+                  )}
 
                   <NavLink
                     to="/event"
@@ -316,32 +313,34 @@ const Header = () => {
                       Book Appointment
                     </a>
 
-                 {user &&   <a
-                      onClick={() => {
-                        navigate("/buy");
-                        setToggle(false);
-                      }}
-                      // onClick={() => {
-                      //   if (
-                      //     location.pathname === "/partner" ||
-                      //     location.pathname === "/privacy-policy" ||
-                      //     location.pathname === "/terms-and-conditions" ||
-                      //     location.pathname === "/event"
-                      //   ) {
-                      //     setToggle(false);
-                      //     navigate("/");
-                      //     setTimeout(() => {
-                      //       scrollFunctions.scrollToSecThree();
-                      //     }, 0);
-                      //   } else {
-                      //     setToggle(false);
-                      //     scrollFunctions.scrollToSecThree();
-                      //   }
-                      // }}
-                      className="nav_links text-[16px] text-[#F7F7F6] hover:cursor-pointer font-medium"
-                    >
-                      Buy a Saddle
-                    </a>}
+                    {user && (
+                      <a
+                        onClick={() => {
+                          navigate("/buy");
+                          setToggle(false);
+                        }}
+                        // onClick={() => {
+                        //   if (
+                        //     location.pathname === "/partner" ||
+                        //     location.pathname === "/privacy-policy" ||
+                        //     location.pathname === "/terms-and-conditions" ||
+                        //     location.pathname === "/event"
+                        //   ) {
+                        //     setToggle(false);
+                        //     navigate("/");
+                        //     setTimeout(() => {
+                        //       scrollFunctions.scrollToSecThree();
+                        //     }, 0);
+                        //   } else {
+                        //     setToggle(false);
+                        //     scrollFunctions.scrollToSecThree();
+                        //   }
+                        // }}
+                        className="nav_links text-[16px] text-[#F7F7F6] hover:cursor-pointer font-medium"
+                      >
+                        Buy a Saddle
+                      </a>
+                    )}
                     <NavLink
                       to="/event"
                       className={`nav_links text-[16px] ${
