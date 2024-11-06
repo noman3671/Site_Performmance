@@ -75,13 +75,13 @@ export const HeroSection = () => {
             >
               {content_head_second}
             </motion.span>
-            <motion.span
+            {/* <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={controlsPerform}
               className="block sm:leading-[90px] md:leading-[132px]"
             >
               {content_head_third}
-            </motion.span>
+            </motion.span> */}
           </div>
         </div>
         <motion.span
