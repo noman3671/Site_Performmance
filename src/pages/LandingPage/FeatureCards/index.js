@@ -141,17 +141,17 @@ export const FeatureCards = () => {
                 />
               </motion.div>
             ))}
-            <img
-              className="absolute hidden lg:block 2xl:right-0 bottom-[-200px] -z-10"
+            {/* <img
+              className="absolute hidden lg:block 2xl:right-0 bottom-[-200px] -z-10 bg-red-400"
               src={RightSideBgImg}
               alt="rightSideBg"
-            />
+            /> */}
           </motion.div>
         </div>
       </div>
-      <div>
+      {/* <div> */}
         <HowItWorksSection mockData={mockData} />
-      </div>
+      {/* </div> */}
     </>
   );
 };
