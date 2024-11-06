@@ -58,42 +58,42 @@ export const HeroSection = () => {
     >
       <div className="md:w-auto w-full md:mx-0 mx-auto items-center flex flex-col md:items-start">
         <div className="head_text flex md:text-start sm:text-center sm:flex-col md:flex-col m-0">
-          <motion.span
-            initial={{ opacity: 0, y: 20 }}
-            animate={controlsScan}
+          <span
+            // initial={{ opacity: 0, y: 20 }}
+            // animate={controlsScan}
             className="block sm:leading-[90px] md:leading-[132px]"
           >
             {content_head_first}
-          </motion.span>
+          </span>
           <div className="flex sm:flex-row md:flex-col">
-            <motion.span
-              initial={{ opacity: 0, y: 20 }}
-              animate={controlsFit}
+            <span
+              // initial={{ opacity: 0, y: 20 }}
+              // animate={controlsFit}
               className="block sm:leading-[90px] md:leading-[132px]"
             >
               {content_head_second}
-            </motion.span>
-            <motion.span
-              initial={{ opacity: 0, y: 20 }}
-              animate={controlsPerform}
+            </span>
+            <span
+              // initial={{ opacity: 0, y: 20 }}
+              // animate={controlsPerform}
               className="block sm:leading-[90px] md:leading-[132px]"
             >
               {content_head_third}
-            </motion.span>
+            </span>
           </div>
         </div>
-        <motion.span
-          initial={{ opacity: 0, y: 70 }}
-          animate={controlsScan}
+        <span
+          // initial={{ opacity: 0, y: 70 }}
+          // animate={controlsScan}
           className="perf_saddle_text min-h-[44.554px]"
         >
           {content_description}
-        </motion.span>
-        <motion.div
+        </span>
+        <div
           className="flex justify-center mt-[9px] lg:justify-start"
-          initial={{ opacity: 0, y: 80 }}
-          animate={controlsScan}
-        ></motion.div>
+          // initial={{ opacity: 0, y: 80 }}
+          // animate={controlsScan}
+        ></div>
       </div>
       <div className="btm_gradient" />
     </div>
