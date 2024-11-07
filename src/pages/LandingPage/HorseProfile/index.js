@@ -206,14 +206,25 @@ export const HorseProfile = () => {
             ref={descriptionRef}
             className="prof_description mt-[41px] xl:mt-[-32px] flex lg:justify-center xl:justify-end items-center"
           >
-            <motion.img
+            {/* <motion.img
               src={stars_image}
               alt="stars"
               className="md:w-auto md:h-auto w-[303px] h-[33px]"
               initial="hidden"
               animate={controls}
               variants={variants}
+            /> */}
+            <motion.img
+              src={stars_image}
+              alt="stars"
+              width="303"
+              height="33"
+              className="md:w-auto md:h-auto w-[303px] h-[33px]"
+              initial="hidden"
+              animate={controls}
+              variants={variants}
             />
+
             <motion.h1
               className="text-center xl:!text-end"
               initial="hidden"
