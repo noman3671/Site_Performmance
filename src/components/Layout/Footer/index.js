@@ -22,8 +22,9 @@ export const Footer = () => {
                     src={saddle_logo}
                     alt="saddle_logo"
                     style={{
-                      width:"254px",
+                      width: "254px",
                     }}
+                    loading="eager"
                   />
                 </a>
 
