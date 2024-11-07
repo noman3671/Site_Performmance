@@ -36,12 +36,24 @@ const HorsesAlbum = ({ media }) => {
   return (
     <div className="overflow-hidden h-auto grid grid-cols-2 items-end sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-5">
       {media?.data?.map((post, index) => (
+        // <img
+        //   key={index}
+        //   src={post.mediaUrl}
+        //   alt={post.caption}
+        //   width="300"
+        //   height="300"
+        //   className={`instagramImages cursor-pointer w-[100%] object-contain transition-transform duration-300 ease-in-out ${
+        //     index >= 4 ? "hidden md:block" : ""
+        //   } hover:scale-[1.1]`}
+        //   onClick={() => openModal(post)}
+        // />
         <img
           key={index}
           src={post.mediaUrl}
           alt={post.caption}
           width="300"
           height="300"
+          loading="lazy"
           className={`instagramImages cursor-pointer w-[100%] object-contain transition-transform duration-300 ease-in-out ${
             index >= 4 ? "hidden md:block" : ""
           } hover:scale-[1.1]`}
