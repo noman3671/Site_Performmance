@@ -193,7 +193,6 @@ export const HeroSection = React.memo(() => {
           <motion.span
             initial={{ opacity: 0, y: 20 }}
             animate={controlsScan}
-            // className="block sm:leading-[90px] md:leading-[132px] min-h-[132px]"
             style={{
               display: "block",
               lineHeight:
@@ -205,11 +204,10 @@ export const HeroSection = React.memo(() => {
           >
             {content_head_first}
           </motion.span>
-          <div className="flex sm:flex-row md:flex-col">
+          {/* <div className="flex sm:flex-row md:flex-col">
             <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={controlsFit}
-              // className="block sm:leading-[90px] md:leading-[132px] min-h-[132px]"
               style={{
                 display: "block",
                 lineHeight:
@@ -224,7 +222,6 @@ export const HeroSection = React.memo(() => {
             <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={controlsPerform}
-              // className="block sm:leading-[90px] md:leading-[132px] min-h-[132px]"
               style={{
                 display: "block",
                 lineHeight:
@@ -236,10 +233,10 @@ export const HeroSection = React.memo(() => {
             >
               {content_head_third}
             </motion.span>
-          </div>
+          </div> */}
         </div>
 
-        <motion.span
+        {/* <motion.span
           initial={{ opacity: 0, y: 20 }}
           animate={controlsScan}
           className="perf_saddle_text min-h-[44.554px]"
@@ -250,7 +247,7 @@ export const HeroSection = React.memo(() => {
           className="flex justify-center mt-[9px] lg:justify-start"
           initial={{ opacity: 0, y: 20 }}
           animate={controlsScan}
-        ></motion.div>
+        ></motion.div> */}
       </div>
       <div className="btm_gradient" />
     </div>
