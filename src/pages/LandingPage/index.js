@@ -12,7 +12,7 @@ const LandingPage = () => {
     <>
       <HeroSection />
        <FeatureCards />
-      {/* <EventCard /> */}
+      <EventCard />
       {/* <FirstBanner type="LANDING"/> */}
       {/* <Testimonials /> */}
       {/* <SecondBanner type="LANDING"/> */} 
