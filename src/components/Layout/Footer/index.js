@@ -4,7 +4,7 @@ import InstaIcon from "assets/icons/insta-icon.svg?react";
 import YoutubeIcon from "assets/icons/youtube-Icon.svg?react";
 import FbIcon from "assets/icons/fb-icon.svg?react";
 import Tiktok from "assets/icons/tiktok-icon.svg?react";
-import saddle_logo from "assets/icons/saddleLogo.svg";
+import saddle_logo from "assets/images/saddleLogo.webp";
 import { useLoggedIn } from "context/LoggedInContext";
 
 export const Footer = () => {
@@ -21,8 +21,9 @@ export const Footer = () => {
                   <img
                     src={saddle_logo}
                     alt="saddle_logo"
-                    width="254"
-                    height="100"
+                    style={{
+                      width:"254px",
+                    }}
                   />
                 </a>
 
