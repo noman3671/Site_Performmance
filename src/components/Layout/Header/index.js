@@ -391,7 +391,9 @@ const Header = () => {
               )}
             </div>
 
-            <div className="lg:hidden flex items-center gap-5">
+            {/* <div className="lg:hidden flex items-center gap-5"> */}
+            <div className="lg:hidden flex items-center gap-5" style={{ minHeight: '40px' }}>
+
               {user && (
                 <>
                   <div className="relative">
