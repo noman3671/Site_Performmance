@@ -190,9 +190,9 @@ export const HeroSection = React.memo(() => {
     <div className="flex px-[22px] sm:px-2 xl:px-10 2xl:px-0 w-[95%] pb-[100px] xl:max-w-[1300px] mx-auto justify-normal">
       <div className="md:w-auto w-full md:mx-0 mx-auto items-center flex flex-col md:items-start">
         <div className="head_text flex md:text-start sm:text-center sm:flex-col md:flex-col m-0">
-          <motion.span
-            initial={{ opacity: 0, y: 20 }}
-            animate={controlsScan}
+          <span
+            // initial={{ opacity: 0, y: 20 }}
+            // animate={controlsScan}
             style={{
               display: "block",
               lineHeight:
@@ -202,8 +202,8 @@ export const HeroSection = React.memo(() => {
               minHeight: "132px",
             }}
           >
-            {content_head_first}
-          </motion.span>
+            Scan
+          </span>
           {/* <div className="flex sm:flex-row md:flex-col">
             <motion.span
               initial={{ opacity: 0, y: 20 }}
