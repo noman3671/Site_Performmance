@@ -128,6 +128,8 @@ const Header = () => {
               <img
                 src={saddle_logo}
                 alt="logo"
+                width="154" 
+                height="55"
                 className="flex w-[154px] lg:w-[143px] lg:h-[55px] xl:w-[232px]"
               />
             </NavLink>

@@ -51,8 +51,13 @@ export const Footer = () => {
             </div>
             <div className="mob_footer_logo_main">
               <div className="mob_footer_logo">
-                <a href="/#" className="mb-6 inline-block  mx-auto">
-                  <img src={saddle_logo} alt="saddle_logo" />
+                <a href="/#" className="mb-6 inline-block mx-auto">
+                  <img
+                    src={saddle_logo}
+                    alt="saddle_logo"
+                    width="154"
+                    height="55"
+                  />
                 </a>
                 <p className="desc_text">SCAN. FIT. PERFORM.</p>
               </div>
