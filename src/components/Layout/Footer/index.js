@@ -24,7 +24,6 @@ export const Footer = () => {
                     style={{
                       width: "254px",
                     }}
-                    loading="eager"
                   />
                 </a>
 
