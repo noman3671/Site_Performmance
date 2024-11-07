@@ -55,6 +55,51 @@ export const HeroSection = () => {
   }, [controlsScan, controlsFit, controlsPerform]);
 
   return (
+    // <div
+    //   className={`flex px-[22px] sm:px-2 xl:px-10 2xl:px-0 w-[95%] pb-[100px] xl:max-w-[1300px] mx-auto justify-normal`}
+    // >
+    //   <div className="md:w-auto w-full md:mx-0 mx-auto items-center flex flex-col md:items-start">
+    //     <div className="head_text flex md:text-start sm:text-center sm:flex-col md:flex-col m-0">
+    //       <motion.span
+    //         initial={{ opacity: 0, y: 20 }}
+    //         animate={controlsScan}
+    //         className="block sm:leading-[90px] md:leading-[132px]"
+    //       >
+    //         {content_head_first}
+    //       </motion.span>
+    //       <div className="flex sm:flex-row md:flex-col">
+    //         <motion.span
+    //           initial={{ opacity: 0, y: 20 }}
+    //           animate={controlsFit}
+    //           className="block sm:leading-[90px] md:leading-[132px]"
+    //         >
+    //           {content_head_second}
+    //         </motion.span>
+    //         <motion.span
+    //           initial={{ opacity: 0, y: 20 }}
+    //           animate={controlsPerform}
+    //           className="block sm:leading-[90px] md:leading-[132px]"
+    //         >
+    //           {content_head_third}
+    //         </motion.span>
+    //       </div>
+    //     </div>
+
+    //     <motion.span
+    //       initial={{ opacity: 0, y: 70 }}
+    //       animate={controlsScan}
+    //       className="perf_saddle_text min-h-[44.554px]"
+    //     >
+    //       {content_description}
+    //     </motion.span>
+    //     <motion.div
+    //       className="flex justify-center mt-[9px] lg:justify-start"
+    //       initial={{ opacity: 0, y: 80 }}
+    //       animate={controlsScan}
+    //     ></motion.div>
+    //   </div>
+    //   <div className="btm_gradient" />
+    // </div>
     <div
       className={`flex px-[22px] sm:px-2 xl:px-10 2xl:px-0 w-[95%] pb-[100px] xl:max-w-[1300px] mx-auto justify-normal`}
     >
@@ -63,7 +108,7 @@ export const HeroSection = () => {
           <motion.span
             initial={{ opacity: 0, y: 20 }}
             animate={controlsScan}
-            className="block sm:leading-[90px] md:leading-[132px]"
+            className="block sm:leading-[90px] md:leading-[132px] min-h-[132px]"
           >
             {content_head_first}
           </motion.span>
@@ -71,14 +116,14 @@ export const HeroSection = () => {
             <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={controlsFit}
-              className="block sm:leading-[90px] md:leading-[132px]"
+              className="block sm:leading-[90px] md:leading-[132px] min-h-[132px]"
             >
               {content_head_second}
             </motion.span>
             <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={controlsPerform}
-              className="block sm:leading-[90px] md:leading-[132px]"
+              className="block sm:leading-[90px] md:leading-[132px] min-h-[132px]"
             >
               {content_head_third}
             </motion.span>
