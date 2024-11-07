@@ -135,8 +135,11 @@ const Header = () => {
             </NavLink>
 
             {/* <div className="hidden ml-[40px] lg:flex items-center lg:gap-[20px] xl:gap-[40px]"> */}
-            <div className="hidden ml-[40px] lg:flex items-center lg:gap-[20px] xl:gap-[40px]" style={{ minWidth: '200px' }}>
-            {user ? (
+            <div
+              className="hidden ml-[40px] lg:flex items-center lg:gap-[20px] xl:gap-[40px]"
+              style={{ minWidth: "200px" }}
+            >
+              {user ? (
                 <>
                   {/* <NavLink
                     to="/user/horses"
@@ -391,9 +394,7 @@ const Header = () => {
               )}
             </div>
 
-            {/* <div className="lg:hidden flex items-center gap-5"> */}
-            <div className="lg:hidden flex items-center gap-5" style={{ minHeight: '40px' }}>
-
+            <div className="lg:hidden flex items-center gap-5">
               {user && (
                 <>
                   <div className="relative">
@@ -428,6 +429,8 @@ const Header = () => {
                   setToggle(!toggle);
                 }}
                 className="menu-icon cursor-pointer duration-200"
+                width="24"
+                height="24"
               />
             </div>
 
