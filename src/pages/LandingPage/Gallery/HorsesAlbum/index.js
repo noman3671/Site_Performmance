@@ -8,7 +8,7 @@ const HorsesAlbum = ({ media }) => {
   const modalRef = useRef();
 
   const openModal = (post) => {
-    setSelectedPost(post); 
+    setSelectedPost(post);
     setModalOpen(true);
   };
 
@@ -40,6 +40,8 @@ const HorsesAlbum = ({ media }) => {
           key={index}
           src={post.mediaUrl}
           alt={post.caption}
+          width="300"
+          height="300"
           className={`instagramImages cursor-pointer w-[100%] object-contain transition-transform duration-300 ease-in-out ${
             index >= 4 ? "hidden md:block" : ""
           } hover:scale-[1.1]`}
