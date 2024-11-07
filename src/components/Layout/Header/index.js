@@ -396,31 +396,14 @@ const Header = () => {
 
             <div className="lg:hidden flex items-center gap-5">
               {user && (
-                <>
-                  <div className="relative">
-                    <StoreButton
-                      className={"text-transparent bg-transparent"}
-                    />
-                    {userCartData?.items?.length > 0 && (
-                      <div className="bg-red-500 w-6 h-6 text-[12px] cartItemNumber rounded-full  text-white absolute top-[-16px] right-[-18px] flex justify-center items-center">
-                        {userCartData?.items?.length}
-                      </div>
-                    )}
-                  </div>
-                  {/* <div className="relative">
-                    <FavoritesButton
-                      className={"text-transparent bg-transparent"}
-                    />
-                    {listSaddleFavouriteByUserData?.listUserSaddleFitFavorites
-                      ?.items?.length > 0 && (
-                      <img
-                        src={heartRoundedIcon}
-                        alt="heartRoundedIcon"
-                        className="absolute top-0 right-[-2px]"
-                      />
-                    )}
-                  </div>{" "} */}
-                </>
+                <div className="relative">
+                  <StoreButton className={"text-transparent bg-transparent"} />
+                  {userCartData?.items?.length > 0 && (
+                    <div className="bg-red-500 w-6 h-6 text-[12px] cartItemNumber rounded-full  text-white absolute top-[-16px] right-[-18px] flex justify-center items-center">
+                      {userCartData?.items?.length}
+                    </div>
+                  )}
+                </div>
               )}
               <img
                 src={menuIcon}
