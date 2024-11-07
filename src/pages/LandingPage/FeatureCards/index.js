@@ -104,7 +104,7 @@ export const FeatureCards = () => {
           src={TopSideBgImg}
           alt="topSideBg"
         /> */}
-        <motion.h1
+        {/* <motion.h1
           className="card_head_text"
           variants={headingVariants}
           initial="hidden"
@@ -113,7 +113,7 @@ export const FeatureCards = () => {
           ref={headingInViewRef}
         >
           Why use saddlefit
-        </motion.h1>
+        </motion.h1> */}
         <div className="why-use-cards_wrapper mb-[24px] md:mb-[24.04px] lg:mb-[72px]">
           <div className="border_btm_dsh"></div>
           <div className="Mb_border_dsh"></div>
