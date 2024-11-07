@@ -160,7 +160,7 @@ export const HorseProfile = () => {
 
         <div className="absolute flex mt-[40px] lg:mt-0 xl:mt-10 flex-col w-[84%] justify-center items-center top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] h-auto xl:min-h-[480px] xl:flex-row-reverse">
           <div className="relative ml-10 xl:ml-[200px] flex">
-            <motion.img
+            {/* <motion.img
               className="w-[231.865px] h-[173.304px] md:w-[388.935px] md:h-[290.703px] xl:w-[570.106px] xl:h-[426.116px]"
               ref={mapRef}
               src={mapCard}
@@ -168,7 +168,18 @@ export const HorseProfile = () => {
               initial="hidden"
               animate={mapControls}
               variants={mapVariants}
+            /> */}
+            <motion.img
+              className="w-[231.865px] h-[173.304px] md:w-[388.935px] md:h-[290.703px] xl:w-[570.106px] xl:h-[426.116px]"
+              ref={mapRef}
+              src={mapCard}
+              alt="map-card"
+              loading="lazy"
+              initial="hidden"
+              animate={mapControls}
+              variants={mapVariants}
             />
+
             <motion.div
               ref={clayRef}
               initial="hidden"
