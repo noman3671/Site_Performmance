@@ -200,7 +200,6 @@ export const HeroSection = React.memo(() => {
                   ? "90px"
                   : "132px",
               minHeight: "132px",
-              fontSize: "12px",
             }}
           >
             Scan
@@ -216,7 +215,6 @@ export const HeroSection = React.memo(() => {
                     ? "90px"
                     : "132px",
                 minHeight: "132px",
-                fontSize: "12px",
               }}
             >
               {content_head_second}
@@ -231,7 +229,6 @@ export const HeroSection = React.memo(() => {
                     ? "90px"
                     : "132px",
                 minHeight: "132px",
-                fontSize: "12px",
               }}
             >
               {content_head_third}
