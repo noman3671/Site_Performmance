@@ -1,12 +1,12 @@
 .lineHeight90 {
     display: block;
-    line-height: 90px;
+    /* line-height: 90px; */
     min-height: 132px;
   }
   
   .lineHeight132 {
     display: block;
-    line-height: 132px;
+    /* line-height: 132px; */
     min-height: 132px;
   }
   
