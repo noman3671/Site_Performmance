@@ -150,7 +150,6 @@
 import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import alignmentClasses from "utils/landing_page.json";
-import './style.css'
 // Memoize the component to prevent unnecessary re-renders when props don't change
 export const HeroSection = React.memo(() => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -194,7 +193,15 @@ export const HeroSection = React.memo(() => {
           <motion.span
             initial={{ opacity: 0, y: 20 }}
             animate={controlsScan}
-            className="heading_text"
+            // className="block sm:leading-[90px] md:leading-[132px] min-h-[132px]"
+            style={{
+              display: "block",
+              lineHeight:
+                window.innerWidth >= 640 && window.innerWidth < 768
+                  ? "90px"
+                  : "132px",
+              minHeight: "132px",
+            }}
           >
             {content_head_first}
           </motion.span>
@@ -202,14 +209,30 @@ export const HeroSection = React.memo(() => {
             <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={controlsFit}
-              className="heading_text"
+              // className="block sm:leading-[90px] md:leading-[132px] min-h-[132px]"
+              style={{
+                display: "block",
+                lineHeight:
+                  window.innerWidth >= 640 && window.innerWidth < 768
+                    ? "90px"
+                    : "132px",
+                minHeight: "132px",
+              }}
             >
               {content_head_second}
             </motion.span>
             <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={controlsPerform}
-              className="heading_text"
+              // className="block sm:leading-[90px] md:leading-[132px] min-h-[132px]"
+              style={{
+                display: "block",
+                lineHeight:
+                  window.innerWidth >= 640 && window.innerWidth < 768
+                    ? "90px"
+                    : "132px",
+                minHeight: "132px",
+              }}
             >
               {content_head_third}
             </motion.span>
