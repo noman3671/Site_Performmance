@@ -128,14 +128,15 @@ const Header = () => {
               <img
                 src={saddle_logo}
                 alt="logo"
-                width="154" 
+                width="154"
                 height="55"
                 className="flex w-[154px] lg:w-[143px] lg:h-[55px] xl:w-[232px]"
               />
             </NavLink>
 
-            <div className="hidden ml-[40px] lg:flex items-center lg:gap-[20px] xl:gap-[40px]">
-              {user ? (
+            {/* <div className="hidden ml-[40px] lg:flex items-center lg:gap-[20px] xl:gap-[40px]"> */}
+            <div className="hidden ml-[40px] lg:flex items-center lg:gap-[20px] xl:gap-[40px]" style={{ minWidth: '200px' }}>
+            {user ? (
                 <>
                   {/* <NavLink
                     to="/user/horses"
