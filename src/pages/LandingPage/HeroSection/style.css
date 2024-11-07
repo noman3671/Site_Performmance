@@ -1,0 +1,3 @@
+.heading_text{
+    @apply block sm:leading-[90px] md:leading-[132px] min-h-[132px];
+}
