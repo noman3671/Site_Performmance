@@ -123,10 +123,10 @@
 } */
 
 .head_text {
-  @apply uppercase font-bold text-[40px] sm:text-[90px] text-start md:!text-[20px];
+  @apply uppercase font-bold text-[40px] sm:text-[90px] text-start md:!text-[120px];
   text-shadow: 0px 4px 6px rgba(18, 18, 23, 0.05),
     0px 10px 15px rgba(18, 18, 23, 0.08);
-  font-family: "Barlow Condensed";
+  /* font-family: "Barlow Condensed"; */
   color: var(--color-text);
   position: relative;
   z-index: 2;
