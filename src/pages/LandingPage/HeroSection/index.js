@@ -147,7 +147,7 @@
 //     </div>
 //   );
 // };
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import alignmentClasses from "utils/landing_page.json";
 // Memoize the component to prevent unnecessary re-renders when props don't change
