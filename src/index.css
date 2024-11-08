@@ -132,7 +132,7 @@
   z-index: 2;
 } */
 
-/* .head_text {
+.head_text {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 2.5rem; 
@@ -154,48 +154,7 @@
   .head_text {
     font-size: 7.5rem;
   }
-} */
-
-
-.head_text {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 2.5rem;
-  font-family: "Barlow Condensed", sans-serif;
-  color: var(--color-text);
-  position: relative;
-  z-index: 2;
-  text-shadow: 0px 4px 6px rgba(18, 18, 23, 0.05),
-    0px 10px 15px rgba(18, 18, 23, 0.08);
 }
-
-.headline-span {
-  display: block;
-  line-height: 132px;
-  min-height: 132px;
-}
-
-/* Responsive Font Sizes for head_text */
-@media (min-width: 640px) {
-  .head_text {
-    font-size: 5.625rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .head_text {
-    font-size: 7.5rem;
-  }
-}
-
-/* Responsive line-height for headline-span */
-@media (min-width: 640px) and (max-width: 767px) {
-  .headline-span {
-    line-height: 90px;
-    min-height: 90px;
-  }
-}
-
 
 .perf_saddle_text {
   @apply font-semibold text-[14px] flex flex-wrap mt-[9px] sm:text-[24px] leading-[110%];
