@@ -186,11 +186,36 @@ export const HeroSection = React.memo(() => {
     sequence();
   }, [controlsScan, controlsFit, controlsPerform]);
 
+  // Test
+
+  const [lineHeight, setLineHeight] = useState("132px");
+  // const [controlsPerform, setControlsPerform] = useState({ opacity: 0, y: 20 });
+
+  useEffect(() => {
+    // Set line-height based on initial viewport width
+    const updateLineHeight = () => {
+      if (window.innerWidth >= 640 && window.innerWidth < 768) {
+        setLineHeight("90px");
+      } else {
+        setLineHeight("132px");
+      }
+    };
+
+    // Add a resize listener to update line-height on viewport changes
+    window.addEventListener("resize", updateLineHeight);
+    updateLineHeight(); // Set initial line-height
+
+    // Clean up the resize event listener
+    return () => window.removeEventListener("resize", updateLineHeight);
+  }, []);
+
+ 
+
   return (
     <div className="flex px-[22px] sm:px-2 xl:px-10 2xl:px-0 w-[95%] pb-[100px] xl:max-w-[1300px] mx-auto justify-normal">
       <div className="md:w-auto w-full md:mx-0 mx-auto items-center flex flex-col md:items-start">
         <div className="head_text flex md:text-start sm:text-center sm:flex-col md:flex-col m-0">
-          <motion.span
+          {/* <motion.span
             initial={{ opacity: 0, y: 20 }}
             animate={controlsScan}
             style={{
@@ -203,9 +228,9 @@ export const HeroSection = React.memo(() => {
             }}
           >
             {content_head_first}
-          </motion.span>
+          </motion.span> */}
           <div className="flex sm:flex-row md:flex-col">
-            <motion.span
+            {/* <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={controlsFit}
               style={{
@@ -218,8 +243,8 @@ export const HeroSection = React.memo(() => {
               }}
             >
               {content_head_second}
-            </motion.span>
-            <motion.span
+            </motion.span> */}
+            {/* <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={controlsPerform}
               style={{
@@ -232,7 +257,18 @@ export const HeroSection = React.memo(() => {
               }}
             >
               {content_head_third}
-            </motion.span>
+            </motion.span> */}
+            <motion.span
+      initial={{ opacity: 0, y: 20 }}
+      animate={controlsPerform}
+      style={{
+        display: "block",
+        lineHeight: lineHeight,
+        minHeight: "132px",
+      }}
+    >
+      {content_head_third}
+    </motion.span>
           </div>
         </div>
 
