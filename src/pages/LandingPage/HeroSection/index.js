@@ -147,7 +147,7 @@
 //     </div>
 //   );
 // };
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import alignmentClasses from "utils/landing_page.json";
 // Memoize the component to prevent unnecessary re-renders when props don't change
@@ -186,22 +186,11 @@ export const HeroSection = React.memo(() => {
     sequence();
   }, [controlsScan, controlsFit, controlsPerform]);
 
-  // Test
-
-  const initialLineHeight = useMemo(() => {
-    if (typeof window !== "undefined") {
-      return window.innerWidth >= 640 && window.innerWidth < 768 ? "90px" : "132px";
-    }
-    return "132px"; // Default for server-side rendering fallback
-  }, []);
-
- 
-
   return (
     <div className="flex px-[22px] sm:px-2 xl:px-10 2xl:px-0 w-[95%] pb-[100px] xl:max-w-[1300px] mx-auto justify-normal">
       <div className="md:w-auto w-full md:mx-0 mx-auto items-center flex flex-col md:items-start">
         <div className="head_text flex md:text-start sm:text-center sm:flex-col md:flex-col m-0">
-          {/* <motion.span
+          <motion.span
             initial={{ opacity: 0, y: 20 }}
             animate={controlsScan}
             style={{
@@ -214,9 +203,9 @@ export const HeroSection = React.memo(() => {
             }}
           >
             {content_head_first}
-          </motion.span> */}
+          </motion.span>
           <div className="flex sm:flex-row md:flex-col">
-            {/* <motion.span
+            <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={controlsFit}
               style={{
@@ -229,8 +218,8 @@ export const HeroSection = React.memo(() => {
               }}
             >
               {content_head_second}
-            </motion.span> */}
-            {/* <motion.span
+            </motion.span>
+            <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={controlsPerform}
               style={{
@@ -243,19 +232,7 @@ export const HeroSection = React.memo(() => {
               }}
             >
               {content_head_third}
-            </motion.span> */}
-            <motion.span
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3 }} // Add a minimal duration for smoother LCP
-      style={{
-        display: "block",
-        lineHeight: initialLineHeight,
-        minHeight: "132px",
-      }}
-    >
-      {content_head_third}
-    </motion.span>
+            </motion.span>
           </div>
         </div>
 
