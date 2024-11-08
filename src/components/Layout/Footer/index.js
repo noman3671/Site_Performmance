@@ -18,21 +18,11 @@ export const Footer = () => {
             <div className="footer_logo_main">
               <div className="mb-10 w-full mx-auto lg:mx-0 :!ml-0">
                 <a href="/#" className="footer_logo">
-                  {/* <img
-                    src={saddle_logo}
-                    alt="saddle_logo"
-                    style={{
-                      width: "254px",
-                    }}
-                  /> */}
                   <img
                     src={saddle_logo}
                     alt="saddle_logo"
                     width="254"
                     height="100"
-                    // style={{
-                    //   width: "254px",
-                    // }}
                   />
                 </a>
 
