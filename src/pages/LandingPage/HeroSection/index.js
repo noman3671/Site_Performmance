@@ -188,25 +188,11 @@ export const HeroSection = React.memo(() => {
 
   // Test
 
-  const [lineHeight, setLineHeight] = useState("132px");
-  // const [controlsPerform, setControlsPerform] = useState({ opacity: 0, y: 20 });
-
-  useEffect(() => {
-    // Set line-height based on initial viewport width
-    const updateLineHeight = () => {
-      if (window.innerWidth >= 640 && window.innerWidth < 768) {
-        setLineHeight("90px");
-      } else {
-        setLineHeight("132px");
-      }
-    };
-
-    // Add a resize listener to update line-height on viewport changes
-    window.addEventListener("resize", updateLineHeight);
-    updateLineHeight(); // Set initial line-height
-
-    // Clean up the resize event listener
-    return () => window.removeEventListener("resize", updateLineHeight);
+  const initialLineHeight = useMemo(() => {
+    if (typeof window !== "undefined") {
+      return window.innerWidth >= 640 && window.innerWidth < 768 ? "90px" : "132px";
+    }
+    return "132px"; // Default for server-side rendering fallback
   }, []);
 
  
@@ -260,10 +246,11 @@ export const HeroSection = React.memo(() => {
             </motion.span> */}
             <motion.span
       initial={{ opacity: 0, y: 20 }}
-      animate={controlsPerform}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3 }} // Add a minimal duration for smoother LCP
       style={{
         display: "block",
-        lineHeight: lineHeight,
+        lineHeight: initialLineHeight,
         minHeight: "132px",
       }}
     >
