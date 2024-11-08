@@ -204,7 +204,6 @@ export const HeroSection = React.memo(() => {
           >
             {content_head_first}
           </motion.span>
-          <h1>Noman</h1>
           <div className="flex sm:flex-row md:flex-col">
             <motion.span
               initial={{ opacity: 0, y: 20 }}
