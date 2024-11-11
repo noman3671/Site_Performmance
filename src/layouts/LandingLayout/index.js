@@ -20,7 +20,7 @@ export default () => {
   return (
     <div className="hero_sec_img">
       <div className="video-container">
-        {/* {shouldDisplayVideo && (
+        {shouldDisplayVideo && (
           <video
             preload="metadata"
             autoPlay
@@ -31,7 +31,7 @@ export default () => {
           >
             <source src={video} type="video/mp4" />
           </video>
-        )} */}
+        )}
       </div>
       <div className="absolute top-0 !z-10 w-full h-full">
         <Header />

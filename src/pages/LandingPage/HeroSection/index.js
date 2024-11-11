@@ -190,7 +190,7 @@ export const HeroSection = React.memo(() => {
     <div className="flex px-[22px] sm:px-2 xl:px-10 2xl:px-0 w-[95%] pb-[100px] xl:max-w-[1300px] mx-auto justify-normal">
       <div className="md:w-auto w-full md:mx-0 mx-auto items-center flex flex-col md:items-start">
         <div className="head_text flex md:text-start sm:text-center sm:flex-col md:flex-col m-0">
-          <motion.span
+          <span
             initial={{ opacity: 0, y: 20 }}
             animate={controlsScan}
             style={{
@@ -203,9 +203,9 @@ export const HeroSection = React.memo(() => {
             }}
           >
             {content_head_first}
-          </motion.span>
+          </span>
           <div className="flex sm:flex-row md:flex-col">
-            <motion.span
+            <span
               initial={{ opacity: 0, y: 20 }}
               animate={controlsFit}
               style={{
@@ -218,8 +218,8 @@ export const HeroSection = React.memo(() => {
               }}
             >
               {content_head_second}
-            </motion.span>
-            <motion.span
+            </span>
+            <span
               initial={{ opacity: 0, y: 20 }}
               animate={controlsPerform}
               style={{
@@ -232,7 +232,7 @@ export const HeroSection = React.memo(() => {
               }}
             >
               {content_head_third}
-            </motion.span>
+            </span>
           </div>
         </div>
 
