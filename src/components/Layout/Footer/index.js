@@ -6,6 +6,7 @@ import FbIcon from "assets/icons/fb-icon.svg?react";
 import Tiktok from "assets/icons/tiktok-icon.svg?react";
 import saddle_logo from "assets/images/saddleLogo.webp";
 import { useLoggedIn } from "context/LoggedInContext";
+import SaddleLogo from "assets/icons/saddleLogo.svg?react";
 
 export const Footer = () => {
   const { show } = useLoggedIn();
@@ -18,12 +19,13 @@ export const Footer = () => {
             <div className="footer_logo_main">
               <div className="mb-10 w-full mx-auto lg:mx-0 :!ml-0">
                 <a href="/#" className="footer_logo">
-                  <img
+                  {/* <img
                     src={saddle_logo}
                     alt="saddle_logo"
                     width="254"
                     height="100"
-                  />
+                  /> */}
+                  <SaddleLogo />
                 </a>
 
                 <p className="desc_text">SCAN. FIT. PERFORM.</p>
@@ -52,12 +54,13 @@ export const Footer = () => {
             <div className="mob_footer_logo_main">
               <div className="mob_footer_logo">
                 <a href="/#" className="mb-6 inline-block mx-auto">
-                  <img
+                  {/* <img
                     src={saddle_logo}
                     alt="saddle_logo"
                     width="154"
                     height="55"
-                  />
+                  /> */}
+                  <SaddleLogo/>
                 </a>
                 <p className="desc_text">SCAN. FIT. PERFORM.</p>
               </div>
