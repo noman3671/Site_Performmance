@@ -125,6 +125,8 @@ export const Testimonials = () => {
     ],
   };
 
+
+  
   return (
     <div
       className={`flex flex-col w-full relative z-10  ${
@@ -146,7 +148,7 @@ export const Testimonials = () => {
         Here is what saddlefit customers have to say
       </motion.h1>
 
-      <div className="slider-container hide-scroll-bar  w-full xl:mt-10">
+      {/* <div className="slider-container hide-scroll-bar  w-full xl:mt-10">
         <Slider {...settings}>
           {data?.listGoogleReviews?.reviews?.map((review, index) => (
             <div
@@ -194,7 +196,7 @@ export const Testimonials = () => {
             </div>
           ))}
         </Slider>
-      </div>
+      </div> */}
     </div>
   );
 };

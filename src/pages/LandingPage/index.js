@@ -5,7 +5,7 @@ import { Gallery } from "./Gallery";
 import { FirstBanner } from "./FirstBanner";
 import { SecondBanner } from "./SecondBanner";
 import { Testimonials } from "./Testimonials";
-// import { FeaturedBrands } from "./FeatureBrands";
+import { FeaturedBrands } from "./FeatureBrands";
 
 const LandingPage = () => {
   return (
@@ -13,10 +13,10 @@ const LandingPage = () => {
       <HeroSection />
       <FeatureCards />
       <EventCard />
-      {/* <FirstBanner type="LANDING"/>
-      <Testimonials />
-      <SecondBanner type="LANDING"/> */}
-      {/* <FeaturedBrands /> */}
+      {/* <FirstBanner type="LANDING"/> */}
+      {/* <Testimonials /> */}
+      {/*<SecondBanner type="LANDING"/> */}
+      <FeaturedBrands />
     </>
   );
 };
