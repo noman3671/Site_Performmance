@@ -25,7 +25,7 @@ export const Footer = () => {
                     width="254"
                     height="100"
                   /> */}
-                  <SaddleLogo />
+                  {/* <SaddleLogo /> */}
                 </a>
 
                 <p className="desc_text">SCAN. FIT. PERFORM.</p>
@@ -60,7 +60,7 @@ export const Footer = () => {
                     width="154"
                     height="55"
                   /> */}
-                  <SaddleLogo/>
+                  {/* <SaddleLogo/> */}
                 </a>
                 <p className="desc_text">SCAN. FIT. PERFORM.</p>
               </div>
