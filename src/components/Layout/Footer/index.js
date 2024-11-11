@@ -94,7 +94,8 @@ export const Footer = () => {
                   </a>
                 </div>
                 <p className="regards_text">
-                  SaddleFit 2024. All rights reserved.
+                  SaddleFit 
+                  {/* 2024. All rights reserved. */}
                 </p>
               </div>
             </div>

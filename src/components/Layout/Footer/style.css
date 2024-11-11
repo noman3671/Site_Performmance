@@ -91,7 +91,7 @@
 }
 .regards_text {
   @apply text-[#fff] opacity-[0.6] text-sm not-italic font-normal leading-7 mx-auto xl:mx-0 text-center xl:text-start;
-  /* font-family: "Montserrat"; */
+  font-family: "Montserrat";
   foo: bar;
 }
 
