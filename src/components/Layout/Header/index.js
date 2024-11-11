@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation, useParams } from "react-router-dom";
 import bottom_line from "assets/images/bottom-line.png";
 import menuIcon from "assets/icons/MenuIcon.svg";
-import saddle_logo from "assets/icons/saddleLogo.svg";
+import SaddleLogo from "assets/icons/saddleLogo.svg?react";
 import mob_saddle_logo from "assets/icons/mob_logo.svg";
 import Button from "components/Buttons";
 import { UnionIcon } from "components/Icons";
@@ -125,13 +125,14 @@ const Header = () => {
         <div className="w-full h-[95px] pt-8 md:pt-6 lg:pt-6">
           <div className="flex px-[22px] sm:px-2 xl:px-10 2xl:px-0 w-[95%] xl:max-w-[1300px] mx-auto  justify-between  items-center">
             <NavLink to="/">
-              <img
+              {/* <img
                 src={saddle_logo}
                 alt="logo"
                 width="154"
                 height="55"
                 className="flex w-[154px] lg:w-[143px] lg:h-[55px] xl:w-[232px]"
-              />
+              /> */}
+              <SaddleLogo className="flex w-[154px] lg:w-[143px] lg:h-[55px] xl:w-[232px]" />
             </NavLink>
 
             {/* <div className="hidden ml-[40px] lg:flex items-center lg:gap-[20px] xl:gap-[40px]"> */}
