@@ -107,7 +107,7 @@ const LinkGroup = ({ children, header }) => {
     <>
       <div className="w-full px-4">
         <div className="mb-10 w-full">
-          <h4 className="nav_links_head">{header}</h4>
+          <h2 className="nav_links_head">{header}</h2>
           <ul className="ftr_nav_links">{children}</ul>
         </div>
       </div>
