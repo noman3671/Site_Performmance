@@ -189,7 +189,7 @@ export const HeroSection = React.memo(() => {
   return (
     <div className="flex px-[22px] sm:px-2 xl:px-10 2xl:px-0 w-[95%] pb-[100px] xl:max-w-[1300px] mx-auto justify-normal">
       <div className="md:w-auto w-full md:mx-0 mx-auto items-center flex flex-col md:items-start">
-        <div className="head_text flex md:text-start sm:text-center sm:flex-col md:flex-col m-0">
+        <div className="head_text !text-orange-500 flex md:text-start sm:text-center sm:flex-col md:flex-col m-0">
           <span
             initial={{ opacity: 0, y: 20 }}
             animate={controlsScan}
