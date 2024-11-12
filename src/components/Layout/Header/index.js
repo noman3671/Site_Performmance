@@ -532,8 +532,13 @@ const Header = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <img src={bottom_line} alt="bottom-line" />
-                  </li>{" "}
+                    <img
+                      src={bottom_line}
+                      alt="bottom-line"
+                      width="201"
+                      height="2"
+                    />
+                  </li>
                   <li>
                     <NavLink
                       to="/user/my-saddle"
@@ -544,7 +549,12 @@ const Header = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <img src={bottom_line} alt="bottom-line" />
+                    <img
+                      src={bottom_line}
+                      alt="bottom-line"
+                      width="201"
+                      height="2"
+                    />
                   </li>
                   {user && (
                     <li>
@@ -558,8 +568,13 @@ const Header = () => {
                     </li>
                   )}
                   <li>
-                    <img src={bottom_line} alt="bottom-line" />
-                  </li>{" "}
+                    <img
+                      src={bottom_line}
+                      alt="bottom-line"
+                      width="201"
+                      height="2"
+                    />
+                  </li>
                   {/* <NavLink
                     to="/user/my-saddle"
                     onClick={() => setToggle(false)}
@@ -578,8 +593,14 @@ const Header = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <img src={bottom_line} alt="bottom-line" />
-                  </li>{" "}
+                    <img
+                      src={bottom_line}
+                      alt="bottom-line"
+                      width="201"
+                      height="2"
+                    />
+                  </li>
+
                   <li>
                     <NavLink
                       to="/cactus"
@@ -590,8 +611,14 @@ const Header = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <img src={bottom_line} alt="bottom-line" />
-                  </li>{" "}
+                    <img
+                      src={bottom_line}
+                      alt="bottom-line"
+                      width="201"
+                      height="2"
+                    />
+                  </li>
+
                   <li>
                     <NavLink
                       to="/profile"
@@ -602,8 +629,14 @@ const Header = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <img src={bottom_line} alt="bottom-line" />
-                  </li>{" "}
+                    <img
+                      src={bottom_line}
+                      alt="bottom-line"
+                      width="201"
+                      height="2"
+                    />
+                  </li>
+
                   {/* <NavLink
                     to="/buy-sell"
                     onClick={() => setToggle(false)}
@@ -648,8 +681,14 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <img src={bottom_line} alt="bottom-line" />
-                  </li>{" "}
+                    <img
+                      src={bottom_line}
+                      alt="bottom-line"
+                      width="201"
+                      height="2"
+                    />
+                  </li>
+
                   <li>
                     <a
                       onClick={() => {
@@ -674,9 +713,6 @@ const Header = () => {
                       How it works
                     </a>
                   </li>
-                  <li>
-                    <img src={bottom_line} alt="bottom-line" />
-                  </li>{" "}
                   {user && (
                     <a
                       onClick={() => {
@@ -704,8 +740,14 @@ const Header = () => {
                     </a>
                   )}
                   <li>
-                    <img src={bottom_line} alt="bottom-line" />
-                  </li>{" "}
+                    <img
+                      src={bottom_line}
+                      alt="bottom-line"
+                      width="201"
+                      height="2"
+                    />
+                  </li>
+
                   <li>
                     <a
                       onClick={() => {
@@ -733,8 +775,14 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <img src={bottom_line} alt="bottom-line" />
-                  </li>{" "}
+                    <img
+                      src={bottom_line}
+                      alt="bottom-line"
+                      width="201"
+                      height="2"
+                    />
+                  </li>
+
                   <li>
                     <NavLink
                       to="/event"
@@ -749,8 +797,14 @@ const Header = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <img src={bottom_line} alt="bottom-line" />
-                  </li>{" "}
+                    <img
+                      src={bottom_line}
+                      alt="bottom-line"
+                      width="201"
+                      height="2"
+                    />
+                  </li>
+
                   <li>
                     <NavLink
                       to="/cactus"
