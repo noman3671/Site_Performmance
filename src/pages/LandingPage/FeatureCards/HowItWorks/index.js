@@ -48,9 +48,9 @@ const HowItWorks = ({ mockData }) => {
                     </div>
                     <div>
                       <div className="flex flex-col pl-[20px] max-w-[316px]">
-                        <h3 className="title w-auto text-start md:w-[312px] leading-none">
+                        <h2 className="title w-auto text-start md:w-[312px] leading-none">
                           {item.title}
-                        </h3>
+                        </h2>
                         <p className="text-start w-[160px] sm:max-w-[238px] leading-none mt-[6.2px] md:mt-[12.33px] lg:mt-[16px] text-[#F7F7F6] md:w-[318px] description !flex !flex-wrap">
                           {item.description}
                         </p>
