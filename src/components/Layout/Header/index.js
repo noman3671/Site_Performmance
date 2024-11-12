@@ -124,14 +124,7 @@ const Header = () => {
       >
         <div className="w-full h-[95px] pt-8 md:pt-6 lg:pt-6">
           <div className="flex px-[22px] sm:px-2 xl:px-10 2xl:px-0 w-[95%] xl:max-w-[1300px] mx-auto  justify-between  items-center">
-            <NavLink to="/">
-              {/* <img
-                src={saddle_logo}
-                alt="logo"
-                width="154"
-                height="55"
-                className="flex w-[154px] lg:w-[143px] lg:h-[55px] xl:w-[232px]"
-              /> */}
+            <NavLink to="/" aria-label="Home">
               <SaddleLogo className="flex w-[154px] lg:w-[143px] lg:h-[55px] xl:w-[232px]" />
             </NavLink>
 
