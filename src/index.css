@@ -93,6 +93,7 @@
     #2b364b 24.06%,
     rgba(43, 54, 75, 0) 89.66%
   );
+  /* background-color: #2b364b; */
   flex-shrink: 0;
   position: relative;
   z-index: 2;

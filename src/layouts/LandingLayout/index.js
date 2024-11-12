@@ -33,7 +33,7 @@ export default () => {
           </video>
         )}
       </div>
-      <div className="absolute top-0 !z-10 w-full h-full">
+      <div className="absolute bg-[#2b364b] top-0 w-full h-full">
         <Header />
         <Outlet />
         <Footer />
