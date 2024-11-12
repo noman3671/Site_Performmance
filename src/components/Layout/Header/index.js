@@ -522,30 +522,36 @@ const Header = () => {
             >
               {user ? (
                 <>
-                  <NavLink
-                    to="/user/horses"
-                    onClick={() => setToggle(false)}
-                    className="nav_links text-[16px] text-[#F7F7F6] hover:cursor-pointer font-medium"
-                  >
-                    My Horses
-                  </NavLink>
-                  <img src={bottom_line} alt="bottom-line" />
-                  <NavLink
-                    to="/user/my-saddle"
-                    onClick={() => setToggle(false)}
-                    className="nav_links text-[16px] text-[#F7F7F6] font-medium"
-                  >
-                    My Saddles
-                  </NavLink>
-                  <img src={bottom_line} alt="bottom-line" />
-                  {user && (
+                  <li>
                     <NavLink
-                      to="/buy"
+                      to="/user/horses"
+                      onClick={() => setToggle(false)}
+                      className="nav_links text-[16px] text-[#F7F7F6] hover:cursor-pointer font-medium"
+                    >
+                      My Horses
+                    </NavLink>
+                  </li>
+                  <img src={bottom_line} alt="bottom-line" />
+                  <li>
+                    <NavLink
+                      to="/user/my-saddle"
                       onClick={() => setToggle(false)}
                       className="nav_links text-[16px] text-[#F7F7F6] font-medium"
                     >
-                      Buy a saddle
+                      My Saddles
                     </NavLink>
+                  </li>
+                  <img src={bottom_line} alt="bottom-line" />
+                  {user && (
+                    <li>
+                      <NavLink
+                        to="/buy"
+                        onClick={() => setToggle(false)}
+                        className="nav_links text-[16px] text-[#F7F7F6] font-medium"
+                      >
+                        Buy a saddle
+                      </NavLink>
+                    </li>
                   )}
                   <img src={bottom_line} alt="bottom-line" />
                   {/* <NavLink
@@ -556,29 +562,35 @@ const Header = () => {
                     Sell a Saddle
                   </NavLink>{" "} */}
                   {/* <img src={bottom_line} alt="bottom-line" /> */}
-                  <NavLink
-                    to="/event"
-                    onClick={() => setToggle(false)}
-                    className="nav_links text-[16px] text-[#F7F7F6] hover:cursor-pointer font-medium"
-                  >
-                    Schedule Now
-                  </NavLink>
+                  <li>
+                    <NavLink
+                      to="/event"
+                      onClick={() => setToggle(false)}
+                      className="nav_links text-[16px] text-[#F7F7F6] hover:cursor-pointer font-medium"
+                    >
+                      Schedule Now
+                    </NavLink>
+                  </li>
                   <img src={bottom_line} alt="bottom-line" />
-                  <NavLink
-                    to="/cactus"
-                    onClick={() => setToggle(false)}
-                    className="nav_links text-[16px] text-[#F7F7F6] hover:cursor-pointer font-medium"
-                  >
-                    Cactus
-                  </NavLink>
+                  <li>
+                    <NavLink
+                      to="/cactus"
+                      onClick={() => setToggle(false)}
+                      className="nav_links text-[16px] text-[#F7F7F6] hover:cursor-pointer font-medium"
+                    >
+                      Cactus
+                    </NavLink>
+                  </li>
                   <img src={bottom_line} alt="bottom-line" />
-                  <NavLink
-                    to="/profile"
-                    onClick={() => setToggle(false)}
-                    className="nav_links text-[16px] text-[#F7F7F6] hover:cursor-pointer font-medium"
-                  >
-                    Update Profile
-                  </NavLink>
+                  <li>
+                    <NavLink
+                      to="/profile"
+                      onClick={() => setToggle(false)}
+                      className="nav_links text-[16px] text-[#F7F7F6] hover:cursor-pointer font-medium"
+                    >
+                      Update Profile
+                    </NavLink>
+                  </li>
                   <img src={bottom_line} alt="bottom-line" />
                   {/* <NavLink
                     to="/buy-sell"
