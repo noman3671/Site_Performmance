@@ -7,11 +7,9 @@ import Tiktok from "assets/icons/tiktok-icon.svg?react";
 import saddle_logo from "assets/images/saddleLogo.webp";
 import { useLoggedIn } from "context/LoggedInContext";
 import SaddleLogo from "assets/icons/saddleLogo.svg?react";
-import { Link, useNavigate } from "react-router-dom";
 
 export const Footer = () => {
   const { show } = useLoggedIn();
-  const navigate = useNavigate();
   return (
     <>
       <footer className={`footer_main !text-white relative z-10`}>
@@ -20,9 +18,9 @@ export const Footer = () => {
           <div className="footer_wrapper">
             <div className="footer_logo_main">
               <div className="mb-10 w-full mx-auto lg:mx-0 :!ml-0">
-                <div onClick={() => navigate("/")} className="footer_logo">
+                <a href="/" aria-label="logo" className="footer_logo">
                   <SaddleLogo />
-                </div>
+                </a>
 
                 <p className="desc_text">SCAN. FIT. PERFORM.</p>
               </div>
@@ -49,38 +47,43 @@ export const Footer = () => {
             </div>
             <div className="mob_footer_logo_main">
               <div className="mob_footer_logo">
-                <div
-                  onClick={() => navigate("/")}
+                <a
+                  href="/"
+                  aria-label="logo"
                   className="mb-6 inline-block mx-auto"
                 >
                   <SaddleLogo />
-                </div>
+                </a>
                 <p className="desc_text">SCAN. FIT. PERFORM.</p>
               </div>
             </div>
             <div className="footer_icons_main">
               <div className="footer_icons">
                 <div className="footer_social_icons">
-                  <Link
-                    target="_blank"
-                    to={"https://www.instagram.com/saddlefit.io/"}
-                  >
-                    <InstaIcon />
-                  </Link>
                   <a
                     target="_blank"
+                    aria-label="Instagram"
+                    href="https://www.instagram.com/saddlefit.io/"
+                  >
+                    <InstaIcon />
+                  </a>
+                  <a
+                    target="_blank"
+                    aria-label="YouTube"
                     href="https://www.youtube.com/channel/UCUj-9ml6dOitzXY-H515cmQ"
                   >
                     <YoutubeIcon />
                   </a>
                   <a
                     target="_blank"
+                    aria-label="Facebook"
                     href="https://www.facebook.com/profile.php?id=61555381395666"
                   >
                     <FbIcon />
                   </a>
                   <a
                     target="_blank"
+                    aria-label="TikTok"
                     href="https://www.tiktok.com/@saddlefit.io"
                   >
                     <Tiktok />
