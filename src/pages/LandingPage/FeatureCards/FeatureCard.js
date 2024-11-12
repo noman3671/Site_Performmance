@@ -36,9 +36,8 @@ export const FeatureCard = ({ index, title, description, icon, delay }) => {
           <div className="cards_icons">{icon}</div>
           <h4 className="card_title">{title}</h4>
         </div>
-       
-          {/* <p className="card_desc mt-5">{description}</p> */}
-      
+
+        <p className="card_desc mt-5">{description}</p>
       </div>
     </motion.div>
   );
