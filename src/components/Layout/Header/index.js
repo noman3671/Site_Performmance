@@ -706,58 +706,64 @@ const Header = () => {
                   <li>
                     <img src={bottom_line} alt="bottom-line" />
                   </li>{" "}
-                  <a
-                    onClick={() => {
-                      if (
-                        location.pathname === "/partner" ||
-                        location.pathname === "/privacy-policy" ||
-                        location.pathname === "/terms-and-conditions" ||
-                        location.pathname === "/event"
-                      ) {
-                        setToggle(false);
-                        navigate("/", {
-                          state: { scrollToSecFive: true },
-                        });
-                        setTimeout(() => {
+                  <li>
+                    <a
+                      onClick={() => {
+                        if (
+                          location.pathname === "/partner" ||
+                          location.pathname === "/privacy-policy" ||
+                          location.pathname === "/terms-and-conditions" ||
+                          location.pathname === "/event"
+                        ) {
+                          setToggle(false);
+                          navigate("/", {
+                            state: { scrollToSecFive: true },
+                          });
+                          setTimeout(() => {
+                            scrollFunctions.scrollToSecFive();
+                          }, 0);
+                        } else {
+                          setToggle(false);
                           scrollFunctions.scrollToSecFive();
-                        }, 0);
-                      } else {
-                        setToggle(false);
-                        scrollFunctions.scrollToSecFive();
-                      }
-                    }}
-                    className="nav_links text-[16px] text-[#F7F7F6] font-medium"
-                  >
-                    Book Appointment
-                  </a>
+                        }
+                      }}
+                      className="nav_links text-[16px] text-[#F7F7F6] font-medium"
+                    >
+                      Book Appointment
+                    </a>
+                  </li>
                   <li>
                     <img src={bottom_line} alt="bottom-line" />
                   </li>{" "}
-                  <NavLink
-                    to="/event"
-                    onClick={() => setToggle(false)}
-                    className={`nav_links text-[16px] ${
-                      location.pathname === "/event"
-                        ? "border-b-2 border-[#5C80B6]"
-                        : ""
-                    } text-[#F7F7F6] hover:cursor-pointer font-medium`}
-                  >
-                    Schedule Now
-                  </NavLink>
+                  <li>
+                    <NavLink
+                      to="/event"
+                      onClick={() => setToggle(false)}
+                      className={`nav_links text-[16px] ${
+                        location.pathname === "/event"
+                          ? "border-b-2 border-[#5C80B6]"
+                          : ""
+                      } text-[#F7F7F6] hover:cursor-pointer font-medium`}
+                    >
+                      Schedule Now
+                    </NavLink>
+                  </li>
                   <li>
                     <img src={bottom_line} alt="bottom-line" />
                   </li>{" "}
-                  <NavLink
-                    to="/cactus"
-                    onClick={() => setToggle(false)}
-                    className={`nav_links text-[16px] ${
-                      location.pathname === "/cactus"
-                        ? "border-b-2 border-[#5C80B6]"
-                        : ""
-                    } text-[#F7F7F6] hover:cursor-pointer font-medium`}
-                  >
-                    Cactus
-                  </NavLink>
+                  <li>
+                    <NavLink
+                      to="/cactus"
+                      onClick={() => setToggle(false)}
+                      className={`nav_links text-[16px] ${
+                        location.pathname === "/cactus"
+                          ? "border-b-2 border-[#5C80B6]"
+                          : ""
+                      } text-[#F7F7F6] hover:cursor-pointer font-medium`}
+                    >
+                      Cactus
+                    </NavLink>
+                  </li>
                   {/* <img src={bottom_line} alt="bottom-line" /> */}
                   <div className="flex flex-col mt-[24px] justify-center mb-[24px] items-center gap-[24px]">
                     <Button
