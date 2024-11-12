@@ -765,7 +765,7 @@ const Header = () => {
                     </NavLink>
                   </li>
                   {/* <img src={bottom_line} alt="bottom-line" /> */}
-                  <div className="flex flex-col mt-[24px] justify-center mb-[24px] items-center gap-[24px]">
+                  <li className="flex flex-col mt-[24px] justify-center mb-[24px] items-center gap-[24px]">
                     <Button
                       size
                       className={" nav_outline_btn "}
@@ -783,7 +783,7 @@ const Header = () => {
                       {" "}
                       Join now
                     </Button>
-                  </div>
+                  </li>
                 </>
               )}
             </ul>
