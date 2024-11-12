@@ -19,7 +19,7 @@ export default () => {
 
   return (
     <div className="hero_sec_img">
-      {/* <div className="video-container">
+      <div className="video-container">
         {shouldDisplayVideo && (
           <video
             preload="metadata"
@@ -32,7 +32,7 @@ export default () => {
             <source src={video} type="video/mp4" />
           </video>
         )}
-      </div> */}
+      </div>
       <div className="absolute top-0 w-full h-full">
         <Header />
         <Outlet />
