@@ -11,7 +11,7 @@ const LandingPage = () => {
   return (
     <>
       {/* <HeroSection /> */}
-      <FeatureCards />
+      {/* <FeatureCards /> */}
       {/* <EventCard /> */}
       {/* <FirstBanner type="LANDING"/> */}
       {/* <Testimonials /> */}

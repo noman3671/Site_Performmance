@@ -1,4 +1,4 @@
-import "./style.scss";
+// import "./style.scss";
 import React, { useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import { Header, Footer } from "components/Layout";
@@ -34,9 +34,9 @@ export default () => {
         )}
       </div> */}
       <div className="absolute top-0 w-full h-full">
-        {/* <Header /> */}
+        <Header />
         <Outlet />
-        {/* <Footer /> */}
+        <Footer />
       </div>
       <LoginModal />
       <RegisterModal />
