@@ -531,7 +531,9 @@ const Header = () => {
                       My Horses
                     </NavLink>
                   </li>
-                  <img src={bottom_line} alt="bottom-line" />
+                  <li>
+                    <img src={bottom_line} alt="bottom-line" />
+                  </li>{" "}
                   <li>
                     <NavLink
                       to="/user/my-saddle"
@@ -541,7 +543,9 @@ const Header = () => {
                       My Saddles
                     </NavLink>
                   </li>
-                  <img src={bottom_line} alt="bottom-line" />
+                  <li>
+                    <img src={bottom_line} alt="bottom-line" />
+                  </li>
                   {user && (
                     <li>
                       <NavLink
@@ -553,7 +557,9 @@ const Header = () => {
                       </NavLink>
                     </li>
                   )}
-                  <img src={bottom_line} alt="bottom-line" />
+                  <li>
+                    <img src={bottom_line} alt="bottom-line" />
+                  </li>{" "}
                   {/* <NavLink
                     to="/user/my-saddle"
                     onClick={() => setToggle(false)}
@@ -571,7 +577,9 @@ const Header = () => {
                       Schedule Now
                     </NavLink>
                   </li>
-                  <img src={bottom_line} alt="bottom-line" />
+                  <li>
+                    <img src={bottom_line} alt="bottom-line" />
+                  </li>{" "}
                   <li>
                     <NavLink
                       to="/cactus"
@@ -581,7 +589,9 @@ const Header = () => {
                       Cactus
                     </NavLink>
                   </li>
-                  <img src={bottom_line} alt="bottom-line" />
+                  <li>
+                    <img src={bottom_line} alt="bottom-line" />
+                  </li>{" "}
                   <li>
                     <NavLink
                       to="/profile"
@@ -591,7 +601,9 @@ const Header = () => {
                       Update Profile
                     </NavLink>
                   </li>
-                  <img src={bottom_line} alt="bottom-line" />
+                  <li>
+                    <img src={bottom_line} alt="bottom-line" />
+                  </li>{" "}
                   {/* <NavLink
                     to="/buy-sell"
                     onClick={() => setToggle(false)}
@@ -635,7 +647,9 @@ const Header = () => {
                       Why SaddleFit
                     </a>
                   </li>
-                  <img src={bottom_line} alt="bottom-line" />
+                  <li>
+                    <img src={bottom_line} alt="bottom-line" />
+                  </li>{" "}
                   <li>
                     <a
                       onClick={() => {
@@ -660,8 +674,9 @@ const Header = () => {
                       How it works
                     </a>
                   </li>
-                  <img src={bottom_line} alt="bottom-line" />
-
+                  <li>
+                    <img src={bottom_line} alt="bottom-line" />
+                  </li>{" "}
                   {user && (
                     <a
                       onClick={() => {
@@ -688,7 +703,9 @@ const Header = () => {
                       Buy a Saddle
                     </a>
                   )}
-                  <img src={bottom_line} alt="bottom-line" />
+                  <li>
+                    <img src={bottom_line} alt="bottom-line" />
+                  </li>{" "}
                   <a
                     onClick={() => {
                       if (
@@ -713,8 +730,9 @@ const Header = () => {
                   >
                     Book Appointment
                   </a>
-                  <img src={bottom_line} alt="bottom-line" />
-
+                  <li>
+                    <img src={bottom_line} alt="bottom-line" />
+                  </li>{" "}
                   <NavLink
                     to="/event"
                     onClick={() => setToggle(false)}
@@ -726,8 +744,9 @@ const Header = () => {
                   >
                     Schedule Now
                   </NavLink>
-                  <img src={bottom_line} alt="bottom-line" />
-
+                  <li>
+                    <img src={bottom_line} alt="bottom-line" />
+                  </li>{" "}
                   <NavLink
                     to="/cactus"
                     onClick={() => setToggle(false)}
@@ -740,7 +759,6 @@ const Header = () => {
                     Cactus
                   </NavLink>
                   {/* <img src={bottom_line} alt="bottom-line" /> */}
-
                   <div className="flex flex-col mt-[24px] justify-center mb-[24px] items-center gap-[24px]">
                     <Button
                       size
