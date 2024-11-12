@@ -11,7 +11,8 @@ export const FeatureCard = ({ index, title, description, icon, delay }) => {
       ref={cardRef}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.2, delay: 0.4 }}
+      // transition={{ duration: 0.2, delay: 0.4 }}
+      transition={{ duration: 0.1, delay: 0.2 }}
       whileHover={{
         scale: 1.05,
         rotateX: 10, // Tilt card on X-axis
