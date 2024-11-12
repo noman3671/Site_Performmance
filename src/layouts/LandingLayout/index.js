@@ -19,8 +19,7 @@ export default () => {
 
   return (
     <div className="hero_sec_img">
-    hello
-      {/* <div className="video-container">
+      <div className="video-container">
         {shouldDisplayVideo && (
           <video
             preload="metadata"
@@ -42,7 +41,7 @@ export default () => {
       <LoginModal />
       <RegisterModal />
       <ForgotPasswordModal />
-      <VerifyPhoneCodeModal /> */}
+      <VerifyPhoneCodeModal />
     </div>
   );
 };

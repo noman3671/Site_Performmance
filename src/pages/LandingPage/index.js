@@ -10,9 +10,9 @@ import { Testimonials } from "./Testimonials";
 const LandingPage = () => {
   return (
     <>
-      {/* <HeroSection />
+      <HeroSection />
       <FeatureCards />
-      <EventCard /> */}
+      <EventCard />
       {/* <FirstBanner type="LANDING"/> */}
       {/* <Testimonials /> */}
       {/*<SecondBanner type="LANDING"/> */}
