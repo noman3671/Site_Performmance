@@ -242,7 +242,7 @@ const Header = () => {
                 </>
               ) : (
                 <>
-                  <ul className="lg:flex gap-x-8 lg:gap-x-4 xl:gap-x-8">
+                  {/* <ul className="lg:flex gap-x-8 lg:gap-x-4 xl:gap-x-8">
                     <a
                       onClick={() => {
                         if (
@@ -288,7 +288,6 @@ const Header = () => {
                     >
                       How it works
                     </a>
-                    {/* please add link to the booking portion of the page */}
                     <a
                       onClick={() => {
                         if (
@@ -320,23 +319,7 @@ const Header = () => {
                           navigate("/buy");
                           setToggle(false);
                         }}
-                        // onClick={() => {
-                        //   if (
-                        //     location.pathname === "/partner" ||
-                        //     location.pathname === "/privacy-policy" ||
-                        //     location.pathname === "/terms-and-conditions" ||
-                        //     location.pathname === "/event"
-                        //   ) {
-                        //     setToggle(false);
-                        //     navigate("/");
-                        //     setTimeout(() => {
-                        //       scrollFunctions.scrollToSecThree();
-                        //     }, 0);
-                        //   } else {
-                        //     setToggle(false);
-                        //     scrollFunctions.scrollToSecThree();
-                        //   }
-                        // }}
+                       
                         className="nav_links text-[16px] text-[#F7F7F6] hover:cursor-pointer font-medium"
                       >
                         Buy a Saddle
@@ -362,7 +345,126 @@ const Header = () => {
                     >
                       Cactus
                     </NavLink>
+                  </ul> */}
+                  <ul className="lg:flex gap-x-8 lg:gap-x-4 xl:gap-x-8">
+                    <li>
+                      <a
+                        onClick={() => {
+                          if (
+                            location.pathname === "/partner" ||
+                            location.pathname === "/privacy-policy" ||
+                            location.pathname === "/terms-and-conditions" ||
+                            location.pathname === "/event"
+                          ) {
+                            setToggle(false);
+                            navigate("/");
+                            setTimeout(() => {
+                              scrollFunctions.scrollToSecOne();
+                            }, 0);
+                          } else {
+                            setToggle(false);
+                            scrollFunctions.scrollToSecOne();
+                          }
+                        }}
+                        className="nav_links text-[16px] text-[#F7F7F6] hover:cursor-pointer font-medium"
+                      >
+                        Why SaddleFit
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        onClick={() => {
+                          if (
+                            location.pathname === "/partner" ||
+                            location.pathname === "/privacy-policy" ||
+                            location.pathname === "/terms-and-conditions" ||
+                            location.pathname === "/event"
+                          ) {
+                            setToggle(false);
+                            navigate("/");
+                            setTimeout(() => {
+                              scrollFunctions.scrollToSecTwo();
+                            }, 0);
+                          } else {
+                            setToggle(false);
+                            scrollFunctions.scrollToSecTwo();
+                          }
+                        }}
+                        className="nav_links text-[16px] text-[#F7F7F6] hover:cursor-pointer font-medium"
+                      >
+                        How it works
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        onClick={() => {
+                          if (
+                            location.pathname === "/partner" ||
+                            location.pathname === "/privacy-policy" ||
+                            location.pathname === "/terms-and-conditions" ||
+                            location.pathname === "/event"
+                          ) {
+                            setToggle(false);
+                            navigate("/", {
+                              state: { scrollToSecFive: true },
+                            });
+                            setTimeout(() => {
+                              scrollFunctions.scrollToSecFive();
+                            }, 0);
+                          } else {
+                            setToggle(false);
+                            scrollFunctions.scrollToSecFive();
+                          }
+                        }}
+                        className="nav_links text-[16px] text-[#F7F7F6] hover:cursor-pointer font-medium"
+                      >
+                        Book Appointment
+                      </a>
+                    </li>
+
+                    {user && (
+                      <li>
+                        <a
+                          onClick={() => {
+                            navigate("/buy");
+                            setToggle(false);
+                          }}
+                          className="nav_links text-[16px] text-[#F7F7F6] hover:cursor-pointer font-medium"
+                        >
+                          Buy a Saddle
+                        </a>
+                      </li>
+                    )}
+
+                    <li>
+                      <NavLink
+                        to="/event"
+                        className={`nav_links text-[16px] ${
+                          location.pathname === "/event"
+                            ? "border-b-2 border-[#5C80B6]"
+                            : ""
+                        } text-[#F7F7F6] hover:cursor-pointer font-medium`}
+                      >
+                        Schedule Now
+                      </NavLink>
+                    </li>
+
+                    <li>
+                      <NavLink
+                        to="/cactus"
+                        className={`nav_links text-[16px] ${
+                          location.pathname === "/cactus"
+                            ? "border-b-2 border-[#5C80B6]"
+                            : ""
+                        } text-[#F7F7F6] hover:cursor-pointer font-medium`}
+                      >
+                        Cactus
+                      </NavLink>
+                    </li>
                   </ul>
+
                   <div className="flex lg:w-auto w-[220px] justify-end sm:flex sm:justify-end md:justify-between lg:justify-around items-center">
                     <div className=" lg:flex items-center gap-[10px]">
                       <Button
