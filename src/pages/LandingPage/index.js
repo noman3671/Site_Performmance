@@ -15,7 +15,7 @@ const LandingPage = () => {
       <EventCard />
       {/* <FirstBanner type="LANDING"/> */}
       {/* <Testimonials /> */}
-      {/*<SecondBanner type="LANDING"/> */}
+      {/* <SecondBanner type="LANDING"/> */}
       {/* <FeaturedBrands /> */}
     </>
   );
