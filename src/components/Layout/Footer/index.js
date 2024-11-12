@@ -7,9 +7,11 @@ import Tiktok from "assets/icons/tiktok-icon.svg?react";
 import saddle_logo from "assets/images/saddleLogo.webp";
 import { useLoggedIn } from "context/LoggedInContext";
 import SaddleLogo from "assets/icons/saddleLogo.svg?react";
+import { Link, useNavigate } from "react-router-dom";
 
 export const Footer = () => {
   const { show } = useLoggedIn();
+  const navigate = useNavigate();
   return (
     <>
       <footer className={`footer_main !text-white relative z-10`}>
@@ -18,15 +20,9 @@ export const Footer = () => {
           <div className="footer_wrapper">
             <div className="footer_logo_main">
               <div className="mb-10 w-full mx-auto lg:mx-0 :!ml-0">
-                <a href="/#" className="footer_logo">
-                  {/* <img
-                    src={saddle_logo}
-                    alt="saddle_logo"
-                    width="254"
-                    height="100"
-                  /> */}
-                  {/* <SaddleLogo /> */}
-                </a>
+                <div onClick={() => navigate("/")} className="footer_logo">
+                  <SaddleLogo />
+                </div>
 
                 <p className="desc_text">SCAN. FIT. PERFORM.</p>
               </div>
@@ -53,27 +49,24 @@ export const Footer = () => {
             </div>
             <div className="mob_footer_logo_main">
               <div className="mob_footer_logo">
-                <a href="/#" className="mb-6 inline-block mx-auto">
-                  {/* <img
-                    src={saddle_logo}
-                    alt="saddle_logo"
-                    width="154"
-                    height="55"
-                  /> */}
-                  {/* <SaddleLogo/> */}
-                </a>
+                <div
+                  onClick={() => navigate("/")}
+                  className="mb-6 inline-block mx-auto"
+                >
+                  <SaddleLogo />
+                </div>
                 <p className="desc_text">SCAN. FIT. PERFORM.</p>
               </div>
             </div>
             <div className="footer_icons_main">
               <div className="footer_icons">
                 <div className="footer_social_icons">
-                  <a
+                  <Link
                     target="_blank"
-                    href="https://www.instagram.com/saddlefit.io/"
+                    to={"https://www.instagram.com/saddlefit.io/"}
                   >
                     <InstaIcon />
-                  </a>
+                  </Link>
                   <a
                     target="_blank"
                     href="https://www.youtube.com/channel/UCUj-9ml6dOitzXY-H515cmQ"
@@ -94,7 +87,7 @@ export const Footer = () => {
                   </a>
                 </div>
                 <p className="regards_text">
-                  SaddleFit 
+                  SaddleFit
                   {/* 2024. All rights reserved. */}
                 </p>
               </div>

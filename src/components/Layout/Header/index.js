@@ -415,6 +415,7 @@ const Header = () => {
                 className="menu-icon cursor-pointer duration-200"
                 width="24"
                 height="24"
+                alt="menuIcon"
               />
             </div>
 
