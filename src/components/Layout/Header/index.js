@@ -611,51 +611,55 @@ const Header = () => {
                 </>
               ) : (
                 <>
-                  <a
-                    onClick={() => {
-                      if (
-                        location.pathname === "/partner" ||
-                        location.pathname === "/privacy-policy" ||
-                        location.pathname === "/terms-and-conditions" ||
-                        location.pathname === "/event"
-                      ) {
-                        setToggle(false);
-                        navigate("/");
-                        setTimeout(() => {
+                  <li>
+                    <a
+                      onClick={() => {
+                        if (
+                          location.pathname === "/partner" ||
+                          location.pathname === "/privacy-policy" ||
+                          location.pathname === "/terms-and-conditions" ||
+                          location.pathname === "/event"
+                        ) {
+                          setToggle(false);
+                          navigate("/");
+                          setTimeout(() => {
+                            scrollFunctions.scrollToSecOne();
+                          }, 0);
+                        } else {
+                          setToggle(false);
                           scrollFunctions.scrollToSecOne();
-                        }, 0);
-                      } else {
-                        setToggle(false);
-                        scrollFunctions.scrollToSecOne();
-                      }
-                    }}
-                    className="nav_links text-[16px] text-[#F7F7F6] font-medium"
-                  >
-                    Why SaddleFit
-                  </a>
+                        }
+                      }}
+                      className="nav_links text-[16px] text-[#F7F7F6] font-medium"
+                    >
+                      Why SaddleFit
+                    </a>
+                  </li>
                   <img src={bottom_line} alt="bottom-line" />
-                  <a
-                    onClick={() => {
-                      if (
-                        location.pathname === "/partner" ||
-                        location.pathname === "/privacy-policy" ||
-                        location.pathname === "/terms-and-conditions" ||
-                        location.pathname === "/event"
-                      ) {
-                        setToggle(false);
-                        navigate("/");
-                        setTimeout(() => {
+                  <li>
+                    <a
+                      onClick={() => {
+                        if (
+                          location.pathname === "/partner" ||
+                          location.pathname === "/privacy-policy" ||
+                          location.pathname === "/terms-and-conditions" ||
+                          location.pathname === "/event"
+                        ) {
+                          setToggle(false);
+                          navigate("/");
+                          setTimeout(() => {
+                            scrollFunctions.scrollToSecTwo();
+                          }, 0);
+                        } else {
+                          setToggle(false);
                           scrollFunctions.scrollToSecTwo();
-                        }, 0);
-                      } else {
-                        setToggle(false);
-                        scrollFunctions.scrollToSecTwo();
-                      }
-                    }}
-                    className="nav_links text-[16px] text-[#F7F7F6] font-medium"
-                  >
-                    How it works
-                  </a>
+                        }
+                      }}
+                      className="nav_links text-[16px] text-[#F7F7F6] font-medium"
+                    >
+                      How it works
+                    </a>
+                  </li>
                   <img src={bottom_line} alt="bottom-line" />
 
                   {user && (
