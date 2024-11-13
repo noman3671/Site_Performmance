@@ -47,6 +47,7 @@
   @apply font-medium text-sm;
   color: var(--color-text);
   font-family: "Montserrat";
+  font-display: swap;
 }
 
 .cards_wrapper {
