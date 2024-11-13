@@ -44,6 +44,7 @@
 }
 
 .card_desc {
+  @apply font-medium text-sm mt-5;
   color: var(--color-text);
   font-family: "Montserrat";
 }
