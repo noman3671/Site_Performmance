@@ -46,9 +46,6 @@
 .card_desc {
   color: var(--color-text);
   font-family: "Montserrat";
-  font-weight: 500;
-  line-height: 1.25rem;
-  font-size: 0.875rem;
 }
 
 .cards_wrapper {
